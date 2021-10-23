@@ -1,0 +1,1938 @@
+@import url('https://fonts.googleapis.com/css2?family=Alice&display=swap');
+
+body{
+    margin: 0px;
+    font-family: 'Alice', serif;
+}
+
+.swiper-button-next{
+    left: 92% !important;
+    color: black !important; 
+    background: rgba(196, 196, 196, 1);
+    border-radius: 10%;
+    transition: .3s;
+    padding: 15px;
+}
+
+.swiper-button-prev:hover,
+.swiper-button-next:hover{
+    color: white !important; 
+    background: #0C184D;
+}
+
+.swiper-button-prev{
+    left: 4% !important;
+    color: black !important; 
+    background: rgba(196, 196, 196, 1);
+    border-radius: 10%;
+    padding: 15px;
+    transition: .3s;
+}
+
+.linksHover{
+    transition: .3s;
+}
+
+.linksHover:hover{
+    color: white !important;
+    background: #0C184D !important;
+}
+
+/* header */
+
+header{
+    width: 100%;
+    background: url('../img/1023766469\ 1.png') center / cover;
+    position: relative;
+    height: 700px;
+    overflow: hidden;
+}
+
+/* navbar */
+
+
+
+/* header_title */
+
+.header_title{
+    position: absolute;
+    text-align: center;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    background-image: linear-gradient(
+180deg,rgba(0,0,6,0.2) 0%,rgba(0,0,6,0.4) 100%);
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.header_title h2{
+    color: white;
+    font-weight: 500;
+    margin: 0px;
+    font-size: 80px;
+    margin-bottom: 20px;
+}
+
+.header_title a{
+    color: rgb(255, 255, 255);
+    font-size: 35px;
+    text-decoration: none;
+    position: relative;
+}
+
+.header_title a::before{
+    content: "";
+    background: white;
+    left: -3%;
+    bottom: -13px;
+    height: 2px;
+    width: 106%;
+    position: absolute;
+}
+
+/* main */
+
+main{
+    padding-top: 50px;
+    position: relative;
+}
+
+/* main_title */
+
+.main_title{
+    width: 90%;
+    margin: 0 auto;
+    flex-direction: column;
+    display: flex;
+}
+
+.main_title span{
+    font-size: 45px;
+    color: black;
+    width: 350px;
+    position: relative;
+}
+
+.main_title_link{
+    color:black !important;
+    background: rgba(196, 196, 196, 0.61) !important;
+}
+
+.main_title a{
+    background: rgba(196, 196, 196, 0.61);
+    width: 150px;
+    text-decoration: none;
+    font-weight: 500;
+    z-index: 2;
+    color: rgb(0, 0, 0);
+    padding: 7px 15px;
+    margin-top: 30px;
+}
+
+.main_title span::before{
+    content: "";
+    background: #000;
+    bottom: -8px;
+    height: 2px;
+    width: 100%;
+    position: absolute;
+}
+
+.main_title_span::before{
+    width: 230px !important;
+}
+
+.main_picture{
+    position: absolute;
+    width: 1700px;
+    right: 0;
+    top: 0;
+}
+
+/* main_banner */
+
+.main_banner{
+    width: 90%;
+    background: url('../img/DSC_6947\ 1.png') center / cover;
+    height: 500px;
+    margin: 70px auto;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    display: flex;
+    position: relative;
+    object-fit: cover;
+}
+
+.main_banner::before{
+    background: rgba(0, 0, 0, 0.2);
+    content: "";
+    position: absolute;
+    height: 100%;
+    width: 100%;
+}
+
+.main_banner h2{
+    color: white;
+    z-index: 1;
+    font-weight: 500;
+    font-size: 85px;
+    margin: 0px;
+    margin-bottom: 30px;
+}
+
+.main_banner a{
+    color: white;
+    text-decoration: none;
+    font-size: 35px;
+    position: relative;
+}
+
+.main_banner a::before{
+    content: "";
+    background: white;
+    left: -3%;
+    bottom: -13px;
+    height: 2px;
+    width: 106%;
+    position: absolute;
+}
+
+/* theatre_block */
+
+.theatre_block{
+    width: 100%;
+    height: 570px;
+    position: relative;
+    margin: 150px 0;
+}
+
+.theatre_block_content{
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: 10;
+    position: absolute;
+    background: rgba(29, 45, 110, 0.9);
+}
+
+.theatre_block_image{
+    top: -25%;
+    right: 0;
+    position: absolute;
+    width: 1800px;
+}
+
+.burgerButton{
+    display: block !;
+}
+
+.theatre_block_content_inside{
+    width: 90%;
+    position: relative;
+    height: 100%;
+    justify-content: space-between;
+    display: flex;
+    margin: 0 auto;
+    flex-wrap: wrap;
+    padding: 40px 0;
+    box-sizing: border-box;
+}
+
+.theatre_block_content_inside_left{
+    width: 60%;
+    background: url('../img/scale_1200\ 1.png') center / cover;
+    height: 100%;
+}
+
+.theatre_block_content_inside_right{
+    width: 40%;
+    box-sizing: border-box;
+    padding: 25px 0;
+    padding-left: 70px;
+}
+
+.theatre_block_content_inside_right h2{
+    font-size: 80px;
+    font-weight: 500;
+    margin: 0px;
+    color: white;
+    margin-bottom: 30px;
+}
+
+.theatre_block_content_inside_right p{
+    color: white;
+    font-size: 19px;
+    line-height: 1.6;
+    margin-bottom: 30px;
+}
+
+.theatre_block_content_inside_right a{
+    color: white;
+    text-decoration: none;
+    position: relative;
+    font-size: 35px;
+}
+
+.theatre_block_content_inside_right a::before{
+    content: "";
+    bottom: -20px;
+    left: 0;
+    background: white;
+    height: 3px;
+    width: 100%;
+    position: absolute;
+}
+
+/* pieces_block */
+
+.pieces_block{
+    width: 100%;
+    height: 650px;
+    margin-top: 140px;
+    position: relative;
+}
+
+.swiper-container{
+    width: 100%;
+    height: 100%;
+}
+
+.swiper-slide{
+    text-align: center;
+    font-size: 18px;
+    transform: translateX(-150px);
+    background: #fff;
+
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+}
+
+.swiper-slide img{
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/* piece_card */
+
+.piece_card{
+    width: 100%;
+    height: 91%;
+    position: relative;
+}
+
+.piece_card_header{
+    position: absolute;
+    height: 75%;
+    left: 0;
+    top: 0;
+    transition: .3s;
+    width: 100%;
+}
+
+.piece_card_header_one{
+    background: url('../img/10\ \(1\).png') center / cover;
+}
+
+.piece_card_header_two{
+    background: url('../img/URY_8087\ \(3\)\ 1.png') center / cover;
+}
+
+.piece_card_header_three{
+    background: url('../img/10\ \(1\).png') center / cover;
+}
+
+.piece_card_header_four{
+    background: url('../img/14\ \(2\).png') center / cover;
+}
+
+.piece_card_header_five{
+    background: url('../img/URY_8409\ \(1\)\ 1.png') center / cover;
+}
+
+
+
+.piece_card_content{
+    position: absolute;
+    height: 25%;
+    width: 100%;
+    left: 0;
+    bottom: 0;
+}
+
+.piece_card_header div{
+    position: relative;
+    flex-direction: column;
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+    height: 100%;
+    padding: 30px;
+    box-sizing: border-box;
+}
+
+.piece_card_header div::before{
+    content: "";
+    top: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.2);
+    height: 100%;
+    width: 100%;
+    position: absolute;
+}
+
+.piece_card_header div h4{
+    margin: 0px;
+    color: white;
+    text-align: left;
+    position: relative;
+    font-weight: 400;
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+.piece_card_header div h2{
+    color: white;
+    margin: 0px;
+    text-align: left;
+    font-weight: 500;
+    font-size: 50px;
+    position: relative;
+}
+
+.piece_card_content{
+    box-sizing: border-box;
+    padding: 25px;
+    text-align: left;
+}
+
+.piece_card_content p{
+    margin: 0px;
+    font-size: 15px;
+    line-height: 1.6;
+    font-weight: 500;
+    margin-bottom: 15px;
+    height: 70%;
+    overflow-y: auto;
+}
+
+.piece_card_content a{
+    color: black;
+    transition: .3s;
+    padding: 5px 10px;
+    text-decoration: none;
+    background: rgba(196, 196, 196, 0.61);
+}
+
+.piece_card:hover .piece_card_content a{
+    color: white;
+    background: #0C184D;
+}
+
+.piece_card:hover .piece_card_header{
+    height: 80%;
+    width: 108%;
+    left: -4%;
+    z-index: 1;
+    top: -5%;
+}
+
+/* people_block */
+
+.people_block{
+    width: 100%;
+    height: 680px;
+    margin-top: 140px;
+    position: relative;
+}
+
+.people_block_image_one{
+    background: url('../img/2400x1950_940620_[www.ArtFile\ 1.png') center / cover;
+}
+
+.people_block_image_two{
+    background: url('../img/s1200-2-5\ 1.png') center / cover;
+}
+
+.people_block_image_three{
+    background: url('../img/bradley-cooper-bredli-kuper-3661\ 1.png') center / cover;
+}
+
+.people_block_image_four{
+    background: url('../img/freepressjournal_import_2017_10_Tom-Cruise.jpg') center / cover;
+}
+
+/* ticket_block */
+
+.ticket_block{
+    width: 100%;
+    background: #0C184D;
+    margin-top: 200px;
+    height: 350px;
+    position: relative;
+    display: block;
+    text-decoration: none;
+    margin-bottom: 70px;
+}
+
+.ticket_image_one{
+    position: absolute;
+    width: 1800px;
+    right: 0;
+    bottom: 0;
+}
+
+.ticket_image_two{
+    position: absolute;
+    bottom: -80% ;
+    right: 0;
+    width: 1000px;
+}
+
+.ticket_content{
+    width: 90%;
+    margin: 0 auto;
+    height: 100%;
+    position: relative;
+    justify-content: center;
+    flex-direction: column;
+    display: flex;
+}
+
+.ticket_content span{
+    color: white;
+    font-size: 70px;
+    width: 60%;
+    display: block;
+    position: relative;
+}
+
+.ticket_content span::before{
+    content: "";
+    position: absolute;
+    width: 100%;
+    bottom: -15px;
+    left: 0;
+    background: white;
+    height: 2px;
+}
+
+.ticket_content p{
+    margin-top: 40px;
+    color: white;
+    font-size: 22px;
+    line-height: 1.6;
+    width: 40%;
+}
+
+/* places_block */
+
+.places_block{
+    width: 100%;
+    height: 350px;
+    margin-top: 70px;
+    position: relative;
+}
+
+.places_card{
+    height: 100%;
+    width: 100%;
+    position: relative;
+    transition: .3s;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.places_card::before{
+    content: "";
+    top: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.3);
+    height: 100%;
+    width: 100%;
+    position: absolute;
+}
+
+.places_card_one{
+    background: url('../img/DSC_7047\ 1.png') center / cover;
+}
+
+.places_card_two{
+    background: url('../img/DSC_6954\ 1.png') center / cover;
+}
+
+.places_card_three{
+    background: url('../img/scale_1200\ 2.png') center / cover;
+}
+
+.places_card_four{
+    background: url('../img/a-cup-of-coffee-and-two-gifts-wrapped-in-blue-and-black-wrapping-paper-on-a-red-background\ 1.png') center / cover;
+}
+
+.places_card_five{
+    background: url('../img/DSC_7021\ 1.png') center / cover;
+}
+
+.places_card_six{
+    background: url('../img/DSC_6995\ 1.png') center / cover;
+}
+
+.places_card div{
+    position: absolute;
+    bottom: 50px;
+    z-index: 1;
+    width: 75%;
+    left: 12.5%;
+    text-align: left;
+}
+
+.places_card div span{
+    color: white;
+    font-size: 25px;
+    position: relative;
+}
+
+.places_card div span::before{
+    content: "";
+    width: 100%;
+    position: absolute;
+    height: 3px;
+    background: white;
+    bottom: -15px;
+    left: 0;
+}
+
+.places_card:hover{
+    transform: scale(1.1);
+}
+
+
+/* footer */
+
+/* slider */
+
+.owl-carousel.first{
+    height: 100%;
+}
+
+.owl-carousel.first .owl-stage-outer{
+    height: 100%;
+}
+
+.owl-carousel.first .owl-stage-outer .owl-stage{
+    height: 100%;
+}
+
+.owl-carousel.first .owl-stage-outer .owl-stage .owl-item{
+    height: 100%;
+    display: flex;
+    align-items: flex-end;
+}
+
+
+.owl-carousel.second{
+    height: 100%;
+}
+
+.owl-carousel.second .owl-stage-outer{
+    height: 100%;
+}
+
+.owl-carousel.second .owl-stage-outer .owl-stage{
+    height: 100%;
+}
+
+.owl-carousel.second .owl-stage-outer .owl-stage .owl-item{
+    height: 100%;
+    display: flex;
+    align-items: flex-end;
+}
+
+.owl-carousel.three{
+    height: 100%;
+}
+
+.owl-carousel.three .owl-stage-outer{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.owl-carousel.three .owl-stage-outer .owl-stage{
+    height: 90%;
+}
+
+.owl-carousel.three .owl-stage-outer .owl-stage .owl-item{
+    height: 100%;
+    display: flex;
+    align-items: flex-end;
+}
+
+.video_container{
+    width: 100%;
+    height: 100%;
+    background-image: url('https://www.metmuseum.org/-/media/images/homepage/locations/fifth-avenue/homepage-still_1920x1080.jpg?la=en&w=960&hash=033816A85DD41C3B2FBD5944B3D3280A');
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.video_container iframe{
+    box-sizing: border-box;
+    height: 56.25vw;
+    left: 50%;
+    min-height: 100%;
+    min-width: 100%;
+    position: absolute;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    width: 177.77777778vh;
+}
+/* slider */
+
+
+
+/* Адаптивка */
+
+
+@media screen and (max-width: 1685px){
+
+    .piece_card_content a{
+        padding-bottom: 7px;
+    }
+    
+    .pieces_block{
+        height: 680px;
+    }
+    
+    .main_picture{
+        width: 1600px;
+    }
+    
+    .theatre_block_content_inside_right{
+        padding-top: 0px;
+    }
+
+    .ticket_content span{
+        font-size: 65px;
+    }
+
+    .ticket_image_one{
+        width: 1600px;
+    }
+    
+    .ticket_image_two{
+        bottom: -60%;
+        width: 900px;
+    }
+}
+
+@media screen and (max-width: 1568px){
+
+    .ticket_content span{
+        font-size: 60px;
+    }
+
+    .ticket_image_one{
+        width: 1500px;
+    }
+
+    .theatre_block_image{
+        top: -20%;
+        right: 0;
+        width: 1700px;
+    }
+
+    .piece_card_header div h2{
+        font-size: 45px;
+    }
+
+    .main_picture{
+        width: 1500px;
+    }
+
+    .pieces_block,
+    .people_block{
+        height: 620px;
+    }
+
+    .piece_card_header{
+        height: 70%;
+    }
+
+    .piece_card_content{
+        height: 30%;
+    }
+
+    .piece_card:hover .piece_card_header{
+        top: -10%;
+    }
+}
+
+@media screen and (max-width: 1530px){
+
+    .people_block{
+        height: 660px;
+    }
+}
+
+@media screen and (max-width: 1475px){
+
+    .theatre_block_content_inside_right h2{
+        font-size: 70px;
+        margin-top: 15px;
+    }
+
+    .main_picture{
+        width: 1400px;
+    }
+}
+
+@media screen and (max-width: 1450px){
+
+    .theatre_block_image{
+        width: 1600px;
+    }
+
+    .ticket_content span{
+        font-size: 50px;
+    }
+}
+
+@media screen and (max-width: 1432px){
+
+    .piece_card_header div h4{
+        font-size: 25px;
+    }
+
+    .theatre_block{
+        margin-bottom: 100px;
+    }
+
+    header{
+        height: 650px;
+    }
+
+    .ticket_image_two{
+        width: 850px;
+    }
+}
+
+@media screen and (max-width: 1400px){
+
+    .appearInfoEducation div{
+        bottom: -610%;
+    }
+
+    .ticket_block{
+        height: 300px;
+        margin-top: 170px;
+    }
+
+    .piece_card_header div h2{
+        font-size: 40px;
+    }
+
+    .main_banner h2{
+        font-size: 75px;
+    }
+
+    .people_block{
+        height: 610px;
+    }
+
+    .piece_card_header{
+        height: 65%;
+    }
+
+    .piece_card_content{
+        height: 35%;
+    }
+
+    .piece_card:hover .piece_card_header{
+        height: 75%;
+        top: -10%;
+    }
+
+    .main_picture{
+        width: 1350px;
+    }
+
+    .ticket_image_two{
+        top: -65%;
+        width: 850px;
+    }
+
+    .theatre_block_content_inside_right p{
+        font-size: 18px;
+    }
+
+    .pieces_block{
+        height: 560px;
+    }
+
+    .main_banner{
+        height: 430px;
+        margin: 90px auto;
+    }
+
+    .theatre_block_content_inside_right h2{
+        font-size: 55px;
+        margin: 0px;
+        margin-top: 10px;
+    }
+
+    .theatre_block_content_inside_right p{
+        font-size: 15px;
+        margin-bottom: 20px;
+    }
+
+    .theatre_block{
+        height: 450px;
+    }
+
+    .theatre_block_image{
+        width: 1400px;
+    }
+
+    .theatre_block_content_inside_right{
+        padding-left: 40px;
+    }
+
+    .main_banner h2{
+        font-size: 65px;
+    }
+}
+
+@media screen and (max-width: 1325px){
+
+    
+
+    .header_title h2{
+        font-size: 65px;
+    }
+
+    .main_picture{
+        width: 1280px;
+    }
+
+    .main_title span{
+        font-size: 35px;
+    }
+
+    .places_block{
+        height: 300px;
+    }
+
+    .ticket_image_two{
+        top: -55%;
+        width: 750px;
+    }
+
+    .ticket_image_one{
+        width: 1300px;
+    }
+
+    .ticket_block{
+        height: 270px;
+        margin-top: 170px;
+    }
+
+    .ticket_content p{
+        font-size: 19px;
+    }
+
+    .people_block{
+        height: 600px;
+        margin-top: 90px;
+    }
+
+    .theatre_block_content_inside_right a{
+        font-size: 30px;
+    }
+
+    header{
+        height: 550px;
+    }
+
+    .piece_card_header div h2{
+        font-size: 35px;
+    }
+
+    .piece_card_header div h4{
+        font-size: 21px;
+    }
+}
+
+@media screen and (max-width: 1275px){
+
+    .places_card div span{
+        font-size: 20px;
+    }
+
+    .main_title span{
+        font-size: 32px;
+    }
+
+    .piece_card_content p{
+        font-size: 13px;
+        line-height: 1.4;
+    }
+
+    .piece_card_content{
+        padding: 15px;
+    }
+
+    .main_banner h2{
+        font-size: 60px;
+    }
+
+    .main_banner{
+        height: 400px;
+    }
+
+    .theatre_block_content_inside_right a{
+        font-size: 27px;
+    }
+
+    .theatre_block_content_inside_right p{
+        font-size: 14px;
+    }
+
+    .theatre_block_content_inside_right h2{
+        margin-top: 20px;
+        margin-bottom: 30px;
+    }
+
+    .ticket_content p{
+        font-size: 17px;
+    }
+
+    .ticket_block{
+        margin-top: 100px;
+    }
+}
+
+@media screen and (max-width: 1250px){
+
+    .ticket_content span{
+        font-size: 45px;
+    }
+
+    .theatre_block_content_inside_right h2{
+        margin-top: 10px;
+        margin-bottom: 15px;
+    }
+
+    .pieces_block{
+        margin-top: 100px;
+    }
+
+    .main_picture{
+        width: 1200px;
+    }
+
+    .main_banner{
+        height: 370px;
+    }
+}
+
+@media screen and (max-width: 1200px){
+
+    .ticket_image_two{
+        width: 700px;
+    }
+
+    .ticket_block{
+        margin-top: 150px;
+    }
+
+    header{
+        height: 520px;
+    }
+
+    .header_title h2{
+        font-size: 60px;
+    }
+
+    .header_title a{
+        font-size: 25px;
+    }
+}
+
+@media screen and (max-width: 1150px){
+
+    .main_picture{
+        width: 1100px;
+    }
+
+    .main_banner{
+        height: 340px;
+    }
+
+    .main_banner h2{
+        font-size: 55px;
+        margin-bottom: 20px;
+    }
+
+    .main_banner a{
+        font-size: 25px;
+    }
+
+    .ticket_image_two{
+        width: 650px;
+        top: -60%;
+    }
+
+    .ticket_image_one{
+        width: 1200px;
+    }
+
+    .ticket_block{
+        height: 240px;
+    }
+
+    .people_block{
+        height: 550px;
+    }
+}
+
+@media screen and (max-width: 1132px){
+    
+    .main_banner{
+        margin-top: 50px;
+    }
+
+    .ticket_content span{
+        font-size: 40px;
+    }
+
+    .main_picture{
+        width: 1050px;
+    }
+
+    .header_title h2{
+        font-size: 55px;
+    }
+}
+
+@media screen and (max-width: 1100px){
+    
+    .swiper-button-next{
+        left: 90% !important;
+    }
+
+    .theatre_block_content_inside_right p{
+        font-size: 13px;
+    }
+
+    .theatre_block_content_inside_right h2{
+        margin-top: 20px;
+    }
+    
+    .theatre_block_image{
+        width: 1300px;
+    }
+
+    .piece_card_header div h2{
+        font-size: 32px;
+    }
+
+    header{
+        height: 500px;
+    }
+
+    .ticket_image_one{
+        width: 1100px;
+    }
+}
+
+@media screen and (max-width: 1000px){
+
+    .ticket_image_one{
+        width: 1000px;
+    }
+
+    .ticket_image_two{
+        width: 600px;
+        top: -55%;
+    }
+
+    .ticket_content span{
+        font-size: 37px;
+    }
+
+    .main_banner{
+        height: 300px;
+    }
+
+    .main_banner h2{
+        font-size: 49px;
+        margin-bottom: 20px;
+    }
+
+    .main_picture{
+        width: 950px;
+    }
+
+    .theatre_block_content_inside_left{
+        width: 100%;
+        height: 300px;
+    }
+    
+    .theatre_block_content_inside_right{
+        width: 100%;
+        padding: 0px;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .theatre_block{
+        height: 680px;
+    }
+
+    .theatre_block_content_inside_right p{
+        font-size: 14px;
+    }
+
+    .theatre_block_content_inside_right a::before{
+        width: 16%;
+    }
+
+    .theatre_block_image{
+        width: 1700px;
+        top: -10%;
+    }
+
+    .theatre_block_content_inside_right h2{
+        margin-top: 0px;
+    }
+}
+
+@media screen and (max-width: 950px){
+    
+    .ticket_image_one{
+        width: 900px;
+    }
+
+    .ticket_image_two{
+        width: 550px;
+        top: -50%;
+    }
+
+    .ticket_content,
+    .theatre_block_content_inside,
+    .main_banner,
+    .main_title{
+        width: 90%;
+    }
+
+    .piece_card_header div{
+        padding: 20px;
+    }
+
+    .main_picture{
+        width: 850px;
+    }
+
+    header{
+        height: 480px;
+    }
+}
+
+@media screen and (max-width: 870px){
+
+    .swiper-button-next{
+        font-size: 10px !important;
+        left: 87% !important;
+    }
+
+    .swiper-button-next,
+    .swiper-button-prev{
+        padding: 10px;
+    }
+
+    .swiper-button-next::after,
+    .swiper-button-prev::after{
+        font-size: 35px !important;
+    }
+
+    .ticket_content span{
+        font-size: 34px;
+    }
+
+    .main_title span{
+        font-size: 27px;
+    }
+
+    .places_block{
+        height: 270px;
+    }
+
+    .places_card div span{
+        font-size: 18px;
+    }
+
+    .places_card div{
+        bottom: 40px;
+    }
+
+    .piece_card_header div h2{
+        font-size: 29px;
+    }
+
+    .ticket_block{
+        height: 200px;
+    }
+
+    .ticket_content span{
+        font-size: 30px;
+    }
+
+    .ticket_content p{
+        font-size: 14px;
+        margin-top: 30px;
+    }
+
+    .ticket_image_one{
+        width: 850px;
+    }
+
+    .ticket_image_two{
+        width: 500px;
+        top: -50%;
+    }
+
+    .header_title h2{
+        font-size: 50px;
+    }
+    
+    .header_title a{
+        font-size: 22px;
+    }
+
+    .main_banner{
+        height: 280px;
+    }
+
+    .main_banner h2{
+        font-size: 45px;
+    }
+
+    .main_banner a{
+        font-size: 23px;
+    }
+
+    .pieces_block,
+    .people_block{
+        height: 500px;
+    }
+
+    header{
+        height: 460px;
+    }
+
+    .theatre_block_content_inside_right h2{
+        font-size: 45px;
+        margin-top: 0px;
+    }
+
+    .theatre_block{
+        height: 620px;
+    }
+
+    .theatre_block_content_inside_right a{
+        font-size: 24px;
+    }
+
+    .theatre_block_content_inside_left{
+        height: 270px;
+    }
+
+    .theatre_block_image{
+        width: 1500px;
+        top: -10%;
+    }
+}
+
+@media screen and (max-width: 830px){
+
+    .main_picture{
+        width: 800px;
+    }
+
+    .piece_card_content a{
+        font-size: 15px;
+    }
+
+    .main_banner{
+        height: 270px;
+    }
+
+    .main_banner h2{
+        font-size: 42px;
+    }
+}
+
+@media screen and (max-width: 800px){
+
+    .main_banner{
+        background: url('../img/DSC_6947\ 1-min.png') center / cover;
+    }
+
+    header{
+        background: url('../img/1023766469\ 1-min.png') center / cover;
+    }
+
+    .theatre_block_content_inside_right a::before{
+        width: 17%;
+    }
+
+    .main_picture{
+        width: 770px;
+    }
+
+    .pieces_block{
+        margin-top: 70px;
+    }
+
+    .ticket_image_one{
+        width: 750px;
+    }
+
+    .ticket_image_two{
+        width: 470px;
+        top: -50%;
+    }
+
+    .ticket_block{
+        height: 180px;
+        margin-top: 100px;
+    }
+
+    .main_banner{
+        margin-top: 30px;
+        margin-bottom: 60px;
+    }
+    
+    .theatre_block{
+        margin-top: 120px;
+    }
+
+    .piece_card_header div h2{
+        font-size: 32px;
+    }
+
+    .theatre_block_content_inside_right h2{
+        margin-bottom: 0px;
+    }
+
+    .header_title h2{
+        font-size: 45px;
+    }
+        
+    .header_title a{
+        font-size: 20px;
+    }
+
+    header{
+        height: 430px;
+    }
+
+    .pieces_block,
+    .people_block{
+        height: 460px;
+    }
+
+    .ticket_content p{
+        font-size: 13px;
+    }
+}
+
+@media screen and (max-width: 750px){
+
+    .theatre_block_content_inside_right a::before{
+        width: 18%;
+    }
+
+    .theatre_block_content_inside_left{
+        height: 270px;
+    }
+
+    .main_picture{
+        width: 750px;
+    }
+}
+
+@media screen and (max-width: 700px){
+
+    .theatre_block_content_inside_right a::before{
+        width: 19%;
+    }
+
+    .ticket_content span{
+        font-size: 27px;
+    }
+
+    .ticket_image_one{
+        width: 670px;
+    }
+
+    .ticket_image_two{
+        width: 430px;
+        top: -50%;
+    }
+
+    .main_picture{
+        width: 650px;
+    }
+
+    .main_title span{
+        font-size: 25px;
+    }
+
+    .theatre_block_content_inside_left{
+        height: 250px;
+    }
+}
+
+@media screen and (max-width: 670px){
+
+    .header_title h2{
+        font-size: 40px;
+    }
+        
+    .header_title a{
+        font-size: 18px;
+    }
+
+    .main_picture{
+        width: 620px;
+    }
+    
+    .main_banner{
+        height: 230px;
+    }
+
+    .main_banner h2{
+        font-size: 37px;
+        margin-bottom: 15px;
+    }
+
+    .main_banner a{
+        font-size: 19px;
+    }
+
+    .piece_card_header div h2{
+        font-size: 30px;
+    }
+
+    .ticket_block{
+        height: 160px;
+        overflow: hidden;
+        margin-top: 50px;
+    }
+
+    .ticket_image_one{
+        width: 650px;
+    }
+
+    .ticket_image_two{
+        display: none;
+    }
+
+    .ticket_content p,
+    .ticket_content span{
+        width: 100%;
+    }
+
+    .theatre_block_content_inside_right a::before{
+        width: 21%;
+    }
+    
+    .theatre_block_content_inside_left{
+        height: 230px;
+    }
+}
+
+@media screen and (max-width: 640px){
+
+    .ticket_image_one{
+        width: 550px;
+    }
+
+    .ticket_image_two{
+        width: 350px;
+        top: -45%;
+    }
+
+    .ticket_content span{
+        font-size: 27px;
+        width: 55%;
+    }
+
+    .theatre_block{
+        height: 570px;
+    }
+}
+
+@media screen and (max-width: 600px){
+
+    .places_block{
+        height: 250px;
+    }
+
+    .places_card div span{
+        font-size: 17px;
+    }
+
+    .main_title span{
+        font-size: 25px;
+    }
+
+    .ticket_content p{
+        font-size: 13px;
+    }
+
+    .theatre_block_image{
+        width: 1350px;
+    }
+
+    .theatre_block{
+        margin: 70px 0;
+        margin-top: 100px;
+    }
+
+    .theatre_block_content_inside_right a::before{
+        width: 22%;
+    }
+}
+
+@media screen and (max-width: 580px){
+
+    .theatre_block_content_inside_right a::before{
+        width: 23%;
+    }
+
+    .header_title h2{
+        font-size: 37px;
+    }
+        
+    .header_title a{
+        font-size: 16px;
+    }
+
+    .piece_card_header div h2{
+        font-size: 28px;
+    }
+
+    .piece_card_header div h4{
+        font-size: 19px;
+    }
+
+    .main_picture{
+        width: 590px;
+    }
+
+    .main_banner{
+        height: 210px;
+        margin-top: 50px;
+    }
+
+    .theatre_block_content_inside_right a::before{
+        width: 21%;
+    }
+
+    .theatre_block_content_inside_right a{
+        font-size: 21px;
+    }
+}
+
+@media screen and (max-width: 570px){
+
+    .people_block{
+        height: 500px;
+    }
+}
+
+@media screen and (max-width: 550px){
+
+    .swiper-slide{
+        transform: translateX(0px) !important;
+    }
+
+    .header_title h2{
+        font-size: 34px;
+    }
+
+    .theatre_block_content_inside_left{
+        height: 210px;
+    }
+
+    .ticket_image_one{
+        width: 500px;
+    }
+
+    .ticket_image_two{
+        width: 300px;
+        top: -30%;
+        right: -5%;
+    }
+    
+    .main_banner h2{
+        font-size: 34px;
+    }
+
+    .people_block{
+        height: 450px;
+    }
+
+    .theatre_block_content_inside_right a::before{
+        width: 22%;
+    }
+
+}
+
+@media screen and (max-width: 500px){
+
+    .swiper-button-next,
+    .swiper-button-prev{
+        display: none !important;
+    }
+
+    .theatre_block_content_inside_right a::before{
+        width: 23%;
+    }
+
+    .ticket_content span{
+        font-size: 25px;
+        width: 80%;
+    }
+
+    .ticket_content p{
+        font-size: 12px;
+    }
+
+    .piece_card_header div h2{
+        font-size: 26px;
+    }
+
+    .theatre_block_content_inside_right h2{
+        font-size: 40px;
+    }
+
+    .people_block{
+        height: 420px;
+    }
+
+    .people_block .piece_card_header{
+        height: 60%;
+    }
+
+    .people_block .piece_card_content{
+        height: 40%;
+    }
+
+    .pieces_block{
+        height: 410px;
+    }
+
+    .people_block .piece_card:hover .piece_card_header{
+        height: 75%;
+        top: -15%;
+    }
+}
+
+@media screen and (max-width: 480px){
+
+    .ticket_content span{
+        font-size: 23px;
+    }
+
+    .theatre_block_content_inside_left{
+        height: 190px;
+    }
+
+    .theatre_block{
+        height: 550px;
+    }
+
+    .main_picture{
+        width: 520px;
+    }
+
+    .header_title h2{
+        font-size: 32px;
+    }
+}
+
+@media screen and (max-width: 450px){
+
+    .main_title{
+        width: 70%;
+        margin-left: 25px !important;
+    }
+
+    .main_title span::before{
+        width: 60%;
+    }
+
+    .main_title span{
+        width: 250px;
+    }
+
+    .places_block{
+        height: 230px;
+    }
+    
+    .theatre_block_content_inside_right a::before{
+        width: 26%;
+    }
+        
+    .main_banner h2{
+        font-size: 31px;
+    }
+
+    .theatre_block_content_inside_right p{
+        font-size: 13px;
+    }
+
+    .theatre_block{
+        height: 530px;
+    }
+
+    .ticket_image_two{
+        width: 270px;
+        top: -20%;
+    }
+
+    .theatre_block_image{
+        width: 1250px;
+    }
+
+    .main_banner{
+        height: 200px;
+        margin-top: 70px;
+    }
+
+    .main_picture{
+        width: 500px;
+    }
+}
+
+@media screen and (max-width: 430px){
+
+    .ticket_content span{
+        font-size: 21px;
+    }
+        
+    .theatre_block_content_inside_right a::before{
+        width: 27%;
+    }
+
+    .main_picture{
+        width: 450px;
+    }
+}
+
+@media screen and (max-width: 420px){
+
+    .people_block{
+        height: 440px;
+    }
+}
+
+@media screen and (max-width: 416px){
+
+    .main_banner{
+        height: 190px;
+    }
+
+    .main_banner h2{
+        font-size: 29px;
+    }
+
+    .theatre_block_content_inside_right a::before{
+        width: 28%;
+    }
+}
+
+@media screen and (max-width: 400px){
+
+    .ticket_content span{
+        font-size: 20px;
+    }
+
+    .ticket_image_one{
+        width: 500px;
+    }
+
+    .ticket_image_two{
+        width: 250px;
+        top: -15%;
+    }
+
+    .theatre_block_content_inside_right a{
+        font-size: 19px;
+    }
+
+    .theatre_block_content_inside_left{
+        height: 175px;
+    }
+
+    .main_picture{
+        width: 430px;
+    }
+
+    .header_title h2{
+        font-size: 30px;
+    }
+
+    .people_block{
+        height: 480px;
+    }
+}
+
+@media screen and (max-width: 380px){
+
+    .main_title span{
+        width: 250px;
+    }
+    
+    .main_picture{
+        width: 410px;
+    }
+}
+
+@media screen and (max-width: 371px){
+
+    .ticket_content span{
+        font-size: 19px;
+    }
+}
+
+@media screen and (max-width: 362px){
+
+    .pieces_block{
+        height: 450px;
+    }
+}

@@ -1,0 +1,525 @@
+@import url('https://fonts.googleapis.com/css2?family=Alice&display=swap');
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    margin: 0px;
+    font-family: 'Alice', serif;
+}
+
+header{
+    background: url('../img/радиотеатр\ на\ сайт\ 3.png') center / cover;
+    height: 500px;
+    position: relative;
+}
+
+.header_back_btn{
+    position: absolute;
+    cursor: pointer;
+    top: 45%;
+    padding: 6px 12px;
+    font-size: 23px;
+    left: 8%;
+    background: #E7E7E7;
+    color: black;
+}
+
+/* navbar */
+
+/* main */
+
+.actor_inner{
+    width: 85%;
+    margin: 50px auto;
+    margin-bottom: 40px;
+    align-items: center;
+    display: flex;
+}
+
+.actor_inner span{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #E7E7E7;
+    width: 150px;
+    padding: 7px 15px;
+    padding-bottom: 9px;
+    cursor: pointer;
+}
+
+.actor_inner p{
+    width: 60%;
+    line-height: 1.5;
+    font-size: 20px;
+    font-weight: 500;
+    margin-left: 50px;
+}
+
+.actor_inner span i{
+    margin-top: 5px;
+    font-size: 20px;
+}
+
+.drop_container_alt{
+    width: 85%;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+}
+
+.drop_container_alt div{
+    display: flex;
+}
+
+.drop_container_alt span{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 8px 11px;
+    width: 170px;
+    cursor: pointer;
+    margin-right: 350px;
+    font-size: 19px;
+    background: rgba(196, 196, 196, 0.61);
+}
+
+.drop_container_alt span i{
+    font-size: 20px;
+}
+
+.drop_container_alt div:nth-child(2) span:hover{
+    background: #0C184D;
+    color: white;
+}
+
+.drop_container_alt div:nth-child(2) span{
+    display: flex;
+    width: 20px;
+    align-items: center;
+    margin: 0px;
+    justify-content: center;
+    margin-right: 15px;
+    font-size: 21px;
+    transition: .3s;
+    cursor: pointer;
+    font-weight: 500;
+}
+
+.museum{
+    width: 85%;
+    position: relative;
+    margin: 0 auto;
+    margin-bottom: 60px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    display: flex;
+    padding-top: 70px;
+}
+
+.museum::before{
+    content: "";
+    background: #E9E9E9;
+    left: -2.5%;
+    width: 105%;
+    top: 0;
+    height: 5px;
+    position: absolute;
+}
+
+.museum_inner{
+    cursor: pointer;
+    width: 24%;
+    height: 350px;
+    margin-bottom: 30px;
+    position: relative;
+    transition: .3s;
+}
+
+.museum_inner:hover{
+    transform: scale(1.1);
+}
+
+.museum_inner span{
+    position: absolute;
+    bottom: 25px;
+    z-index: 2;
+    margin: 0px;
+    left: 20px;
+}
+
+.museum_inner span h3{
+    color: white;
+    font-weight: 500;
+    font-size: 25px;
+    width: 90%;
+    margin-bottom: 0px;
+}
+
+.museum_inner span h5{
+    font-weight: 500;
+    color: white;
+    font-size: 20px;
+    margin-top: 10px;
+    margin-bottom: 0;
+}
+
+.museum_inner::before{
+    content: "";
+    width: 100%;
+    height: 100%;
+    left: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.2);
+    position: absolute;
+}
+
+.museum_inner img{
+    width: 100%;
+    object-fit: cover;
+    height: 100%;
+}
+
+.modal{
+    position: fixed;
+    height: 90vh;
+    background: #0C184D;
+    z-index: 5;
+    transition: .3s;
+    top: 5%;
+    left: 5%;
+    opacity: 0;
+    transform: scale(0.9);
+    pointer-events: none;
+    padding: 50px;
+    box-sizing: border-box;
+    width: 90%;
+}
+
+.modal.activeModal{
+    transform: scale(1);
+    pointer-events: all;
+    opacity: 1;
+}
+
+.modal_inside{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    justify-content: space-between;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.modal_inside span{
+    position: absolute;
+    font-size: 35px;
+    color: white;
+    z-index: 1;
+    cursor: pointer;
+    right: 0;
+}
+
+.modal_picture{
+    width: 60%;
+    height: 100%;
+}
+
+.modal_picture img{
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+}
+
+.modal_content{
+    width: 36%;
+    position: relative;
+    height: 100%;
+    padding-top: 30px;
+}
+
+.modal_content h2{
+    color: white;
+    font-weight: 500;
+    font-size: 35px;
+    margin: 0px;
+    margin-bottom: 20px;
+}
+
+.modal_content h4{
+    color: white;
+    font-weight: 500;
+    margin: 0;
+    margin-bottom: 15px;
+    font-size: 27px;
+}
+
+.modal_content p{
+    color: white;
+    line-height: 1.6;
+    font-size: 18px;
+}
+
+/* footer */
+
+footer{
+    margin-top: 90px;
+}
+
+/* Адаптивка header / footer */
+
+
+@media screen and (max-width: 1400px){
+
+    .header_back_btn{
+        left: 5%;
+    }
+
+    .title_container{
+        width: 90%;
+    }
+}
+
+@media screen and (max-width: 1100px){
+
+    header{
+        height: 400px;
+    }
+
+    .header_back_btn{
+        padding: 4px 12px;
+        font-size: 21px;
+    }
+}
+
+@media screen and (max-width: 580px){
+
+    .header_back_btn{
+        padding: 4px 12px;
+        font-size: 18px;
+        top: 50%;
+    }
+}
+
+@media screen and (max-width: 550px){
+
+    .swiper-slide{
+        transform: translateX(0px) !important;
+    }
+}
+
+@media screen and (max-width: 500px){
+
+    header{
+        background: url('../img/радиотеатр\ на\ сайт\ 3-min.png') center / cover;
+    }
+}
+
+/* Адаптивка main */
+
+@media screen and (max-width: 1500px){
+
+    .modal_picture{
+        width: 50%;
+    }
+
+    .modal_content{
+        width: 47%;
+    }
+}
+
+@media screen and (max-width: 1400px){
+
+    .museum,
+    .drop_container_alt{
+        width: 90%;
+    }
+
+    .actor_inner{
+        width: 90%;
+        margin: 50px auto;
+    }
+}
+
+@media screen and (max-width: 1325px){
+
+    .actor_inner p{
+        width: 70%;
+    }
+
+    .museum_inner{
+        height: 300px;
+    }
+}
+
+@media screen and (max-width: 1200px){
+
+    .modal_content h2{
+        font-size: 32px;
+    }
+    
+    .modal_content h4{
+        font-size: 24px;
+    }
+    
+    .modal_content p{
+        font-size: 17px;
+    }
+
+    .actor_inner span{
+        width: 180px;
+        font-size: 15px;
+    }
+    
+    .actor_inner span i{
+        margin-top: 5px;
+        font-size: 18px;
+    }
+
+    .drop_container_alt div:nth-child(1){
+        width: 50%;
+    }
+
+    .drop_container_alt div:nth-child(1) span{
+        width: 150px !important;
+    }
+}
+
+@media screen and (max-width: 1050px){
+
+    .modal{
+        width: 100%;
+        height: 100vh;
+        top: 0;
+        left: 0;
+    }
+
+    .modal_inside{
+        height: 100%;
+        padding-top: 80px;
+        overflow-y: scroll;
+    }
+
+    .modal_inside span{
+        top: 0px;
+        font-size: 40px;
+    }
+
+    .modal_picture{
+        width: 100%;
+        height: 500px;
+    }
+
+    .modal_content{
+        height: 350px;
+        width: 100%;
+        padding: 30px 0;
+        overflow-y: scroll;
+    }
+
+    .drop_container_alt div:nth-child(1) span{
+        margin-right: 50px;
+    }
+
+    .museum_inner{
+        width: 32%;
+    }
+
+    .actor_inner p{
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-width: 850px){
+
+    .museum_inner{
+        width: 48%;
+    }
+}
+
+@media screen and (max-width: 800px){
+
+    .actor_inner span{
+        width: 160px;
+        font-size: 14px;
+    }
+    
+    .actor_inner span i{
+        font-size: 17px;
+    }
+
+    .drop_container_alt span{
+        padding: 8px 11px;
+        width: 120px;
+        font-size: 16px;
+    }
+    
+    .drop_container_alt div:nth-child(2) span{
+        width: 10px;
+        font-size: 17px;
+    }
+}
+
+@media screen and (max-width: 730px){
+
+    .actor_inner{   
+        flex-wrap: wrap;
+    }   
+
+    .actor_inner p{
+        width: 100%;
+        margin-left: 0px;
+        margin-top: 30px;
+    }
+}
+
+@media screen and (max-width: 630px){
+    
+    .drop_container_alt div:nth-child(1){
+        width: 40%;
+    }
+}
+
+@media screen and (max-width: 580px){
+
+    .modal{
+        padding: 25px;
+        padding-bottom: 50px;
+    }
+
+    .museum{
+        justify-content: center;
+    }
+
+    .museum_inner{
+        width: 80%;
+    }
+
+    .drop_container_alt div:nth-child(1){
+        order: 3;
+        margin-top: 40px;
+    }
+
+    .drop_container_alt div:nth-child(2){
+        width: 90%;
+        order: 1;
+        margin: 0px;
+    }   
+}
+
+@media screen and (max-width: 420px){
+
+    .museum_inner{
+        width: 100%;
+    }
+
+    .drop_container_alt div:nth-child(2){
+        width: 80%;
+    }
+
+    .drop_container_alt div:nth-child(1) span{
+        width: 150px;
+        margin-right: 0px;
+    }
+}

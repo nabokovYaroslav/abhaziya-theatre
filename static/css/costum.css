@@ -1,0 +1,713 @@
+@import url('https://fonts.googleapis.com/css2?family=Alice&display=swap');
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    margin: 0px;
+    font-family: 'Alice', serif;
+}
+
+.swiper-button-next{
+    left: 92% !important;
+    color: black !important; 
+    background: rgba(196, 196, 196, 1);
+    border-radius: 10%;
+    transition: .3s;
+    padding: 15px;
+}
+
+.swiper-button-prev:hover,
+.swiper-button-next:hover{
+    color: white !important; 
+    background: #0C184D;
+}
+
+.swiper-button-prev{
+    left: 4% !important;
+    color: black !important; 
+    background: rgba(196, 196, 196, 1);
+    border-radius: 10%;
+    padding: 15px;
+    transition: .3s;
+}
+
+.linksHover{
+    transition: .3s;
+}
+
+.linksHover:hover{
+    color: white !important;
+    background: #0C184D !important;
+}
+
+header{
+    background: url('../img/радиотеатр\ на\ сайт\ 3.png') center / cover;
+    height: 500px;
+    position: relative;
+}
+
+.header_back_btn{
+    position: absolute;
+    cursor: pointer;
+    top: 45%;
+    padding: 6px 12px;
+    font-size: 23px;
+    left: 8%;
+    background: #E7E7E7;
+}
+
+/* navbar */
+
+/* main */
+
+.actor_inner{
+    width: 85%;
+    margin: 50px auto;
+    margin-bottom: 20px;
+    align-items: center;
+    position: relative;
+    display: flex;
+}
+
+.actor_inner_alt{
+    margin-top: 20px;
+    padding-top: 40px;
+}
+
+.actor_inner_alt::before{
+    left: -2.5%;
+    width: 105%;
+    content: '';
+    background: #E9E9E9;
+    height: 3px;
+    position: absolute;
+    top: -5px;
+}
+
+.actor_inner_alt span{
+    width: 180px !important;
+}
+
+.actor_inner span{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #E7E7E7;
+    width: 150px;
+    padding: 7px 15px;
+    padding-bottom: 9px;
+    cursor: pointer;
+}
+
+.actor_inner p{
+    width: 60%;
+    line-height: 1.5;
+    font-size: 20px;
+    font-weight: 500;
+    margin-left: 50px;
+}
+
+.actor_inner span i{
+    margin-top: 5px;
+    font-size: 20px;
+}
+
+.drop_container_alt{
+    width: 85%;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    margin-top: 100px;
+}
+
+.drop_container_alt div{
+    display: flex;
+}
+
+.drop_container_alt span{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 8px 11px;
+    width: 170px;
+    cursor: pointer;
+    margin-right: 350px;
+    font-size: 19px;
+    background: rgba(196, 196, 196, 0.61);
+}
+
+.drop_container_alt span i{
+    font-size: 20px;
+}
+
+.drop_container_alt div:nth-child(2) span:hover{
+    background: #0C184D;
+    color: white;
+}
+
+.drop_container_alt div:nth-child(2) span{
+    display: flex;
+    width: 20px;
+    align-items: center;
+    margin: 0px;
+    justify-content: center;
+    margin-right: 15px;
+    transition: .3s;
+    font-size: 21px;
+    cursor: pointer;
+    font-weight: 500;
+}
+
+.costum{
+    width: 85%;
+    margin: 80px auto;
+    justify-content: space-between;
+    display: flex;
+}
+
+.costum_child{
+    width: 50%;
+}
+
+.costum_child_wrapper{
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    display: flex;
+}
+
+.costum_child_wrapper_inside{
+    width: 100%;
+    justify-content: space-between;
+    display: flex;
+    height: 500px;
+}
+
+.costum_child_wrapper_left{
+    width: 68%;
+    height: 100%;
+}
+
+.costum_child_wrapper_right{
+    width: 30%;
+    height: 100%;
+    flex-direction: column;
+    display: flex;
+    justify-content: space-between;
+}
+
+.costum_child_wrapper_right_inner{
+    width: 100%;
+    height: 49%;
+}
+
+.costum_child_wrapper_bottom_inner img,
+.costum_child_wrapper_right_inner img{
+    width: 100%;
+    object-fit: cover;
+    height: 100%;
+}
+
+.costum_child_wrapper_left video{
+    width: 100%;
+    object-fit: cover;
+    height: 100%;
+}
+
+.costum_child_wrapper_bottom{
+    width: 100%;
+    justify-content: space-between;
+    display: flex;
+    height: 200px;
+    margin-top: 15px;
+}
+
+.costum_child_wrapper_bottom_inner{
+    width: 24%;
+    height: 100%;
+}
+
+.costum_child_alt{
+    padding-left: 60px;
+    object-fit: cover;
+}
+
+.costum_child_alt h2{
+    font-size: 38px;
+    margin-top: 0px;
+    margin-bottom: 20px;
+    font-weight: 500;
+}
+
+.costum_child_alt h4{
+    font-size: 28px;
+    margin-top: 0px;
+    font-weight: 500;
+}
+
+.costum_child_alt p{
+    line-height: 1.4;
+    font-size: 20px;
+    margin: 0px;
+}
+
+.costum_child_alt_para{
+    margin-bottom: 20px !important; 
+}
+
+.costum_sub_title{
+    width: 85%;
+    margin: 0 auto;
+    margin-bottom: 100px;
+}
+
+.costum_sub_title span{
+    font-size: 28px;
+    position: relative;
+}
+
+.costum_sub_title span::before{
+    content: "";
+    background: #000;
+    height: 2px;
+    bottom: -8px;
+    left: -2.5%;
+    width: 105%;
+    position: absolute;
+}
+
+.swiper-container{
+    width: 100%;
+    height: 100%;
+}
+
+.swiper-slide{
+    text-align: center;
+    font-size: 18px;
+
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+}
+
+.swiper-slide img{
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.costum_inner{
+    width: 100%;
+    transition: .3s;
+    cursor: pointer;
+    height: 100%;
+    position: relative;
+}
+
+.costum_inner:hover{
+    transform: scale(1.1);
+}
+
+.costum_inner::before{
+    content: "";
+    position: absolute;
+    background: rgba(0, 0, 0, 0.2);
+    height: 100%;
+    left: 0;
+    top: 0;
+    width: 100%;
+}
+
+.costum_inner img{
+    width: 100%;
+    position: absolute;
+    object-fit: cover;
+    height: 100%;
+}
+
+.costum_inner:hover .costum_inside{
+    bottom: 18%;
+}
+
+.costum_inner:hover .costum_inside h4::before{
+    width: 100%;
+}
+
+.costum_inside{
+    position: absolute;
+    left: 10%;
+    width: 65%; 
+    text-align: left;
+    transition: .3s;
+    bottom: 10%;
+}
+
+.costum_inside h3{
+    color: white;
+    font-weight: 400;
+    font-size: 25px;
+    margin: 0px;
+}
+
+.costum_inside h4{
+    font-size: 21px;
+    color: white;
+    margin: 0px;
+    margin-top: 10px;
+    font-weight: 500;
+    position: relative;
+}
+
+.costum_inside h4::before{
+    content: "";
+    position: absolute;
+    left: 0;
+    width: 0%;
+    transition: .3s;
+    bottom: -10px;
+    height: 2px;
+    background: white;
+}
+
+.costum_block{
+    height: 300px;
+}
+/* footer */
+.owl-carousel.first{
+    height: 100%;
+}
+
+.owl-carousel.first .owl-stage-outer{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.owl-carousel.first .owl-stage-outer .owl-stage{
+    height: 90%;
+}
+
+.owl-carousel.first .owl-stage-outer .owl-stage .owl-item{
+    height: 100%;
+    display: flex;
+    align-items: flex-end;
+}
+/* Адаптивка header / footer */
+
+@media screen and (max-width: 1400px){
+
+    .header_back_btn{
+        left: 5%;
+    }
+
+    .title_container{
+        width: 90%;
+    }
+}
+
+@media screen and (max-width: 1100px){
+
+    header{
+        height: 400px;
+    }
+
+    .header_back_btn{
+        padding: 4px 12px;
+        font-size: 21px;
+    }
+
+}
+
+@media screen and (max-width: 580px){
+
+    .header_back_btn{
+        padding: 4px 12px;
+        font-size: 18px;
+        top: 50%;
+    }
+
+}
+
+@media screen and (max-width: 550px){
+
+    .swiper-slide{
+        transform: translateX(0px) !important;
+    }
+}
+
+@media screen and (max-width: 500px){
+
+    header{
+        background: url('../img/радиотеатр\ на\ сайт\ 3-min.png') center / cover;
+    }
+}
+
+/* Адаптивка main */
+
+@media screen and (max-width: 1500px){
+
+    .costum_child_first{
+        width: 60%;
+    }
+
+    .costum_child_alt{
+        width: 40%;
+    }
+}
+
+@media screen and (max-width: 1400px){
+
+    .costum_block{
+        height: 260px;
+    }
+
+    .costum_sub_title,
+    .costum,
+    .drop_container_alt{
+        width: 90%;
+    }
+
+    .actor_inner{
+        width: 90%;
+        margin: 50px auto;
+    }
+
+    .costum_inside h3{
+        font-size: 23px;
+    }
+    
+    .costum_inside h4{
+        font-size: 19px;
+    }
+}
+
+@media screen and (max-width: 1325px){
+
+    .actor_inner p{
+        width: 70%;
+    }
+}
+
+@media screen and (max-width: 1250px){
+
+    .costum{
+        flex-wrap: wrap;
+    }
+
+    .costum_child{
+        width: 100%;
+    }
+
+    .costum_child_alt{
+        padding: 0px;
+        margin-top: 30px;
+    }
+}
+
+@media screen and (max-width: 1200px){
+
+    .actor_inner_alt span{
+        width: 165px !important;
+    }
+
+    .actor_inner span{
+        width: 180px;
+        font-size: 15px;
+    }
+    
+    .actor_inner span i{
+        margin-top: 5px;
+        font-size: 18px;
+    }
+
+    .drop_container_alt div:nth-child(1){
+        width: 50%;
+    }
+
+    .drop_container_alt div:nth-child(1) span{
+        width: 150px !important;
+    }
+}
+
+@media screen and (max-width: 1100px){
+
+    .swiper-button-next{
+        left: 90% !important;
+    }
+}
+
+@media screen and (max-width: 1050px){
+
+    .drop_container_alt div:nth-child(1) span{
+        margin-right: 50px;
+    }
+
+    .actor_inner p{
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-width: 870px){
+
+    .swiper-button-next{
+        font-size: 10px !important;
+        left: 87% !important;
+    }
+
+    .swiper-button-next,
+    .swiper-button-prev{
+        padding: 10px;
+    }
+
+    .swiper-button-next::after,
+    .swiper-button-prev::after{
+        font-size: 35px !important;
+    }
+}
+
+@media screen and (max-width: 800px){
+
+    .costum_child_wrapper_inside{
+        height: 450px;
+    }
+
+    .actor_inner span{
+        width: 160px;
+        font-size: 14px;
+    }
+    
+    .actor_inner span i{
+        font-size: 17px;
+    }
+
+    .drop_container_alt span{
+        padding: 8px 11px;
+        width: 120px;
+        font-size: 16px;
+    }
+    
+    .drop_container_alt div:nth-child(2) span{
+        width: 10px;
+        font-size: 17px;
+    }
+}
+
+@media screen and (max-width: 730px){
+
+    .actor_inner_alt span{
+        width: 155px !important;
+    }
+
+    .costum_child_wrapper_bottom,
+    .costum_child_wrapper_inside,
+    .actor_inner{   
+        flex-wrap: wrap;
+    }   
+
+    .costum_child_wrapper_bottom{
+        height: 450px;
+    }
+
+    .costum_child_wrapper_bottom_inner{
+        width: 49%;
+        height: 48%;
+    }
+
+    .costum_child_alt h2{
+        font-size: 31px;
+    }
+    
+    .costum_child_alt h4{
+        font-size: 25px;
+    }
+
+    .costum_child_alt p{
+        font-size: 18px;
+    }
+
+    .costum_child_wrapper_inside{
+        height: 800px;
+        justify-content: space-between;
+    }
+
+    .costum_child_wrapper_left{
+        height: 45%;
+        width: 100%;
+    }
+
+    .costum_child_wrapper_right{
+        height: 53%;
+        width: 100%;
+    }
+
+    .actor_inner p{
+        width: 100%;
+        margin-left: 0px;
+        margin-top: 30px;
+    }
+}
+
+@media screen and (max-width: 630px){
+    
+    .drop_container_alt div:nth-child(1){
+        width: 40%;
+    }
+}
+
+@media screen and (max-width: 580px){
+
+    .drop_container_alt div:nth-child(1){
+        order: 3;
+        margin-top: 40px;
+    }
+
+    .drop_container_alt div:nth-child(2){
+        width: 90%;
+        order: 1;
+        margin: 0px;
+    }   
+}
+
+@media screen and (max-width: 500px){
+    
+    .swiper-button-next,
+    .swiper-button-prev{
+        display: none !important;
+    }
+
+    .costum_child_wrapper_bottom{
+        height: 850px;
+        margin-top: 0px;
+    }
+    
+    .costum_child_wrapper_bottom_inner{
+        width: 100%;
+        height: 24%;
+    }
+}
+
+@media screen and (max-width: 420px){
+
+    .drop_container_alt div:nth-child(2){
+        width: 80%;
+    }
+
+    .drop_container_alt div:nth-child(1) span{
+        width: 150px;
+        margin-right: 0px;
+    }
+}

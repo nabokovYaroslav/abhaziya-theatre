@@ -1,0 +1,5 @@
+{% extends "admin/change_form.html" %}
+{% load i18n admin_urls %}
+{% block after_field_sets %}
+    <a href="{% url 'admin:perfomances_ticket_changelist' %}?poster__id__exact={{original.id}}">Показать билеты</a>
+{% endblock %}

@@ -1,0 +1,138 @@
+{% extends "main/base.html" %}
+{% load static %}
+{% block content %}
+  <header>
+    <div class="video_container">
+      <iframe src="https://player.vimeo.com/video/555289972?h=7134f3db0b&amp;dnt=1&amp;loop=1&amp;background=1&amp;app_id=122963" width="640" height="360" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen="" title="(2021) HomePage" id="vimeo-9799205" data-ready="true"></iframe>
+    </div>
+    {% include 'include/nav.html' %}
+    <section class="header_title">
+        <h2>Добро пожаловать</h2>
+        <a href="{% url 'poster_list' %}">купить билеты</a>
+    </section>
+  </header>
+  <main>
+    <section class="main_title">
+      <span class="main_title_span">Афиша</span>
+      <a class="linksHover" href="{% url 'poster_list' %}">посмотреть список</a>
+    </section>
+    
+    <section class="pieces_block">
+      <div class="swiper-container owl-carousel first">
+        {% for poster in poster_list %}
+          <div class="piece_card">
+            <div class="piece_card_header piece_card_header_one" style="background-image:url({{poster.perfomance.placard.url}})">
+              <div>
+                <h4>{{poster.formatted_start_date}}</h4>
+                <h4>{{poster.perfomance.producer.formatted_full_name}}</h4>
+                <h2>{{poster.perfomance.title}}</h2>
+              </div>
+            </div>    
+            <div class="piece_card_content">
+              <p>{{poster.perfomance.description}}</p>
+              <a href="{{poster.get_absolute_url}}place/">купить билет</a>
+            </div>
+          </div>
+        {% endfor %}
+      </div>
+    </section>
+
+    <section class="main_banner">
+      <h2>Камерные оркестры</h2>
+      <a href="{% url 'poster_list' %}">купить билет</a>
+    </section>
+
+    <section class="main_title">
+      <span>Гастроли театра</span>
+      <a class="main_title_link linksHover" href="gastroly.html">посмотреть список</a>
+    </section>
+
+    <section class="theatre_block">
+      <div class="theatre_block_content">
+        <div class="theatre_block_content_inside">
+          <div class="theatre_block_content_inside_left"></div>  
+          <div class="theatre_block_content_inside_right">
+            <h2>театр <br> им. Чехова</h2>
+            <p>
+              вдохновение вкладывает в ваши творческие инструменты, которые обеспечивают абсолютный контроль
+              над текстом. С их помощью вы любым элементам тени, эффективны с использование прозрачности.
+            </p>
+            <a href="title.html">
+              подробнее
+            </a>
+          </div>
+        </div>
+      </div>
+      <img class="theatre_block_image" src="{% static 'img/Векторный смарт-объект-01 4.png' %}" alt="image">
+    </section>
+    <section class="main_title">
+      <span>Люди театра</span>
+      <a class="main_title_link linksHover" href="people.html">посмотреть список</a>
+    </section>
+    <section class="people_block">
+      <div class="swiper-container owl-carousel second">
+        {% for person in person_list %}
+          <div class="piece_card">
+            <div class="piece_card_header people_block_image_one" style="background-image:url({{person.image.url}})">
+              <div>
+                <h2>{{person.full_name}}</h2>
+              </div>
+            </div>    
+            <div class="piece_card_content">
+              <p>{{person.biography}}</p>
+              <a href="actors.html">подробнее</a>
+            </div>
+          </div>
+        {% endfor %}
+    </section>
+
+    <a href="present.html" class="ticket_block">
+      <img class="ticket_image_one" src="{% static 'img/Векторный смарт-объект-01 4 (2).png' %}" alt="image">
+      <img class="ticket_image_two" src="{% static 'img/сертификат 1.png' %}" alt="image">
+
+      <div class="ticket_content">
+        <span>Подарочный сертификат</span>
+        <p>Вы сможете оформить билет на действующие мероприятия онлайн.</p>
+      </div>
+    </a>
+
+    <section class="main_title">
+      <span>Визит в театр</span>
+    </section>
+
+    <section class="places_block">
+      <div class="swiper-container owl-carousel three">
+        <a href="" class="places_card places_card_one">
+          <div>
+            <span>Проекты</span>
+          </div>
+        </a>
+        <a href="hall.html" class="places_card places_card_two">
+          <div>
+            <span>Залы</span>
+          </div>
+        </a>
+        <a href="#" class="places_card places_card_three">
+          <div>
+            <span>Театральный этикет</span>
+          </div>
+        </a>
+        <a href="present.html" class="places_card places_card_four">
+          <div>
+            <span>Подарочный абонемент</span>
+          </div>
+        </a>
+        <a href="#" class="places_card places_card_five">
+          <div>
+            <span>Экскурсии в театре</span>
+          </div>
+        </a>
+        <a href="virtual.html" class="places_card places_card_six">
+          <div>
+            <span>Виртуальная прогулка</span>
+          </div>
+        </a>
+      </div>
+    </section>
+  </main>
+{% endblock content %}

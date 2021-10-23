@@ -1,0 +1,126 @@
+{% extends "base.html" %}
+{% load static %}
+{% block title %}Афиша{% endblock title %}
+{% block styles %}
+{% include 'include/owl-carousel-css.html' %}
+<link rel="stylesheet" href="{% static 'css/spectre.css' %}" />
+{% endblock styles %}
+{% block content %}
+<header>
+  <img class="header_image" src="{% static 'img/Безымянный-5-02 1.png' %}" alt="image" />
+  {% include 'include/nav.html' %}
+</header>
+<main>
+  <section class="info">
+    <div class="info_inner">
+      <a href="afish.html" class="linksHover"><i class="fas fa-angle-left"></i> вернуться к списку</a>
+    </div>
+    <div class="info_video">
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/{{poster.video_id}}"
+        title="YouTube video player" frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        allowfullscreen></iframe>
+    </div>
+    <div class="info_body">
+      <div class="info_child">
+        <div class="info_child_left">
+          <div class="info_child_left_image_one" style="background-image: url({{poster.perfomance.placard.url}});">
+          </div>
+          <div class="info_child_left_image_inner info_child_left_image_two"></div>
+          <div class="info_child_left_image_inner info_child_left_image_three"></div>
+          <div class="info_child_left_image_inner info_child_left_image_four"></div>
+        </div>
+        <div class="image-carousel">
+          <div class="owl-carousel">
+            <div style="
+                background-image: url('./img/URY_8087 (3) 1.png');
+                background-position: 50% 50%;
+                background-repeat: no-repeat;
+                background-size: cover;
+              "></div>
+            <div style="
+                background-image: url('./img/URY_8409\ \(1\)\ 1.png');
+                background-position: 50% 50%;
+                background-repeat: no-repeat;
+                background-size: cover;
+              "></div>
+            <div style="
+                background-image: url('./img/URY_8087 (3) 1.png');
+                background-position: 50% 50%;
+                background-repeat: no-repeat;
+                background-size: cover;
+              "></div>
+            <div style="
+                background-image: url('./img/URY_8409\ \(1\)\ 1.png');
+                background-position: 50% 50%;
+                background-repeat: no-repeat;
+                background-size: cover;
+              "></div>
+            <div style="
+                background-image: url('./img/URY_8087 (3) 1.png');
+                background-position: 50% 50%;
+                background-repeat: no-repeat;
+                background-size: cover;
+              "></div>
+            <div style="
+                background-image: url('./img/URY_8409\ \(1\)\ 1.png');
+                background-position: 50% 50%;
+                background-repeat: no-repeat;
+                background-size: cover;
+              "></div>
+          </div>
+          <div class="overlay">
+            <svg id="Layer_1" style="enable-background: new 0 0 512 512" version="1.1" viewBox="0 0 512 512"
+              width="512px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg"
+              xmlns:xlink="http://www.w3.org/1999/xlink">
+              <path
+                d="M443.6,387.1L312.4,255.4l131.5-130c5.4-5.4,5.4-14.2,0-19.6l-37.4-37.6c-2.6-2.6-6.1-4-9.8-4c-3.7,0-7.2,1.5-9.8,4  L256,197.8L124.9,68.3c-2.6-2.6-6.1-4-9.8-4c-3.7,0-7.2,1.5-9.8,4L68,105.9c-5.4,5.4-5.4,14.2,0,19.6l131.5,130L68.4,387.1  c-2.6,2.6-4.1,6.1-4.1,9.8c0,3.7,1.4,7.2,4.1,9.8l37.4,37.6c2.7,2.7,6.2,4.1,9.8,4.1c3.5,0,7.1-1.3,9.8-4.1L256,313.1l130.7,131.1  c2.7,2.7,6.2,4.1,9.8,4.1c3.5,0,7.1-1.3,9.8-4.1l37.4-37.6c2.6-2.6,4.1-6.1,4.1-9.8C447.7,393.2,446.2,389.7,443.6,387.1z" />
+            </svg>
+          </div>
+        </div>
+        <div class="info_child_right">
+          <h3>{{ poster.time }}</h3>
+          <h4>Режиссер {{poster.perfomance.producer.formatted_full_name}}</h4>
+          <h1>{{poster.perfomance.title}}</h1>
+          <h4 class="info_h4">Спектакль в {{poster.perfomance.acts}} {% if poster.perfomance.acts == 1 %}акте{% endif %}
+            {% if poster.perfomance.acts > 1 %}актах{% endif %}</h4>
+          <h5>Автор: {{poster.perfomance.author}}</h5>
+          <h5>Режиссер: {{poster.perfomance.producer.formatted_full_name}}</h5>
+          <p>
+            {{poster.perfomance.description}}
+          </p>
+          <a href="{{poster.get_absolute_url}}place/">купить билет</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="actor_title">
+    <h3>актерский состав</h3>
+  </section>
+
+  <section class="actor_block">
+    <div class="swiper-container owl-carousel first">
+      {% for actor in actors %}
+      <a href="actors.html" class="actor_card">
+        <div class="actor_picture actor_picture_one">
+          <h3>{{actor.full_name}}</h3>
+        </div>
+        <div class="actor_content">
+          <h3>Главная роль</h3>
+        </div>
+      </a>
+      {% endfor %}
+    </div>
+  </section>
+
+  <div class="actor_inner">
+    <a href="afish.html" class="linksHover"><i class="fas fa-angle-left"></i> вернуться к списку</a>
+  </div>
+</main>
+{% endblock content %}
+{% block scripts %}
+{% include "include/jquery.html" %}
+{% include "include/owl-carousel-js.html" %}
+<script src="{% static 'js/spectre.js' %}"></script>
+{% endblock scripts %}

@@ -1,0 +1,629 @@
+.burger_menu{
+  display: none;
+}
+
+.navbar{
+  width: 85%;
+  top: 8%;
+  left: 7.5%;
+  position: absolute;
+  justify-content: space-between;
+  align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+  height: 75px;
+  z-index: 1;
+}
+
+.navbar ul{
+  margin: 0px;
+  height: 100%;
+  list-style-type: none;
+  padding: 0px;
+}
+
+.navbar ul:nth-child(1){
+  width: 22%;
+  margin-top: 30px;
+}
+
+.navbar ul:nth-child(1) li a img{
+  width: 250px;
+}
+
+.navbar_links{
+  width: 78%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.navbar_links span{
+  width: 100%;
+}
+
+.navbar_links span:nth-child(1){
+  align-items: flex-end;
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: 15px;
+}
+
+.navbar_links span:nth-child(1) a{
+  color: black;
+  margin: 0 5px;
+  border-radius: 5px;
+  width: 30px;
+  height: 30px;
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 20px;
+  background: white;
+}
+
+.navbar_links span:nth-child(2){
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.navbar_links span:nth-child(2) li{
+  margin: 0 10px;
+  height: calc(100% + 6px);
+}
+
+.navbar_links span:nth-child(2) li a{
+  color: #ffffff;
+  text-decoration: none;
+  position: relative;
+  font-size: 16px;
+  display: block;
+}
+
+.navbar_links span:nth-child(2) li div a{
+  font-size: 12px !important;
+  margin-bottom: 10px;
+}
+
+.navbar_links span:nth-child(2) li a::before{
+  content: "";
+  position: absolute;
+  left: 0;
+  background: rgb(255, 255, 255);
+  height: 1px;
+  width: 0;
+  bottom: -6px;
+  transition: .3s;
+}
+
+.navbar_links span:nth-child(2) li a:hover::before{
+  width: 100%;
+}
+
+.burgerButtonAnother,
+.burgerButton,
+.navbarButton,
+.navbar_links span:nth-child(1) button{
+  background: none;
+  outline: none;
+  padding: 5px;
+  border: none;
+  color: rgb(255, 255, 255);
+  cursor: pointer;
+  font-size: 17px;
+  margin: 0 7px;
+}
+
+.navbar_links span:nth-child(1) label input{
+  border: none;
+  background: none;
+  width: 87%;
+  color: white;
+  outline: none;
+}
+
+.navbar_links span:nth-child(1) label i{
+  color: white;
+  width: 10%;
+  cursor: pointer;
+  text-align: center;
+  transform: rotate(75deg);
+}
+
+.navbar_links span:nth-child(1) label{
+  width: 300px;
+  border-bottom: 2px solid white; 
+  display: block;
+  padding-bottom: 9px;
+  margin-left: 10px;
+  margin-right: 20px;
+}
+
+.activeLanguage,
+.activeLang{
+  background: rgba(196, 196, 196, 0.61) !important;
+  padding: 9px;
+}
+
+/* appearInfo */
+
+.appearInfo{
+  position: relative;
+}
+
+.appearInfo:hover .dropOne{
+  pointer-events: all;
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.appearInfo div{
+  transform: translateY(-10px);
+  position: absolute;
+  padding: 6px 10px;
+  top: 100%;
+  transition: .3s;
+  pointer-events: none;
+  opacity: 0;
+  width: calc(100% + 40px);
+  left: -30px;
+  background: rgba(196, 196, 196, 0.61);
+  z-index: 10;
+}
+
+.appearInfo div p{
+  margin: 0px;
+  font-size: 12px;
+  margin-bottom: 4px;
+  cursor: pointer;
+  color: white;
+}
+
+.burgerButton{
+  display: none !important;
+}
+
+.appearInfo div p:nth-child(1){
+  padding-bottom: 5px;
+}
+
+.navbar_header li button{
+  display: none;
+}
+
+@media screen and (max-width: 1550px){
+
+  .navbar_links span:nth-child(2) li a{
+      font-size: 17px;
+  }
+}
+
+@media screen and (max-width: 1475px){
+
+  .navbar_links span:nth-child(2) li a{
+      font-size: 16px;
+  }
+}
+
+@media screen and (max-width: 1400px){
+  .navbar{
+    width: 90%;
+    top: 8%;
+    left: 5%;
+  }
+}
+
+@media screen and (max-width: 1325px){
+
+  .navbar_links span:nth-child(2) li a{
+      font-size: 14px;
+  }
+
+  .navbar_links span:nth-child(1) button{
+      font-size: 16px;
+      padding: 5px 7px;
+  }
+
+  .appearInfoTwo div{
+      left: -10px;
+      width: 145%;
+  }
+  
+  .navbar{
+    top: 5%;
+  }
+}
+
+@media screen and (max-width: 1250px){
+
+  .navbar_links span:nth-child(2) li a{
+    font-size: 13px;
+  }
+
+  .appearInfo div p{
+      font-size: 13px;
+  }
+
+  .navbar ul:nth-child(1) li a img{
+      width: 210px;
+  }
+}
+
+@media screen and (max-width: 1150px){
+  .navbarButton, .navbar_links span:nth-child(1) button{
+    font-size: 15px;
+  }
+}
+
+@media screen and (max-width: 1132px){
+  .navbar_links span:nth-child(2) li a{
+    font-size: 12px;
+  }
+}
+
+@media screen and (max-width: 1100px){
+  .navbar_links span:nth-child(1) a{
+    display: none;
+  }
+  .navbar_links span:nth-child(2){
+    display: none;
+  }
+
+  .navbar ul:nth-child(1){
+      width: 22%;
+      margin-top: 0px;
+  }
+
+  .burgerButton{
+      display: block !important;
+      transition: .3s;
+      margin-left: 20px !important;
+  }
+
+  .burgerButton i{
+      font-size: 30px;
+  }
+
+  .navbar_links span:nth-child(1){
+      align-items: center;
+  }
+
+  .burger_menu.activeBurger{
+      pointer-events: all;
+      opacity: 1;
+  }
+
+  .burger_menu{
+      position: fixed;
+      left: 0;
+      display: block;
+      padding: 10px;
+      overflow: hidden;
+      box-sizing: border-box;
+      z-index: 20;
+      transition: .3s;
+      opacity: 0;
+      pointer-events: none;
+      top: 0;
+      height: 100vh;
+      width: 100%;
+      background: rgba(0, 0, 0, 0.9);
+  }
+
+  .burger_menu p{
+      color: white;
+  }
+
+  .burgerCloseBtn{
+      position: absolute;
+      right: 62px;
+      z-index: 2;
+      top: 35px;
+      font-size: 40px;
+      color: white;
+  }
+
+  .burger_menu.activeClose{
+      pointer-events: none;
+      opacity: 0;
+  }
+  .burger_container{
+    width: 90%;
+    left: 5%;
+    position: relative;
+    height: 90%;
+    top: 5%;
+  }
+
+  .burger_content{
+      height: 100%;
+      width: 100%;
+  }
+
+  .burger_content img{
+      width: 220px;
+  }
+
+  .burger_title{
+      border-bottom: 2px solid rgb(255, 255, 255);
+      height: 24%;
+      width: 100%;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+  }
+
+  .burger_title span{
+      display: flex;
+      margin-right: 100px;
+  }
+
+  .burger_title span a{
+      color: black;
+      text-decoration: none;
+      background: white;
+      display: flex;
+      margin: 0 5px;
+      justify-content: center;
+      align-items: center;
+      width: 25px;
+      height: 25px;
+      border-radius: 5px;
+  }
+
+  .burger_inside{
+      width: 100%;
+      height: 76%;
+      overflow-y: scroll;
+      display: flex;
+      padding-top: 30px;
+      box-sizing: border-box;
+  }
+
+  .burger_inside ul{
+      margin: 0px;
+      width: 50%;
+      padding: 0px;
+      list-style-type: none;
+  }
+
+  .burger_inside ul li{
+      margin-bottom: 30px;
+  }
+
+  .burger_inside ul li a{
+      color: white;
+      font-size: 22px;
+      position: relative;
+      text-decoration: none;
+  }
+
+  .burger_inside ul li a::before{
+      content: "";
+      left: 0;
+      transition: .3s;
+      background: white;
+      height: 2px;
+      bottom: -9px;
+      width: 0%;
+      position: absolute;
+  }
+
+  .burger_link_one:hover span{
+      height: 270px;
+      margin-top: 10px;
+  }
+
+  .burger_link_two:hover span{
+      height: 210px;
+  }
+
+  .burger_link_three:hover span{
+      height: 87px;
+  }
+
+  .burger_link_five:hover span{
+      height: 105px;
+  }
+
+  .burger_link_six:hover span{
+      height: 130px;
+  }
+
+  .burger_link_one{
+      display: flex;
+      width: 140px;
+      flex-direction: column;
+  }
+
+  .burger_link_one span{
+      height: 0px;
+      overflow: hidden;
+      transition: .3s;
+  }
+
+  .burger_link_one span a{
+      font-size: 16px !important;
+      color: white;
+  }
+
+  .burger_inside ul li a:hover::before{
+      width: 100%;
+  }
+}
+
+@media screen and (max-width: 830px){
+  .navbar ul:nth-child(1) li a img{
+    width: 180px;
+  }
+}
+
+@media screen and (max-width: 750px){
+  .navbar_links span:nth-child(1) label{
+    width: 250px;
+  }
+
+  .navbar_links span:nth-child(1) label input{
+      width: 85% !important;
+  }
+}
+
+@media screen and (max-width: 700px){
+  .navbar_links span:nth-child(1) label{
+    width: 200px;
+  }
+
+  .burgerCloseBtn{
+    right: 48px;
+    top: 30px;
+    font-size: 40px;
+  }
+}
+
+@media screen and (max-width: 670px){
+  .navbar ul:nth-child(1) li a img{
+    width: 160px;
+  }
+}
+
+@media screen and (max-width: 600px){
+  .navbar ul:nth-child(1) li a img{
+    width: 140px;
+    margin-top: 10px;
+  }
+}
+
+@media screen and (max-width: 580px){
+  .navbar ul{
+    width: 100%;
+  }
+
+  .navbar_links span:nth-child(1) label{
+      width: 100%;
+      margin-left: 0px;
+      padding-bottom: 15px;
+      margin-right: 0px;
+  }
+
+  .navbar ul:nth-child(1) li a img{
+      width: 140px;
+  }
+
+  .navbar{
+      height: 65px;
+      top: 3%;
+  }
+
+  .navbar_header{
+      display: flex !important;
+      width: 100% !important;
+      align-items: center !important;
+      justify-content: space-between !important;
+  }
+
+  .navbar_header li{
+      width: 50% !important; 
+  }
+
+  .navbar_header li:nth-child(2){
+      display: flex !important;
+      justify-content: flex-end !important;
+      position: relative !important;
+  }
+
+  .navbar_header li button{
+      display: block;
+      padding: 0 6px;
+  }
+
+  .navbar_links span button{
+      display: none;
+  }
+
+  .navbar_links span:nth-child(1) label input{
+      width: 88% !important;
+  }
+
+  .burgerButtonNone{
+      display: none !important;
+  }
+
+  .burgerButtonAnother{
+      font-size: 27px;
+      margin-top: 5px;
+  }
+}
+
+@media screen and (max-width: 550px){
+  .burgerCloseBtn{
+    right: 40px;
+    top: 28px;
+    font-size: 35px;
+  }
+  .burger_title span{
+    margin-right: 50px;
+  }
+}
+
+@media screen and (max-width: 500px){
+  .burger_inside ul li a{
+    font-size: 20px;
+  }
+
+  .burger_content img{
+      width: 180px;
+  }
+
+  .burger_inside{
+      flex-direction: column;
+  }
+
+  .burger_title{
+      height: 22%;
+      width: 100%;
+  }
+
+  .burger_inside{
+      height: 78%;
+  }
+
+  .header_title{
+      width: 80%;
+      left: 10%;
+  }
+}
+
+@media screen and (max-width: 480px){
+  .navbar_header li button{
+    font-size: 13px;
+    padding: 5px 6px ;
+}
+
+  .burgerButtonAnother{
+      margin-left: 10px;
+      font-size: 23px !important; 
+      padding: 0px !important;
+  }
+}
+
+@media screen and (max-width: 430px){
+  .burger_title{
+    flex-direction: column;
+    align-items: flex-start;
+    padding-bottom: 30px;
+  }
+
+  .burger_title span{
+      margin-right: 20px;
+      margin-top: 15px;
+  }
+}
+
+@media screen and (max-width: 416px){
+  .navbar_links span:nth-child(1) label input{
+    width: 87% !important;
+  }
+}

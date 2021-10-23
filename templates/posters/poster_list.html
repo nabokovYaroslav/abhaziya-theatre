@@ -1,0 +1,67 @@
+{% extends "base.html" %} {% load static %} {% block title %}Афиши{% endblock title %} 
+{% block styles %}
+<link rel="stylesheet" href="{% static 'css/afish.css' %}" />
+{% endblock styles %} 
+{% block content %}
+<header>
+  <img class="header_image" src="{% static 'img/Безымянный-5-02 1.png' %}" alt="image" />
+  {% include 'include/nav.html' %}
+</header>
+<main>
+  <section class="main_container">
+    <div class="drop_container">
+      <span>выбрать месяц <i class="fas fa-angle-down"></i></span>
+      <span>жанр <i class="fas fa-angle-down"></i></span>
+      <span>площадка <i class="fas fa-angle-down"></i></span>
+    </div>
+
+    <div class="info_container">
+    {% for poster_group in posters_group %}
+      <div class="info_left">
+        <h2>{{poster_group.day}} {{poster_group.month}}</h2>
+      </div>
+      {% for poster in poster_group.posters %}
+        <div class="info_card">
+        <div class="info_middle">
+          <a href="{{poster.get_absolute_url}}"><img src="{{poster.perfomance.placard.url}}" alt="image" /></a>
+          <h3>{{poster.time}}</h3>
+          <h3>Режиссер {{poster.perfomance.producer.formatted_full_name}}</h3>
+          <h1>{{poster.perfomance.title}}</h1>
+        </div>
+        <div class="info_right">
+          <h3>{{poster.perfomance.title}}</h3>
+          <h5>Спектакль в {{poster.perfomance.acts}} актах</h5>
+          <h4>Автор: {{poster.perfomance.author}}</h4>
+          <h4>Режиссер: {{poster.perfomance.producer.formatted_full_name}}</h4>
+          <p>
+            {{poster.perfomance.description}}
+          </p>
+          <div>
+            <a href="{{poster.get_absolute_url}}">подробнее</a>
+            <a href="{{poster.get_absolute_url}}place/">купить билет</a>
+          </div>
+        </div>
+      </div>
+      {% endfor %}
+    {% endfor %}
+    <div class="drop_container_alt">
+      <div>
+        <span>выбрать месяц <i class="fas fa-angle-down"></i></span>
+        <span class="drop_link">жанр <i class="fas fa-angle-down"></i></span>
+        <span class="drop_link">сцена <i class="fas fa-angle-down"></i></span>
+      </div>
+      <div>
+        <span class="drop_count">1</span>
+        <span>2</span>
+        <span>3</span>
+        <span>4</span>
+        <span><i class="fas fa-angle-right"></i></span>
+        <span>10</span>
+      </div>
+    </div>
+  </section>
+</main>
+{% endblock content %} 
+{% block scripts %}
+<script src="{% static 'js/afish.js' %}"></script>
+{% endblock scripts %}

@@ -1,0 +1,13 @@
+{% extends "base.html" %}
+{% load static %}
+{% block title %}Главная{% endblock title %}
+{% block styles %}
+  {% include 'include/owl-carousel-css.html' %}
+  <link rel="stylesheet" href="{% static 'css/style.css' %}">
+{% endblock styles %}
+{% block content %}{% endblock content %}
+{% block scripts %}
+  {% include "include/jquery.html" %}
+  {% include "include/owl-carousel-js.html" %}
+  <script src="{% static 'js/script.js' %}"></script>
+{% endblock scripts %}

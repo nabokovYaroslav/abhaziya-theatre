@@ -1,0 +1,86 @@
+{% extends "base.html" %} {% load static %} {% block title %}Заказ билетов{% endblock title %}
+{% load static %}
+{% block styles %}
+<link rel="stylesheet" href="{% static 'css/place.css' %}" />
+<link rel="stylesheet" href="{% static 'css/ui-message/message.css' %}">
+{% endblock styles %}
+{% block content %}
+<header>
+  <img class="header_image" src="{% static 'img/Безымянный-5-02 1.png' %}" alt="image">
+  {% include "include/nav.html" %}
+</header>
+<main>
+  <div class="actor_inner">
+    <span class="linksHover"><i class="fas fa-angle-left"></i> вернуться к списку</span>
+  </div>
+
+  <div class="place">
+    <div class="place_header">
+      <div>
+        <h2>{{poster.perfomance.title}}</h2>
+        <h5>длительность 2 часа</h5>
+      </div>
+      <div>
+        <p>выбрать дату</p>
+        <span>16/06 9:00</span>
+        <span>17/06 9:00</span>
+        <span>18/06 9:00</span>
+      </div>
+    </div>
+
+    <div class="place_container">
+      <div class="place_map">
+      </div>
+      <div class="controls">
+        <div class="control_plus"></div>
+        <div class="control_minus"></div>
+      </div>
+      <div class="map_info">
+        <div class="bought">
+          <div class="circle"></div>
+          <p>куплено</p>
+        </div>
+        <div class="free">
+          <div class="circle"></div>
+          <p>свободно</p>
+        </div>
+        <div class="yours">
+          <div class="circle"></div>
+          <p>ваше место</p>
+        </div>
+      </div>
+      <div class="loader active">
+        <div class="lds-facebook">
+          <div></div>
+          <div></div>
+          <div></div>
+        </div>
+      </div>
+      <div class="tooltip">
+        <span class="sector"></span>
+        <span class="row"></span>
+        <span class="seat"></span>
+        <span class="price"></span>
+      </div>
+      <div class="arr"></div>
+    </div>
+
+    <div class="pay">
+      <div class="pay_left">
+        <div class="pay_left_body">
+        </div>
+      </div>
+    </div>
+
+    <div class="place_btn">
+      <button>оформить заказ</button>
+    </div>
+  </div>
+</main>
+{% endblock content %}
+{% block scripts %}
+{% include "include/jquery.html" %}
+{% include "include/svg-pan-zoom.html"%}
+<script src="{% static 'js/ui-message/message.js' %}"></script>
+<script src="{% static 'js/place.js' %}"></script>
+{% endblock scripts %}

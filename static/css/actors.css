@@ -1,0 +1,765 @@
+@import url('https://fonts.googleapis.com/css2?family=Alice&display=swap');
+
+body{
+    margin: 0px;
+    font-family: 'Alice', serif;
+}
+
+.swiper-button-next{
+    left: 92% !important;
+    color: black !important; 
+    background: rgba(196, 196, 196, 1);
+    border-radius: 10%;
+    transition: .3s;
+    padding: 15px;
+}
+
+.swiper-button-prev:hover,
+.swiper-button-next:hover{
+    color: white !important; 
+    background: #0C184D;
+}
+
+.swiper-button-prev{
+    left: 4% !important;
+    color: black !important; 
+    background: rgba(196, 196, 196, 1);
+    border-radius: 10%;
+    padding: 15px;
+    transition: .3s;
+}
+
+header{
+    background: #0C184D;
+    height: 190px;
+    position: relative;
+}
+
+.header_image{
+    right: 0%;
+    width: 1800px;
+    top: 0;
+    position: absolute;
+}
+
+/* navbar */
+
+.activeLanguage,
+.activeLang{
+    background: rgba(196, 196, 196, 0.61) !important;
+    padding: 9px;
+}
+
+/* appearInfo */
+
+
+
+/* main */
+
+
+main{
+    background: #0C184D;
+    padding: 70px 0;
+}
+
+.actor_inner{
+    width: 85%;
+    margin: 0 auto;
+}
+
+.actor_inner a{    
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: #E7E7E7;
+    width: 200px;
+    text-align: center;
+    text-decoration: none;
+    padding: 7px 8px;
+    color: black;
+    padding-bottom: 9px;
+    cursor: pointer;
+}
+
+.actor_inner a i{
+    margin-top: 5px;
+    font-size: 20px;
+}
+
+.actor_inner_alt{
+    margin-top: 90px;
+}
+
+.actor_container{
+    width: 85%;
+    margin: 50px auto;
+}
+
+.actor_banner{
+    height: 550px;
+    position: relative;
+    box-sizing: border-box;
+    flex-direction: column;
+    display: flex;
+    justify-content: flex-end;
+    padding: 45px;
+    background: url('../img/12837299-991784\ 1.png') center / cover;
+}
+
+.actor_banner h1{
+    font-size: 70px;
+    margin: 0px;
+    font-weight: 500;
+    color: white;
+}
+
+.actor_banner h3{
+    font-size: 35px;
+    font-weight: 500;
+    color: white;
+    margin: 0px;
+}
+
+.actor_block{
+    margin-top: 60px;
+    justify-content: space-between;
+    display: flex;
+}
+
+.actor_pics{
+    display: flex;
+    justify-content: space-between;
+    width: 45%;
+}
+
+.actor_pics .actor_inside_one, .actor_pics .actor_inside_two>div{
+    position: relative;
+}
+
+.actor_pics .actor_inside_one .overlay, .actor_pics .actor_inside_two>div .overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    transition: 0.3s;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    cursor: pointer;
+    font-size: 20px;
+    text-align: center;
+}
+
+.actor_pics .actor_inside_one .overlay:hover, .actor_pics .actor_inside_two>div .overlay:hover{
+    opacity: 1;
+}
+
+.image-carousel{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    visibility: hidden;
+    transition: 0.3s;
+}
+
+.image-carousel.active{
+    opacity: 1;
+    visibility: visible;
+}
+
+.image-carousel .overlay{
+    position: absolute;
+    background-color: rgb(0, 0, 0, 0.5);
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+}
+
+.image-carousel .overlay svg{
+    position: absolute;
+    right: 15px;
+    top: 15px;
+    cursor: pointer;
+    height: 30px;
+    width: 30px;
+    fill: #fff;
+    transition: 0.3s;
+}
+
+.image-carousel .overlay svg:hover{
+    fill: rgb(184, 0, 0);
+}
+
+.image-carousel .owl-carousel{
+    max-height: 80%;
+    overflow: hidden;
+}
+
+.actor_inside_one{
+    height: 100%;
+    width: 65%;
+    background: url('../img/wsi-imageoptim-ryan-gosling-beauty-and-the-beast.png') center / cover;
+}
+
+.actor_inside_two{
+    width: 32%;
+    height: 100%;
+    justify-content: space-between;
+    flex-direction: column;
+    display: flex;
+}
+
+.actor_inside_two_child{
+    width: 100%;
+    background: url('../img/wsi-imageoptim-ryan-gosling-beauty-and-the-beast.png') center / cover;
+    height: 48%;
+}
+
+.actor_info{
+    width: 60%;
+    padding: 30px 0;
+    padding-left: 70px;
+    box-sizing: border-box;
+}
+
+.actor_info h3{
+    color: white;
+    font-weight: 500;
+    margin: 0px;
+    font-size: 35px;
+}
+
+.actor_info p{
+    color: white;
+    line-height: 1.5;
+    width: 95%;
+    margin-bottom: 20px;
+    font-size: 20px;
+}
+
+.swiper-container{
+    width: 100%;
+    height: 100%;
+}
+
+.swiper-slide{
+    text-align: center;
+    font-size: 18px;
+    transform: translateX(-150px);
+
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+}
+
+.swiper-slide img{
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.actor_carousel{
+    width: 100%;
+    margin-bottom: 170px;
+    height: 300px;
+}
+
+.actor_card{
+    width: 100%;
+    position: relative;
+    box-sizing: border-box;
+    justify-content:flex-end;
+    padding: 0 30px;
+    padding-bottom: 30px;
+    flex-direction: column;
+    cursor: pointer;
+    display: flex;
+    text-decoration: none;
+    align-items: flex-start;
+    transition: .3s;
+    height: 100%;
+    background: url('../img/URY_8409\ \(1\)\ 1.png') center / cover;
+}
+
+.actor_card:hover{
+    transform: scale(1.1);
+}
+
+.actor_card::before{
+    content: "";
+    background: rgba(0, 0, 0, 0.2);
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+}
+
+.actor_card_alt{
+    background: url('../img/URY_8087\ \(3\)\ 1.png') center / cover;
+}
+
+.actor_card h2{
+    font-weight: 500;
+    text-align: left;
+    margin: 0px;
+    font-size: 40px;
+    line-height: 35px;
+    color: white;
+    position: relative;
+}
+
+.actor_card h3{
+    margin: 10px 0;
+    position: relative;
+    font-weight: 400;
+    color: white;
+    font-size: 20px;
+}
+
+.actor_carousel_title{
+    width: 85%;
+    margin: 0 auto;
+    color: white;
+    font-size: 35px;
+    margin-bottom: 50px;
+}
+
+/* footer */
+
+footer{
+    margin: 0;
+}
+
+.footer_left{
+    background: #1D2D6E;
+}
+
+/* slider */
+
+.owl-carousel.first{
+    height: 100%;
+}
+
+.owl-carousel.first .owl-stage-outer{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.owl-carousel.first .owl-stage-outer .owl-stage{
+    height: 90%;
+}
+
+.owl-carousel.first .owl-stage-outer .owl-stage .owl-item{
+    height: 100%;
+    display: flex;
+    align-items: flex-end;
+}
+/* slider */
+
+/* Адаптивка header / footer */
+
+@media screen and (max-width: 1550px){
+
+    .header_image{
+        width: 1700px;
+    }
+}
+
+@media screen and (max-width: 1475px){
+
+
+    .header_image{
+        width: 1650px;
+    }
+
+}
+
+@media screen and (max-width: 1400px){
+
+    .actor_inner{
+        width: 90%;
+        margin: 50px auto;
+    }
+
+}
+
+@media screen and (max-width: 1325px){
+}
+
+@media screen and (max-width: 1250px){
+
+    .header_image{
+        width: 1550px;
+    }
+
+    header{
+        height: 170px;
+    }
+}
+
+@media screen and (max-width: 1200px){
+
+    .actor_inner a{
+        width: 180px;
+        font-size: 15px;
+    }
+    
+    .actor_inner a i{
+        margin-top: 5px;
+        font-size: 18px;
+    }
+
+
+    .header_image{
+        width: 1400px;  
+    }
+}
+
+
+@media screen and (max-width: 1100px){
+
+
+    .header_image{
+        width: 1300px;  
+    }
+
+
+    header{
+        height: 130px;
+    }
+
+}
+
+@media screen and (max-width: 1000px){
+
+    .header_image{
+        width: 1200px;  
+    }
+}
+
+@media screen and (max-width: 920px){
+
+    .header_image{
+        width: 1050px;  
+    }
+}
+
+@media screen and (max-width: 830px){
+    
+
+    .header_image{
+        width: 950px;  
+    }
+
+    header{
+        height: 110px !important;
+    }
+    
+}
+
+@media screen and (max-width: 800px){
+
+    .actor_inner a{
+        width: 160px;
+        font-size: 14px;
+    }
+    
+    .actor_inner a i{
+        font-size: 17px;
+    }
+}
+
+@media screen and (max-width: 750px){
+
+    .header_image{
+        width: 850px;  
+    }
+}
+
+@media screen and (max-width: 700px){
+
+    .actor_inner a{
+        width: 150px;
+        font-size: 14px;
+    }
+    
+    .actor_inner a i{
+        font-size: 16px;
+    }
+
+}
+
+@media screen and (max-width: 670px){
+
+    header{
+        height: 95px !important;
+    }
+
+    .header_image{
+        width: 800px;  
+    }
+
+}
+
+@media screen and (max-width: 600px){
+
+    header{
+        height: 100px !important;
+    }
+
+    .header_image{
+        width: 750px;  
+    }
+
+}
+
+@media screen and (max-width: 580px){
+
+    header{
+        height: 180px !important;
+    }
+
+    .header_image{
+        width: 700px;  
+    }
+
+}
+
+@media screen and (max-width: 550px){
+
+    .swiper-slide{
+        transform: translateX(0px) !important;
+    }
+
+}
+
+
+/* Адаптивка main */
+
+
+@media screen and (max-width: 1500px){
+
+    .actor_pics{
+        width: 50%;
+    }
+
+    .actor_info{
+        width: 55%;
+        padding-bottom: 10px;
+    }
+}
+
+@media screen and (max-width: 1400px){
+
+    .actor_container{
+        width: 90%;
+    }
+
+    .actor_block{
+        flex-wrap: wrap;
+    }
+
+    .actor_pics{
+        width: 100%;
+        height: 450px;
+    }
+
+    .actor_info{
+        width: 100%;
+        margin-top: 50px;
+        padding: 0px;
+    }
+
+    .actor_inside_one{
+        width: 75%;
+    }
+    
+    .actor_inside_two{
+        width: 23%;
+    }
+    
+    .actor_banner h1{
+        font-size: 65px;
+    }
+
+    main{
+        padding-top: 30px;
+    }
+
+    .actor_carousel_title{
+        width: 90%;
+    }
+
+    .actor_card h2{
+        font-size: 30px;
+    }
+}
+
+@media screen and (max-width: 1325px){
+
+    .actor_banner h1{
+        font-size: 60px;
+    }
+
+    .actor_banner{
+        height: 450px;
+    }
+
+    .actor_pics{
+        height: 400px;
+    }
+}
+
+@media screen and (max-width: 1200px){
+    
+    .actor_carousel{
+        height: 270px;
+    }   
+
+    .actor_banner h1{
+        font-size: 55px;
+    }
+}
+
+@media screen and (max-width: 1100px){
+
+    .swiper-button-next{
+        left: 90% !important;
+    }
+}
+
+@media screen and (max-width: 1000px){
+
+    .actor_banner h1{
+        font-size: 50px;
+    }
+
+    .actor_banner h3{
+        font-size: 30px;
+    }
+
+    .actor_banner{
+        height: 400px;
+    }
+
+    .actor_pics{
+        height: 350px;
+    }
+}
+
+@media screen and (max-width: 870px){
+
+    .swiper-button-next{
+        font-size: 10px !important;
+        left: 87% !important;
+    }
+
+    .swiper-button-next,
+    .swiper-button-prev{
+        padding: 10px;
+    }
+
+    .swiper-button-next::after,
+    .swiper-button-prev::after{
+        font-size: 35px !important;
+    }
+}
+
+@media screen and (max-width: 850px){
+
+    .actor_banner{
+        height: 370px;
+    }
+
+    .actor_pics{
+        height: 320px;
+    }
+
+    .actor_info h3{
+        font-size: 30px;
+    }
+    
+    .actor_info p{
+        width: 100%;
+        font-size: 18px;
+    }
+
+    .actor_card h2{
+        font-size: 35px;
+    }
+}
+
+@media screen and (max-width: 650px){
+
+    .actor_pics{
+        flex-wrap: wrap;
+        margin-bottom: 150px;
+    }
+
+    .actor_inside_one{
+        width: 100%;
+        height: 280px;
+    }
+
+    .actor_inside_two{
+        flex-direction: row;
+        width: 100%;
+        margin-top: 40px;
+    }
+
+    .actor_inside_two_child{
+        width: 47%;
+    }
+}
+
+@media screen and (max-width: 500px){
+
+    .swiper-button-next,
+    .swiper-button-prev{
+        display: none !important;
+    }
+
+    main{
+        padding-top: 1px;
+    }
+
+    .actor_banner h1{
+        font-size: 45px;
+    }
+
+    footer{
+        margin: 0px;
+    }
+}
+
+@media screen and (max-width: 450px){
+
+    .actor_banner{
+        padding: 35px;
+    }
+}

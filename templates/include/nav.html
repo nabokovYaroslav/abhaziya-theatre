@@ -1,0 +1,185 @@
+{% load static %}
+<section class="burger_menu">
+  <div class="burgerCloseBtn"><i class="fas fa-times"></i></div>
+  <div class="burger_container">
+    <div class="burger_content">
+      <div class="burger_title">
+        <a href="{% url 'index' %}"><img src="{% static 'img/logo full horiz apsny theatre _-34 1 (1) — копия.png' %}" alt="image"></a>
+        <span>
+          <a href="https://www.instagram.com/apsuatheatre/" target="_blank"><i class="fab fa-instagram"></i></a>
+          <a href="https://www.youtube.com/channel/UCYGSD6IAeyz_ufziXlfSKrA/" target="_blank"><i class="fab fa-youtube"></i></a>
+          <a href="https://www.facebook.com/apsuatheatre/" target="_blank"><i class="fab fa-facebook-f"></i></a>
+        </span>
+      </div>
+      <div class="burger_inside">
+        <ul>
+          <li class="burger_link_one burger_link_two">
+            <a href="#">о нас</a>
+            <span>
+              <p><a href="museum.html">награды</a></p>
+              <p><a href="hall.html">залы</a></p>
+              <p><a href="partner.html">миссия театра</a></p>
+              <p><a href="gastroly.html">медиа</a></p>
+              <p><a href="press.html">пресса</a></p>
+              <p><a href="news.html">новости</a></p>
+            </span>
+          </li>
+          <li class="burger_link_one burger_link_three">
+            <a href="#">репертуар</a>
+            <span>
+              <p><a href="afish.html">камерные аркестры</a></p>
+              <p><a href="gastroly.html">гастроли</a></p>
+            </span>
+          </li>
+          <li class="burger_link_one burger_link_five">
+            <a href="#">люди театра</a>
+            <span>
+              <p><a href="people.html">руководство</a></p>
+              <p><a href="people.html">сотрудники</a></p>
+              <p><a href="people.html">художественный совет</a></p>
+            </span>
+          </li>
+          <li class="burger_link_one">
+            <a href="#">визит в театр</a>
+            <span>
+              <p><a href="excurse.html">экскурсии</a></p>
+              <p><a href="present.html">подарочный абонемент</a></p>
+              <p><a href="virtual.html">вертуальная прогулка</a></p>
+              <p><a href="#">театральный этикет</a></p>
+              <p><a href="#">кафе</a></p>
+              <p><a href="#">магазин</a></p>
+            </span>
+          </li>
+          <li class="burger_link_one burger_link_five">
+            <a href="#">музей</a>
+            <span>
+              <p><a href="museum.html">электронный архив</a></p>
+              <p><a href="#">музей для детей</a></p>
+            </span>
+          </li>
+        </ul>
+        <ul>
+          <li class="burger_link_one burger_link_five">
+            <a href="#">радиотеатр</a>
+            <span>
+              <p><a href="radio.html">сказки</a></p>
+              <p><a href="radio.html">лекции</a></p>
+              <p><a href="radio.html">истории</a></p>
+            </span>
+          </li>
+          <li class="burger_link_one burger_link_six">
+            <a href="#">образование</a>
+            <span>
+              <p><a href="children.html">детская театральная студия</a></p>
+              <p><a href="#">школа молодых драматургов</a></p>
+            </span>
+          </li>
+          <li>
+            <a href="partner.html">партнеры</a>
+          </li>
+          <li>
+            <a href="contact.html">контакты</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+<section class="navbar">
+  <ul class="navbar_header">
+    <li>
+      <a href="{% url 'index' %}">
+        <img src="{% static 'img/logo full horiz apsny theatre _-34 1 (1) — копия.png' %}" alt="logo">
+      </a>
+    </li>
+    <li>
+      <button class="langButtonOne navbarButton">аҧс</button>
+      <button class="activeLanguage langButtonTwo navbarButton">рус</button>
+      <button class="burgerButtonAnother"><i class="fas fa-bars"></i></button>
+    </li>
+  </ul>
+  <ul class="navbar_links">
+    <span>
+      <button class="langButtonOne navbarButton">аҧс</button>
+      <button class="activeLanguage langButtonTwo navbarButton">рус</button>
+      <label>
+        <input type="text">
+        <i class="fas fa-search"></i>
+      </label>
+      <a href="https://www.instagram.com/apsuatheatre/" target="_blank"><i class="fab fa-instagram"></i></a>
+      <a href="https://www.youtube.com/channel/UCYGSD6IAeyz_ufziXlfSKrA/" target="_blank"><i class="fab fa-youtube"></i></a>
+      <a href="https://www.facebook.com/apsuatheatre/" target="_blank"><i class="fab fa-facebook-f"></i></a>
+      <button class="burgerButton burgerButtonNone"><i class="fas fa-bars"></i></button>
+    </span>
+    <span>
+      <li class="appearInfo appearInfoHistory">
+        <a href="#">о нас</a>
+        <div class="dropOne">
+          <p>история</p>
+          <a href="museum.html">награды</a>
+          <a href="hall.html">залы</a>
+          <a href="partner.html">миссия театра</a>
+          <a href="gastroly.html">медиа</a>
+          <a href="press.html">пресса</a>
+          <a href="news.html">новости</a>
+        </div>
+      </li>
+      <li class="appearInfo appearInfoRep">
+        <a href="#">репертуар</a>
+        <div class="dropOne">
+          <p>афиша</p>
+          <a href="afish.html">камерные аркестры</a>
+          <a href="gastroly.html">гастроли</a>
+        </div>
+      </li>
+      <li class="appearInfo appearInfoGroup">
+        <a href="#">люди театра</a>
+        <div class="dropOne">
+          <p>группа</p>
+          <a href="people.html">руководство</a>
+          <a href="people.html">сотрудники</a>
+          <a href="#">художественный совет</a>
+        </div>
+      </li>
+      <li class="appearInfo appearInfoTicket">
+        <a href="#">визит в театр</a>
+        <div class="dropOne">
+          <p>билеты</p>
+          <a href="excurse.html">экскурсии</a>
+          <a href="present.html">подарочный абонемент</a>
+          <a href="virtual.html">вертуальная прогулка</a>
+          <a href="#">театральный этикет</a>
+          <a href="#">кафе</a>
+          <a href="#">магазин</a>
+        </div>
+      </li>
+      <li class="appearInfo appearInfoMuseum">
+        <a href="#">музей</a>
+        <div class="dropOne">
+          <p>история</p>
+          <a href="museum.html">электронный архив</a>
+          <a href="#">музей для детей</a>
+        </div>
+      </li>
+      <li class='appearInfo appearInfoTheatre'>
+        <a href="#">радиотеатр</a>
+        <div class="dropOne">
+          <p>поэзия</p>
+          <a href="radio.html">сказки</a>
+          <a href="radio.html">лекции</a>
+          <a href="radio.html">истории</a>
+        </div>
+      </li>
+      <li class='appearInfo appearInfoEducation'>
+        <a href="#">образование</a>
+        <div class="dropOne">
+          <p>лекторий</p>
+          <a href="children.html">детская театральная студия</a>
+          <a href="#">школа молодых драматургов</a>
+        </div>
+      </li>
+      <li><a href="partner.html">партнеры</a></li>
+      <li><a href="contact.html">контакты</a></li>
+    </span>
+  </ul>
+</section>

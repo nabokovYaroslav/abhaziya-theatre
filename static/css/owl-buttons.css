@@ -1,0 +1,67 @@
+.prev, .next{
+  border: none;
+  padding: 0!important;
+  background-color: rgba(196, 196, 196, 1);
+  transition: 0.3s;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 60px;
+  width: 50px;
+  cursor: pointer;
+  margin: 10px;
+  border-radius: 10%;
+}
+
+.prev, .next{
+  position: absolute;
+  top:calc(50% - 30px);
+}
+
+.prev{
+  left: 40px;
+}
+
+.next{
+  right: 40px;
+}
+
+.prev svg, .next svg{
+  fill: #000;
+  transition: 0.3s;
+  width: 30px;
+  height: 30px;
+}
+
+.prev:hover, .next:hover{
+  background-color: #0C184D;
+}
+
+.prev:hover svg, .next:hover svg{
+  fill: #fff;
+}
+
+@media screen and (max-width: 768px) {
+  .prev, .next{
+    height: 55px;
+    width: 45px;
+    top:calc(50% - 27.5px);
+  }
+  .prev svg, .next svg{
+    width: 25px;
+    height: 25px;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .prev, .next{
+    height: 50px;
+    width: 40px;
+    top:calc(50% - 25px);
+  }
+  .prev svg, .next svg{
+    width: 20px;
+    height: 20px;
+  }
+
+}

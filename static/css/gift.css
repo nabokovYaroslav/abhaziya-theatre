@@ -1,0 +1,762 @@
+@import url('https://fonts.googleapis.com/css2?family=Alice&display=swap');
+
+body{
+    margin: 0px;
+    font-family: 'Alice', serif;
+}
+
+.linksHover{
+    transition: .3s;
+}
+
+.linksHover:hover{
+    color: white !important;
+    background: #0C184D !important;
+}
+
+header{
+    background: #0C184D;
+    height: 190px;
+    position: relative;
+}
+
+.header_image{
+    right: 0%;
+    width: 1800px;
+    top: 0;
+    position: absolute;
+}
+
+/* navbar */
+
+/* main */
+
+main{
+    position: relative;
+    padding-bottom: 180px;
+}
+
+.telephone{
+    position: relative !important;
+}
+
+.telephone::before{
+    content: "+7 (_ _ _ _) _ _ _ - _ _ _ - _ _" !important;
+    position: absolute !important;
+    left: 30px !important;
+    font-size: 20px !important;
+}
+
+.main_banner{
+    width: 1200px;
+    position: absolute;
+    bottom: -260px;
+}
+
+.actor_inner{
+    width: 85%;
+    margin: 50px auto;
+}
+
+.actor_inner a{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: #E7E7E7;
+    width: 200px;
+    padding: 7px 8px;
+    padding-bottom: 9px;
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+}
+
+.actor_inner a i{
+    margin-top: 5px;
+    font-size: 20px;
+}
+
+.pay{
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 70px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.pay_right,
+.pay_left{
+    width: 45%;
+    position: relative;
+}
+
+.pay_left img{
+    position: absolute;
+    width: 850px;
+    bottom: -150px;
+    left: -110px;
+}
+
+.pay_left_title h1{
+    font-size: 70px;
+    font-weight: 500;
+    margin: 0px;
+}
+
+.pay_left_title h3{
+    font-size: 30px;
+    margin-top: 50px;
+}
+
+.pay_right{
+    padding-top: 10px;
+}
+
+.pay_right h3{
+    font-size: 25px;
+    color: #1D2D6E;
+    margin: 0px;
+    margin-left: 25px;
+    margin-bottom: 25px;
+}
+
+.pay_right form div{
+    width: 100%;
+    margin-bottom: 25px;
+}
+
+.pay_right form div input{
+    width: 100%;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+    font-size: 20px;
+    background: #E6E6E6;
+    color: grey;
+    padding: 20px;
+}
+
+.pay_right form div input::placeholder{
+    font-size: 20px;
+}
+
+.pay_right form h3{
+    margin-top: 40px;
+}
+
+.pay_right_inside{
+    width: 100%;
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: space-between;
+}
+
+.pay_right_inside span{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    margin-bottom: 6px;
+    background: #E6E6E6;
+    color: grey;
+    padding-right: 20px;
+    box-sizing: border-box;
+}
+
+.pay_right_inside span input{
+    width: 75% !important;
+}
+
+.pay_right_inside_input{
+    width: 49.5% !important;
+}
+
+.pay_right_inside span b{
+    width: 5%;
+    align-items: center;
+    display: flex;
+    position: relative;
+}
+
+.pay_right_inside span b img{
+    width: 30px;
+}
+
+.pay_right_inside_span_b img{
+    width: 15px !important;
+    position: absolute;
+}
+
+.pay_right_inside_span_b img:nth-child(1){
+    left: 3px;
+    height: 15px;
+}
+
+.pay_right_inside_span_b img:nth-child(2){
+    right: 3px;
+    height: 15px;
+}
+
+.pay_right_check{
+    margin-top: 40px;
+}
+
+.pay_right_check label{
+    width: 100%;
+    display: flex;
+    cursor: pointer;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+
+.pay_right_check label input{
+    cursor: pointer;
+    width: 40px !important;
+    position: relative;
+    height: 35px !important;
+    border: none !important;
+}
+
+.pay_right_check label input:checked::before{
+    display: none;
+}
+
+.pay_right_check label input::before{
+    content: "";
+    background: #E9E9E9 !important;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.pay_right_check label span{
+    width: 90%;
+}
+
+.pay_right_check label span h2{
+    margin: 0px;
+    margin-bottom: 30px;
+    margin-top: 5px;
+    color: #1D2D6E;
+}
+
+.pay_right_check label span p{
+    margin: 0px;
+    font-size: 20px;
+    color: #1D2D6E;
+    line-height: 1.4;
+}
+
+.pay_right form button{
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    background: rgba(12, 23, 75, 0.9);
+    color: white;
+    padding: 10px 0;
+    padding-bottom: 17px;
+    font-family: 'Alice', serif;
+    cursor: pointer;
+    outline: none;
+    border: none;
+    font-size: 40px;
+    margin-top: 40px;
+}
+
+/* footer */
+
+footer{
+    position: relative;
+    margin: 0;
+}
+
+.footer_right{
+    background: rgb(147, 170, 255);
+}
+
+main{
+    overflow: hidden;
+}
+
+/* Адаптивка header / footer */
+
+@media screen and (max-width: 1550px){
+
+    .header_image{
+        width: 1700px;
+    }
+}
+
+@media screen and (max-width: 1475px){
+
+    .header_image{
+        width: 1650px;
+    }
+}
+
+@media screen and (max-width: 1250px){
+
+    .header_image{
+        width: 1550px;
+    }
+
+    header{
+        height: 170px;
+    }
+}
+
+@media screen and (max-width: 1200px){
+
+    .header_image{
+        width: 1400px;  
+    }
+}
+
+@media screen and (max-width: 1100px){
+
+    .header_image{
+        width: 1300px;  
+    }
+
+    header{
+        height: 130px;
+    }
+}
+
+@media screen and (max-width: 1000px){
+
+    .header_image{
+        width: 1200px;  
+    }
+}
+
+@media screen and (max-width: 920px){
+
+    .header_image{
+        width: 1050px;  
+    }
+}
+
+@media screen and (max-width: 830px){
+    
+    .header_image{
+        width: 950px;  
+    }
+
+    header{
+        height: 110px !important;
+    }
+    
+}
+
+@media screen and (max-width: 750px){
+
+    .header_image{
+        width: 850px;  
+    }
+}
+
+@media screen and (max-width: 670px){
+
+    header{
+        height: 95px !important;
+    }
+
+    .header_image{
+        width: 800px;  
+    }
+
+}
+
+@media screen and (max-width: 600px){
+
+    header{
+        height: 100px !important;
+    }
+
+    .header_image{
+        width: 750px;  
+    }
+}
+
+@media screen and (max-width: 580px){
+
+    header{
+        height: 180px !important;
+    }
+
+    .header_image{
+        width: 700px;  
+    }
+}
+
+@media screen and (max-width: 550px){
+
+    .swiper-slide{
+        transform: translateX(0px) !important;
+    }
+
+}
+
+/* Адаптивка main */
+
+
+@media screen and (max-width: 1650px){
+
+    .pay{
+        width: 85%;
+    }
+}
+
+@media screen and (max-width: 1500px){
+
+    .pay_right,
+    .pay_left{
+        width: 47%;
+    }
+
+    .pay_left_title h1{
+        font-size: 60px;
+    }
+
+    .pay_left img{
+        width: 800px;
+    }
+}
+
+@media screen and (max-width: 1400px){
+
+    .pay_right_inside_span_b img:nth-child(1){
+        left: 1px;
+    }
+    
+    .pay_right_inside_span_b img:nth-child(2){
+        right: 1px;
+    }
+
+    .pay_left_title h1{
+        font-size: 65px;
+    }
+
+    .pay_left_title h3{
+        font-size: 30px;
+    }
+
+    .pay_right form button{
+        padding: 6px 0;
+        padding-bottom: 15px;
+        font-size: 35px;
+    }
+
+    .pay_left img{
+        width: 650px;
+        bottom: -100px;
+        left: -20px;
+    }
+
+    .pay_right_check label span{
+        width: 88%;
+    }
+
+    .pay{
+        width: 90%;
+    }
+
+    .actor_inner{
+        width: 90%;
+        margin: 50px auto;
+    }
+
+    .pay_right_check label span p,
+    .pay_right form div input::placeholder,
+    .pay_right form div input{
+        font-size: 18px ;
+    }
+}
+
+@media screen and (max-width: 1300px){
+
+    .pay_right,
+    .pay_left{
+        width: 48%;
+    }
+
+    .main_banner{
+        width: 1100px;
+        bottom: -250px;
+    }
+}
+
+@media screen and (max-width: 1250px){
+
+    .pay{
+        justify-content: center;
+    }
+
+    .pay_right,
+    .pay_left{
+        width: 75%;
+    }
+
+    .pay_right{
+        margin-top: 30px;
+    }
+
+    .pay_left img{
+        display: none;
+    }
+
+    .pay_right_check label span{
+        width: 91%;
+    }
+
+    .pay_right_inside_span_b img:nth-child(1){
+        left: 8px;
+    }
+    
+    .pay_right_inside_span_b img:nth-child(2){
+        right: 8px;
+    }
+
+    .pay_right_inside span input{
+        width: 80% !important;
+    }
+}
+
+@media screen and (max-width: 1200px){
+
+    .actor_inner a{
+        width: 180px;
+        font-size: 15px;
+    }
+    
+    .actor_inner a i{
+        margin-top: 5px;
+        font-size: 18px;
+    }
+}
+
+@media screen and (max-width: 1100px){
+
+    .main_banner{
+        width: 1000px;
+    }
+
+    .pay_right_inside_span_b img:nth-child(1){
+        left: 5px;
+    }
+    
+    .pay_right_inside_span_b img:nth-child(2){
+        right: 5px;
+    }
+}
+
+@media screen and (max-width: 1000px){
+
+    .pay_right_inside span input{
+        width: 75% !important;
+    }
+
+    .main_banner{
+        width: 100%;
+    }
+
+    .pay_right,
+    .pay_left{
+        width: 80%;
+    }
+}
+
+@media screen and (max-width: 850px){
+
+    .pay_right_inside_span_b img:nth-child(1){
+        left: 3px;
+    }
+    
+    .pay_right_inside_span_b img:nth-child(2){
+        right: 3px;
+    }
+
+    .pay_right,
+    .pay_left{
+        width: 85%;
+    }
+
+    .pay_right_check label span{
+        width: 88%;
+    }
+
+    .pay_right_check label span p,
+    .pay_right form div input::placeholder,
+    .pay_right form div input{
+        font-size: 16px;
+    }
+
+    .pay_left_title h3{
+        margin-bottom: 0px;
+    }
+}
+
+@media screen and (max-width: 800px){
+
+    .main_banner{
+        object-fit: cover;
+        height: 550px;
+    }
+
+    .actor_inner a{
+        width: 160px;
+        font-size: 14px;
+    }
+    
+    .actor_inner a i{
+        font-size: 17px;
+    }
+}
+
+@media screen and (max-width: 750px){
+
+    .pay_right,
+    .pay_left{
+        width: 100%;
+    }
+
+    .pay_right form button{
+        padding: 6px 0;
+        padding-bottom: 13px;
+        font-size: 30px;
+    }
+
+    .pay{
+        margin-top: 40px;
+    }
+}
+
+@media screen and (max-width: 650px){
+
+    .pay_right_inside_span_b img:nth-child(1){
+        left: 1px;
+    }
+    
+    .pay_right_inside_span_b img:nth-child(2){
+        right: 1px;
+    }
+
+    .pay_right_check label span h2{
+        font-size: 22px;
+    }
+
+    .pay_right_check label input{
+        width: 35px !important;
+        height: 30px !important;
+    }
+
+    .pay_left_title h1{
+        font-size: 50px;
+    }
+
+    .disApear{
+        display: none;
+    }
+}
+
+@media screen and (max-width: 550px){
+
+    .pay_left_title h1{
+        font-size: 45px;
+    }
+
+    .pay_right form button{
+        font-size: 26px;
+    }
+
+    .pay_right_inside span input{
+        width: 70% !important;
+    }
+    
+    .pay_right_inside_span_b img:nth-child(1){
+        left: 0px;
+    }
+    
+    .pay_right_inside_span_b img:nth-child(2){
+        right: 0px;
+    }
+}
+
+@media screen and (max-width: 500px){
+
+    .pay_right_inside_span_b img:nth-child(1){
+        left: -2px;
+    }
+    
+    .pay_right_inside_span_b img:nth-child(2){
+        right: -2px;
+    }
+
+    .pay_right_check label span{
+        width: 85%;
+    }
+
+    .pay{
+        padding-bottom: 0px;
+    }
+}
+
+@media screen and (max-width: 450px){
+
+    .pay_left_title h1{
+        font-size: 40px;
+    }
+
+    .pay_right_inside_span_b img:nth-child(1){
+        left: -3px;
+    }
+    
+    .pay_right_inside_span_b img:nth-child(2){
+        right: -3px;
+    }
+
+    .pay_right_check label span p,
+    .pay_right form div input::placeholder,
+    .pay_right form div input{
+        font-size: 15px;
+    }
+
+    main{
+        padding-bottom: 90px;
+    }
+
+    .main_banner{
+        height: 450px;
+    }
+}
+
+@media screen and (max-width: 400px){
+
+    .pay_left_title h1{
+        font-size: 35px;
+    }
+
+    .pay_left_title h3{
+        font-size: 23px;
+    }
+
+    .pay_right_inside_span_b img:nth-child(1){
+        left: -5px;
+    }
+    
+    .pay_right_inside_span_b img:nth-child(2){
+        right: -5px;
+    }
+
+    .pay_right_check label span{
+        width: 82%;
+    }
+
+    .pay_right form button{
+        font-size: 23px;
+    }
+}

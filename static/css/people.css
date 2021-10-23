@@ -1,0 +1,591 @@
+@import url('https://fonts.googleapis.com/css2?family=Alice&display=swap');
+
+body{
+    margin: 0px;
+    font-family: 'Alice', serif;
+}
+
+.modal{
+    position: fixed;
+    height: 90vh;
+    background: #E6E6E6;
+    z-index: 5;
+    transition: .3s;
+    top: 5%;
+    left: 5%;
+    opacity: 0;
+    transform: scale(0.9);
+    pointer-events: none;
+    padding: 50px;
+    box-sizing: border-box;
+    width: 90%;
+}
+
+.modal.activeModal{
+    transform: scale(1);
+    pointer-events: all;
+    opacity: 1;
+}
+
+.modal_inside{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    justify-content: space-between;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.modal_inside span{
+    position: absolute;
+    font-size: 35px;
+    color: #0C184D;
+    z-index: 1;
+    cursor: pointer;
+    right: 0;
+}
+
+.modal_picture{
+    width: 45%;
+    height: 100%;
+}
+
+.modal_picture img{
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+}
+
+.modal_content{
+    width: 50%;
+    position: relative;
+    height: 100%;
+    padding-top: 30px;
+}
+
+.modal_content h2{
+    color: #0C184D;
+    font-weight: 500;
+    font-size: 35px;
+    margin: 0px;
+    margin-bottom: 20px;
+}
+
+.modal_content h4{
+    color: #0C184D;
+    font-weight: 500;
+    margin: 0;
+    margin-bottom: 15px;
+    font-size: 27px;
+}
+
+.modal_content p{
+    color: #0C184D;
+    line-height: 1.6;
+    font-size: 18px;
+}
+
+header{
+    background: #0C184D;
+    height: 190px;
+    position: relative;
+}
+
+.header_image{
+    right: 0%;
+    width: 1800px;
+    top: 0;
+    position: absolute;
+}
+
+/* navbar */
+
+
+/* main */
+
+
+main{
+    background: #0C184D;
+    padding: 70px 0;
+}
+
+.actor_inner{
+    width: 85%;
+    margin: 0 auto;
+}
+
+.actor_inner a{    
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: #E7E7E7;
+    color: black;
+    text-decoration: none;
+    width: 200px;
+    text-align: center;
+    padding: 7px 8px;
+    padding-bottom: 9px;
+    cursor: pointer;
+}
+
+.actor_inner a i{
+    margin-top: 5px;
+    font-size: 20px;
+}
+
+.people_container{
+    width: 85%;
+    margin: 0 auto;
+    margin-top: 60px;
+}
+
+.people_title{
+    font-size: 30px;
+    margin: 0 auto;
+    font-weight: 500;
+    color: white;
+}
+
+.people_content{
+    width: 100%;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    display: flex;
+    margin-top: 50px;
+    border-bottom: 5px solid #E9E9E9;
+}
+
+.people_card{
+    width: 23.5%;
+    margin-bottom: 40px;
+    height: 350px;
+    transition: .3s;
+    position: relative;
+    cursor: pointer;
+}
+
+.people_card::before{
+    content: "";
+    background: rgba(0, 0, 0, 0.2);
+    height: 100%;
+    width: 100%;
+    position: absolute;
+}
+
+.people_card:hover{
+    transform: scale(1.1);
+}
+
+.people_card_one{
+    background: url('../img/bradley-cooper-bredli-kuper-3661\ 1.png') center / cover;
+}
+
+.people_card_two{
+    background: url('../img/2400x1950_940620_[www.ArtFile\ 1.png') center / cover;
+}
+
+.people_card_three{
+    background: url('../img/freepressjournal_import_2017_10_Tom-Cruise.jpg') center / cover;
+}
+
+.people_card_four{
+    background: url('../img/s1200-2-5\ 1.png') center / cover;
+}
+
+.people_card h2{
+    color: white;
+    position: absolute;
+    left: 30px;
+    font-size: 30px;
+    font-weight: 500;
+    bottom: 30px;
+    margin: 0px;
+}
+
+.actor_inner_alt{
+    margin-top: 90px;
+}
+
+/* footer */
+
+
+footer{
+    margin: 0;
+}
+
+.footer_left{
+    background: #1D2D6E;
+}
+
+/* Адаптивка header / footer */
+
+@media screen and (max-width: 1550px){
+
+    .header_image{
+        width: 1700px;
+    }
+}
+
+@media screen and (max-width: 1475px){
+
+    .header_image{
+        width: 1650px;
+    }
+
+}
+
+@media screen and (max-width: 1400px){
+
+    .actor_inner{
+        width: 90%;
+        margin: 50px auto;
+    }
+}
+
+@media screen and (max-width: 1250px){
+
+    .header_image{
+        width: 1550px;
+    }
+
+    header{
+        height: 170px;
+    }
+
+}
+
+@media screen and (max-width: 1200px){
+
+    .actor_inner a{
+        width: 180px;
+        font-size: 15px;
+    }
+    
+    .actor_inner a i{
+        margin-top: 5px;
+        font-size: 18px;
+    }
+
+
+    .header_image{
+        width: 1400px;  
+    }
+}
+
+
+@media screen and (max-width: 1100px){
+
+    .header_image{
+        width: 1300px;  
+    }
+
+    header{
+        height: 130px;
+    }
+
+}
+
+@media screen and (max-width: 1000px){
+
+    .header_image{
+        width: 1200px;  
+    }
+}
+
+@media screen and (max-width: 920px){
+
+    .header_image{
+        width: 1050px;  
+    }
+}
+
+@media screen and (max-width: 830px){
+
+    .header_image{
+        width: 950px;  
+    }
+
+    header{
+        height: 110px !important;
+    }
+}
+
+@media screen and (max-width: 800px){
+
+    .actor_inner a{
+        width: 160px;
+        font-size: 14px;
+    }
+    
+    .actor_inner a i{
+        font-size: 17px;
+    }
+}
+
+@media screen and (max-width: 750px){
+
+    .header_image{
+        width: 850px;  
+    }
+}
+
+@media screen and (max-width: 700px){
+
+    .actor_inner a{
+        width: 150px;
+        font-size: 14px;
+    }
+    
+    .actor_inner a i{
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-width: 670px){
+
+    header{
+        height: 95px !important;
+    }
+
+    .header_image{
+        width: 800px;  
+    }
+}
+
+@media screen and (max-width: 600px){
+
+    header{
+        height: 100px !important;
+    }
+
+    .header_image{
+        width: 750px;  
+    }
+}
+
+@media screen and (max-width: 580px){
+
+    header{
+        height: 180px !important;
+    }
+
+    .header_image{
+        width: 700px;  
+    }
+
+}
+
+@media screen and (max-width: 550px){
+
+    .swiper-slide{
+        transform: translateX(0px) !important;
+    }
+}
+
+
+/* Адаптивка main */
+
+
+@media screen and (max-width: 1600px){
+
+    .people_card{
+        height: 320px;
+    }
+}
+
+@media screen and (max-width: 1400px){
+
+    .people_card{
+        height: 300px;
+    }
+
+    .people_card h2{
+        font-size: 27px;
+    }
+
+    .people_container{
+        width: 90%;
+    }
+
+    main{
+        padding: 10px 0;
+    }
+}
+
+@media screen and (max-width: 1330px){
+
+    .people_card{
+        height: 280px;
+    }
+
+    .people_card h2{
+        font-size: 25px;
+    }
+}
+
+@media screen and (max-width: 1200px){
+
+    .modal_content h2{
+        font-size: 32px;
+    }
+    
+    .modal_content h4{
+        font-size: 24px;
+    }
+    
+    .modal_content p{
+        font-size: 17px;
+    }
+
+    .people_title{
+        font-size: 28px;
+    }
+
+    .people_card{
+        height: 260px;
+    }
+}
+
+@media screen and (max-width: 1100px){
+
+    .people_card{
+        width: 31%;
+        height: 280px;
+    }
+
+    .modal{
+        width: 100%;
+        height: 100vh;
+        top: 0;
+        left: 0;
+    }
+
+    .modal_inside{
+        height: 100%;
+        padding-top: 80px;
+        overflow-y: scroll;
+    }
+
+    .modal_inside span{
+        top: 0px;
+        font-size: 40px;
+    }
+
+    .modal_picture{
+        width: 100%;
+        height: 500px;
+    }
+
+    .modal_content{
+        height: 350px;
+        width: 100%;
+        padding: 30px 0;
+        overflow-y: scroll;
+    }
+
+    .modal_content h2{
+        font-size: 32px;
+    }
+    
+    .modal_content h4{
+        font-size: 24px;
+    }
+    
+    .modal_content p{
+        font-size: 18px;
+    }
+}
+
+@media screen and (max-width: 950px){
+
+    .people_card{
+        height: 260px;
+    }
+
+    .people_card h2{
+        left: 20px;
+        bottom: 20px;
+    }
+}
+
+@media screen and (max-width: 850px){
+
+    .people_card{
+        height: 240px;
+    }
+
+    .people_title{
+        font-size: 27px;
+    }
+}
+
+@media screen and (max-width: 800px){
+
+    .people_card h2{
+        font-size: 30px;
+    }
+
+    .people_card{
+        height: 280px;
+        width: 48%;
+    }
+}
+
+@media screen and (max-width: 700px){
+
+    .people_card h2{
+        font-size: 28px;
+    }
+
+    .people_card{
+        height: 260px;
+        width: 47%;
+    }
+}
+
+@media screen and (max-width: 600px){
+
+    .modal{
+        padding: 25px;
+        padding-bottom: 50px;
+    }
+
+    .people_card h2{
+        font-size: 26px;
+    }
+
+    .people_card{
+        height: 250px;
+    }
+}
+
+@media screen and (max-width: 580px){
+
+    header{
+        height: 140px !important;
+    }
+}
+
+@media screen and (max-width: 530px){
+
+    .people_card h2{
+        font-size: 30px;
+    }
+
+    .people_card{
+        height: 280px;
+        width: 80%;
+    }
+
+    .people_content{
+        justify-content: center;
+    }
+}
+
+@media screen and (max-width: 400px){
+
+    .people_card{
+        height: 260px;
+        width: 90%;
+    }
+}

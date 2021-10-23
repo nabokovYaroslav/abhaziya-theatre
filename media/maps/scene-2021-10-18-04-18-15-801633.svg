@@ -1,0 +1,961 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg width="2052" height="1417" viewBox="0 0 2052 1417" xmlns="http://www.w3.org/2000/svg" xmlns:bx="https://boxy-svg.com">
+  <g id="map">
+    <path style="fill: rgb(174, 192, 255); stroke: rgb(174, 192, 255);" d="M 1026 -1 C 513 -1 0 574.764 0 1149.57 C 0 1253.514 50 1356.5 50 1356.5 L 357.859 1356.5 C 357.859 721.434 1683.287 925.124 1683.287 1356.5 L 2002 1356.5 C 2002 1356.5 2052 1253.514 2052 1149.57 C 2052 574.764 1539 -0.042 1026 -0.042"/>
+    <path style="fill: rgb(211, 221, 255); stroke: rgb(211, 221, 255);" d="M 1026 285.886 C 670.5 285.886 315 742.255 315 1197.866 C 315 1280.256 349.649 1361.886 349.649 1361.886 L 455.989 1361.886 C 484.827 693.546 1604.941 853.357 1584.895 1361.886 L 1702.35 1361.886 C 1702.35 1361.886 1737 1280.256 1737 1197.866 C 1737 742.255 1381.499 286.644 1026 286.644"/>
+    <path style="fill: rgb(230, 230, 255); stroke: rgb(196, 196, 196);" d="M 1027.25 393.949 C 730.625 393.949 434 827.627 434 1260.584 C 434 1338.878 462.911 1416.449 462.911 1416.449 C 618.549 1260.811 1433.794 1258.655 1591.588 1416.449 C 1591.588 1416.449 1620.5 1338.878 1620.5 1260.584 C 1620.5 827.627 1323.874 394.669 1027.25 394.669"/>
+    <g transform="matrix(1, 0, 0, 1, 0, -71)">
+      <circle style="fill: rgb(61, 85, 173);" cx="166" cy="1316" r="15" seat_id="25" id="25"/>
+      <text style="white-space: pre; fill: rgb(255, 255, 255); font-family: Arial, sans-serif; font-size: 16px;" x="160.935" y="1321.45">1</text>
+      <circle style="fill: rgb(61, 85, 173);" cx="170" cy="1273" r="15" seat_id="26" id="26"/>
+      <text style="white-space: pre; fill: rgb(255, 255, 255); font-family: Arial, sans-serif; font-size: 16px;" x="164.935" y="1278.45">2</text>
+      <circle style="fill: rgb(61, 85, 173);" cx="174" cy="1230" r="15" seat_id="27" id="27"/>
+      <text style="white-space: pre; fill: rgb(255, 255, 255); font-family: Arial, sans-serif; font-size: 16px;" x="168.935" y="1235.449">3</text>
+      <circle style="fill: rgb(61, 85, 173);" cx="178" cy="1187" r="15" seat_id="28" id="28"/>
+      <text style="white-space: pre; fill: rgb(255, 255, 255); font-family: Arial, sans-serif; font-size: 16px;" x="172.935" y="1192.449">4</text>
+      <circle style="fill: rgb(61, 85, 173);" cx="182" cy="1144" r="15" seat_id="29" id="29"/>
+      <text style="white-space: pre; fill: rgb(255, 255, 255); font-family: Arial, sans-serif; font-size: 16px;" x="176.935" y="1149.449">5</text>
+      <circle style="fill: rgb(61, 85, 173);" cx="186" cy="1101" r="15" seat_id="30" id="30"/>
+      <text style="white-space: pre; fill: rgb(255, 255, 255); font-family: Arial, sans-serif; font-size: 16px;" x="180.935" y="1106.449">6</text>
+      <circle style="fill: rgb(61, 85, 173);" cx="190" cy="1058" r="15" seat_id="31" id="31"/>
+      <text style="white-space: pre; fill: rgb(255, 255, 255); font-family: Arial, sans-serif; font-size: 16px;" x="184.935" y="1063.449">7</text>
+      <circle style="fill: rgb(61, 85, 173);" cx="194" cy="1015" r="15" id="32"/>
+      <text style="white-space: pre; fill: rgb(255, 255, 255); font-family: Arial, sans-serif; font-size: 16px;" x="188.935" y="1020.449">8</text>
+      <circle style="fill: rgb(61, 85, 173);" cx="198" cy="972" r="15" id="33"/>
+      <text style="white-space: pre; fill: rgb(255, 255, 255); font-family: Arial, sans-serif; font-size: 16px;" x="192.934" y="977.449">9</text>
+      <circle style="fill: rgb(61, 85, 173);" cx="202" cy="929" r="15" id="34"/>
+      <text style="white-space: pre; fill: rgb(255, 255, 255); font-family: Arial, sans-serif; font-size: 16px;" x="192.326" y="934.449">10</text>
+      <circle style="fill: rgb(61, 85, 173);" cx="206" cy="886" r="15" id="35"/>
+      <text style="white-space: pre; fill: rgb(255, 255, 255); font-family: Arial, sans-serif; font-size: 16px;" x="197.14" y="890.907">11</text>
+      <circle style="fill: rgb(61, 85, 173);" cx="210" cy="843" r="15" id="36"/>
+      <text style="white-space: pre; fill: rgb(255, 255, 255); font-family: Arial, sans-serif; font-size: 16px;" x="200.055" y="848.168">12</text>
+      <circle style="fill: rgb(61, 85, 173);" cx="202" cy="1320" r="15" seat_id="13" id="13"/>
+      <text style="white-space: pre; fill: rgb(255, 255, 255); font-family: Arial, sans-serif; font-size: 16px;" x="196.935" y="1325.45">1</text>
+      <circle style="fill: rgb(61, 85, 173);" cx="206" cy="1277" r="15" seat_id="14" id="14"/>
+      <text style="white-space: pre; fill: rgb(255, 255, 255); font-family: Arial, sans-serif; font-size: 16px;" x="200.935" y="1282.45">2</text>
+      <circle style="fill: rgb(61, 85, 173);" cx="210" cy="1234" r="15" seat_id="15" id="15"/>
+      <text style="white-space: pre; fill: rgb(255, 255, 255); font-family: Arial, sans-serif; font-size: 16px;" x="204.935" y="1239.449">3</text>
+      <circle style="fill: rgb(61, 85, 173);" cx="214" cy="1191" r="15" seat_id="16" id="16"/>
+      <text style="white-space: pre; fill: rgb(255, 255, 255); font-family: Arial, sans-serif; font-size: 16px;" x="208.935" y="1196.449">4</text>
+      <circle style="fill: rgb(61, 85, 173);" cx="218" cy="1148" r="15" seat_id="17" id="17"/>
+      <text style="white-space: pre; fill: rgb(255, 255, 255); font-family: Arial, sans-serif; font-size: 16px;" x="212.935" y="1153.449">5</text>
+      <circle style="fill: rgb(61, 85, 173);" cx="222" cy="1105" r="15" seat_id="18" id="18"/>
+      <text style="white-space: pre; fill: rgb(255, 255, 255); font-family: Arial, sans-serif; font-size: 16px;" x="216.935" y="1110.449">6</text>
+      <circle style="fill: rgb(61, 85, 173);" cx="226" cy="1062" r="15" seat_id="19" id="19"/>
+      <text style="white-space: pre; fill: rgb(255, 255, 255); font-family: Arial, sans-serif; font-size: 16px;" x="220.935" y="1067.449">7</text>
+      <circle style="fill: rgb(61, 85, 173);" cx="230" cy="1019" r="15" seat_id="20" id="20"/>
+      <text style="white-space: pre; fill: rgb(255, 255, 255); font-family: Arial, sans-serif; font-size: 16px;" x="224.935" y="1024.449">8</text>
+      <circle style="fill: rgb(61, 85, 173);" cx="234" cy="976" r="15" seat_id="21" id="21"/>
+      <text style="white-space: pre; fill: rgb(255, 255, 255); font-family: Arial, sans-serif; font-size: 16px;" x="228.934" y="981.449">9</text>
+      <circle style="fill: rgb(61, 85, 173);" cx="238" cy="933" r="15" seat_id="22" id="22"/>
+      <text style="white-space: pre; fill: rgb(255, 255, 255); font-family: Arial, sans-serif; font-size: 16px;" x="227.562" y="938.449">10</text>
+      <circle style="fill: rgb(61, 85, 173);" cx="242" cy="890" r="15" seat_id="23" id="23"/>
+      <text style="white-space: pre; fill: rgb(255, 255, 255); font-family: Arial, sans-serif; font-size: 16px;" x="232.636" y="895.449">11</text>
+      <circle style="fill: rgb(61, 85, 173);" cx="246" cy="847" r="15" seat_id="24" id="24"/>
+      <text style="white-space: pre; fill: rgb(255, 255, 255); font-family: Arial, sans-serif; font-size: 16px;" x="236.1" y="851.912">12</text>
+      <circle style="fill: rgb(61, 85, 173);" cx="238" cy="1323" r="15" id="1" seat_id="1"/>
+      <text style="white-space: pre; fill: rgb(255, 255, 255); font-family: Arial, sans-serif; font-size: 16px;" x="232.935" y="1328.45">1</text>
+      <circle style="fill: rgb(61, 85, 173);" cx="242" cy="1280" r="15" id="2" seat_id="2"/>
+      <text style="white-space: pre; fill: rgb(255, 255, 255); font-family: Arial, sans-serif; font-size: 16px;" x="236.935" y="1285.45">2</text>
+      <circle style="fill: rgb(61, 85, 173);" cx="246" cy="1237" r="15" seat_id="3" id="3"/>
+      <text style="white-space: pre; fill: rgb(255, 255, 255); font-family: Arial, sans-serif; font-size: 16px;" x="240.935" y="1242.449">3</text>
+      <circle style="fill: rgb(61, 85, 173);" cx="250" cy="1194" r="15" seat_id="4" id="4"/>
+      <text style="white-space: pre; fill: rgb(255, 255, 255); font-family: Arial, sans-serif; font-size: 16px;" x="244.935" y="1199.449">4</text>
+      <circle style="fill: rgb(61, 85, 173);" cx="254" cy="1151" r="15" seat_id="5" id="5"/>
+      <text style="white-space: pre; fill: rgb(255, 255, 255); font-family: Arial, sans-serif; font-size: 16px;" x="248.935" y="1156.449">5</text>
+      <circle style="fill: rgb(61, 85, 173);" cx="258" cy="1108" r="15" seat_id="6" id="6"/>
+      <text style="white-space: pre; fill: rgb(255, 255, 255); font-family: Arial, sans-serif; font-size: 16px;" x="252.935" y="1113.449">6</text>
+      <circle style="fill: rgb(61, 85, 173);" cx="262" cy="1065" r="15" seat_id="7" id="7"/>
+      <text style="white-space: pre; fill: rgb(255, 255, 255); font-family: Arial, sans-serif; font-size: 16px;" x="256.935" y="1070.449">7</text>
+      <circle style="fill: rgb(61, 85, 173);" cx="266" cy="1022" r="15" seat_id="8" id="8"/>
+      <text style="white-space: pre; fill: rgb(255, 255, 255); font-family: Arial, sans-serif; font-size: 16px;" x="260.935" y="1027.449">8</text>
+      <circle style="fill: rgb(61, 85, 173);" cx="270" cy="979" r="15" seat_id="9" id="9"/>
+      <text style="white-space: pre; fill: rgb(255, 255, 255); font-family: Arial, sans-serif; font-size: 16px;" x="264.934" y="984.449">9</text>
+      <circle style="fill: rgb(61, 85, 173);" cx="274" cy="936" r="15" seat_id="10" id="10"/>
+      <text style="white-space: pre; fill: rgb(255, 255, 255); font-family: Arial, sans-serif; font-size: 16px;" x="264.637" y="941.449">10</text>
+      <circle style="fill: rgb(61, 85, 173);" cx="278" cy="893" r="15" seat_id="11" id="11"/>
+      <text style="white-space: pre; fill: rgb(255, 255, 255); font-family: Arial, sans-serif; font-size: 16px;" x="268.637" y="898.449">11</text>
+      <circle style="fill: rgb(61, 85, 173);" cx="282" cy="850" r="15" seat_id="12" id="12"/>
+      <text style="white-space: pre; fill: rgb(255, 255, 255); font-family: Arial, sans-serif; font-size: 16px;" x="271.562" y="854.374">12</text>
+    </g>
+    <g transform="matrix(1, 0, 0, 1, 0, -71)">
+      <circle style="fill: rgb(61, 85, 173);" cx="59" cy="1181" r="15" id="37"/>
+      <text style="white-space: pre; fill: rgb(255, 255, 255); font-family: Arial, sans-serif; font-size: 16px;" x="53.935" y="1186.45">1</text>
+      <circle style="fill: rgb(61, 85, 173);" cx="69" cy="1141" r="15" id="38"/>
+      <text style="white-space: pre; fill: rgb(255, 255, 255); font-family: Arial, sans-serif; font-size: 16px;" x="63.935" y="1146.45">2</text>
+      <circle style="fill: rgb(61, 85, 173);" cx="79" cy="1101" r="15" id="39"/>
+      <text style="white-space: pre; fill: rgb(255, 255, 255); font-family: Arial, sans-serif; font-size: 16px;" x="73.935" y="1106.45">3</text>
+      <circle style="fill: rgb(61, 85, 173);" cx="89" cy="1061" r="15" id="40"/>
+      <text style="white-space: pre; fill: rgb(255, 255, 255); font-family: Arial, sans-serif; font-size: 16px;" x="83.935" y="1066.45">4</text>
+      <circle style="fill: rgb(61, 85, 173);" cx="99" cy="1021" r="15" id="41"/>
+      <text style="white-space: pre; fill: rgb(255, 255, 255); font-family: Arial, sans-serif; font-size: 16px;" x="93.935" y="1026.45">5</text>
+      <circle style="fill: rgb(61, 85, 173);" cx="109" cy="981" r="15" id="42"/>
+      <text style="white-space: pre; fill: rgb(255, 255, 255); font-family: Arial, sans-serif; font-size: 16px;" x="103.935" y="986.45">6</text>
+      <circle style="fill: rgb(61, 85, 173);" cx="119" cy="941" r="15" id="43"/>
+      <text style="white-space: pre; fill: rgb(255, 255, 255); font-family: Arial, sans-serif; font-size: 16px;" x="113.935" y="946.45">7</text>
+      <circle style="fill: rgb(61, 85, 173);" cx="129" cy="901" r="15" id="44"/>
+      <text style="white-space: pre; fill: rgb(255, 255, 255); font-family: Arial, sans-serif; font-size: 16px;" x="123.935" y="906.449">8</text>
+      <circle style="fill: rgb(61, 85, 173);" cx="139" cy="861" r="15" id="45"/>
+      <text style="white-space: pre; fill: rgb(255, 255, 255); font-family: Arial, sans-serif; font-size: 16px;" x="133.935" y="866.45">9</text>
+      <circle style="fill: rgb(61, 85, 173);" cx="149" cy="821" r="15" id="46"/>
+      <text style="white-space: pre; fill: rgb(255, 255, 255); font-family: Arial, sans-serif; font-size: 16px;" x="139.623" y="826.45">10</text>
+      <circle style="fill: rgb(61, 85, 173);" cx="159" cy="788" r="15" id="47"/>
+      <text style="white-space: pre; fill: rgb(255, 255, 255); font-family: Arial, sans-serif; font-size: 16px;" x="149.623" y="792.971">11</text>
+      <circle style="fill: rgb(61, 85, 173);" cx="185" cy="755" r="15" id="48"/>
+      <text style="white-space: pre; fill: rgb(255, 255, 255); font-family: Arial, sans-serif; font-size: 16px;" x="175.144" y="760.929">12</text>
+      <circle style="fill: rgb(61, 85, 173);" cx="211" cy="722" r="15" id="49"/>
+      <text style="white-space: pre; fill: rgb(255, 255, 255); font-family: Arial, sans-serif; font-size: 16px;" x="201.623" y="727.45">13</text>
+      <circle style="fill: rgb(61, 85, 173);" cx="237" cy="689" r="15" id="50"/>
+      <text style="white-space: pre; fill: rgb(255, 255, 255); font-family: Arial, sans-serif; font-size: 16px;" x="226.665" y="694.45">14</text>
+      <circle style="fill: rgb(61, 85, 173);" cx="263" cy="656" r="15" id="51"/>
+      <text style="white-space: pre; fill: rgb(255, 255, 255); font-family: Arial, sans-serif; font-size: 16px;" x="253.144" y="661.45">15</text>
+    </g>
+    <rect x="299.344" y="457.192" width="157" height="141" style="fill: rgb(72, 72, 72);" transform="matrix(0.707107, -0.707107, 0.707107, 0.707107, -229.951889, 329.400391)"/>
+    <text style="white-space: pre; fill: rgb(0, 0, 0); font-family: Arial, sans-serif; font-size: 30px;" x="424.703" y="614.86" transform="matrix(0.707107, -0.707107, 0.707107, 0.707107, -278.835358, 405.552765)">выход</text>
+    <g>
+      <circle style="fill: rgb(61, 85, 173);" cx="490" cy="291" r="15" id="91"/>
+      <text style="white-space: pre; fill: rgb(255, 255, 255); font-family: Arial, sans-serif; font-size: 16px;" x="484.935" y="296.45">1</text>
+      <circle style="fill: rgb(61, 85, 173);" cx="521" cy="264" r="15" id="92"/>
+      <text style="white-space: pre; fill: rgb(255, 255, 255); font-family: Arial, sans-serif; font-size: 16px;" x="515.935" y="269.45">2</text>
+      <circle style="fill: rgb(61, 85, 173);" cx="552" cy="237" r="15" id="93"/>
+      <text style="white-space: pre; fill: rgb(255, 255, 255); font-family: Arial, sans-serif; font-size: 16px;" x="546.935" y="242.45">3</text>
+      <circle style="fill: rgb(61, 85, 173);" cx="583" cy="210" r="15" id="94"/>
+      <text style="white-space: pre; fill: rgb(255, 255, 255); font-family: Arial, sans-serif; font-size: 16px;" x="577.935" y="215.45">4</text>
+      <circle style="fill: rgb(61, 85, 173);" cx="614" cy="183" r="15" id="95"/>
+      <text style="white-space: pre; fill: rgb(255, 255, 255); font-family: Arial, sans-serif; font-size: 16px;" x="608.935" y="188.45">5</text>
+      <circle style="fill: rgb(61, 85, 173);" cx="645" cy="156" r="15" id="96"/>
+      <text style="white-space: pre; fill: rgb(255, 255, 255); font-family: Arial, sans-serif; font-size: 16px;" x="639.935" y="161.45">6</text>
+      <circle style="fill: rgb(61, 85, 173);" cx="676" cy="129" r="15" id="97"/>
+      <text style="white-space: pre; fill: rgb(255, 255, 255); font-family: Arial, sans-serif; font-size: 16px;" x="670.935" y="134.45">7</text>
+      <circle style="fill: rgb(61, 85, 173);" cx="730" cy="114" r="15" id="98"/>
+      <text style="white-space: pre; fill: rgb(255, 255, 255); font-family: Arial, sans-serif; font-size: 16px;" x="724.935" y="119.45">8</text>
+      <circle style="fill: rgb(61, 85, 173);" cx="775" cy="114" r="15" id="99"/>
+      <text style="white-space: pre; fill: rgb(255, 255, 255); font-family: Arial, sans-serif; font-size: 16px;" x="769.935" y="119.45">9</text>
+      <circle style="fill: rgb(61, 85, 173);" cx="820" cy="114" r="15" id="100"/>
+      <text style="white-space: pre; fill: rgb(255, 255, 255); font-family: Arial, sans-serif; font-size: 16px;" x="810.605" y="119.931">10</text>
+      <circle style="fill: rgb(61, 85, 173);" cx="860" cy="114" r="15" id="101"/>
+      <text style="white-space: pre; fill: rgb(255, 255, 255); font-family: Arial, sans-serif; font-size: 16px;" x="851.567" y="119.931">11</text>
+      <circle style="fill: rgb(61, 85, 173);" cx="900" cy="114" r="15" id="102"/>
+      <text style="white-space: pre; fill: rgb(255, 255, 255); font-family: Arial, sans-serif; font-size: 16px;" x="891.086" y="119.45">12</text>
+      <circle style="fill: rgb(61, 85, 173);" cx="940" cy="114" r="15" id="103"/>
+      <text style="white-space: pre; fill: rgb(255, 255, 255); font-family: Arial, sans-serif; font-size: 16px;" x="930.123" y="119.45">13</text>
+      <circle style="fill: rgb(61, 85, 173);" cx="980" cy="114" r="15" id="104"/>
+      <text style="white-space: pre; fill: rgb(255, 255, 255); font-family: Arial, sans-serif; font-size: 16px;" x="971.086" y="120.412">14</text>
+      <circle style="fill: rgb(61, 85, 173);" cx="1020" cy="114" r="15" id="105"/>
+      <text style="white-space: pre; fill: rgb(255, 255, 255); font-family: Arial, sans-serif; font-size: 16px;" x="1010.123" y="119.931">15</text>
+      <circle style="fill: rgb(61, 85, 173);" cx="1060" cy="114" r="15" id="106"/>
+      <text style="white-space: pre; fill: rgb(255, 255, 255); font-family: Arial, sans-serif; font-size: 16px;" x="1050.605" y="120.412">16</text>
+      <circle style="fill: rgb(61, 85, 173);" cx="1100" cy="114" r="15" id="107"/>
+      <text style="white-space: pre; fill: rgb(255, 255, 255); font-family: Arial, sans-serif; font-size: 16px;" x="1090.124" y="119.931">17</text>
+      <circle style="fill: rgb(61, 85, 173);" cx="1140" cy="114" r="15" id="108"/>
+      <text style="white-space: pre; fill: rgb(255, 255, 255); font-family: Arial, sans-serif; font-size: 16px;" x="1130.124" y="119.931">18</text>
+      <circle style="fill: rgb(61, 85, 173);" cx="1180" cy="114" r="15" id="109"/>
+      <text style="white-space: pre; fill: rgb(255, 255, 255); font-family: Arial, sans-serif; font-size: 16px;" x="1170.124" y="120.412">19</text>
+      <circle style="fill: rgb(61, 85, 173);" cx="1220" cy="114" r="15" id="110"/>
+      <text style="white-space: pre; fill: rgb(255, 255, 255); font-family: Arial, sans-serif; font-size: 16px;" x="1211.086" y="119.931">20</text>
+      <circle style="fill: rgb(61, 85, 173);" cx="1260" cy="114" r="15" id="111"/>
+      <text style="white-space: pre; fill: rgb(255, 255, 255); font-family: Arial, sans-serif; font-size: 16px;" x="1251.086" y="119.45">21</text>
+      <circle style="fill: rgb(61, 85, 173);" cx="1300" cy="114" r="15" id="112"/>
+      <text style="white-space: pre; fill: rgb(255, 255, 255); font-family: Arial, sans-serif; font-size: 16px;" x="1291.567" y="119.931">22</text>
+      <circle style="fill: rgb(61, 85, 173);" cx="1345" cy="114" r="15" id="113"/>
+      <text style="white-space: pre; fill: rgb(255, 255, 255); font-family: Arial, sans-serif; font-size: 16px;" x="1336.567" y="119.931">23</text>
+      <circle style="fill: rgb(61, 85, 173);" cx="1391" cy="129" r="15" id="114"/>
+      <text style="white-space: pre; fill: rgb(255, 255, 255); font-family: Arial, sans-serif; font-size: 16px;" x="1382.086" y="134.931">24</text>
+      <circle style="fill: rgb(61, 85, 173);" cx="1422" cy="156" r="15" id="115"/>
+      <text style="white-space: pre; fill: rgb(255, 255, 255); font-family: Arial, sans-serif; font-size: 16px;" x="1413.086" y="161.931">25</text>
+      <circle style="fill: rgb(61, 85, 173);" cx="1453" cy="183" r="15" id="116"/>
+      <text style="white-space: pre; fill: rgb(255, 255, 255); font-family: Arial, sans-serif; font-size: 16px;" x="1444.086" y="188.45">26</text>
+      <circle style="fill: rgb(61, 85, 173);" cx="1484" cy="210" r="15" id="117"/>
+      <text style="white-space: pre; fill: rgb(255, 255, 255); font-family: Arial, sans-serif; font-size: 16px;" x="1474.605" y="215.931">27</text>
+      <circle style="fill: rgb(61, 85, 173);" cx="1515" cy="237" r="15" id="118"/>
+      <text style="white-space: pre; fill: rgb(255, 255, 255); font-family: Arial, sans-serif; font-size: 16px;" x="1505.605" y="241.969">28</text>
+      <circle style="fill: rgb(61, 85, 173);" cx="1546" cy="264" r="15" id="119"/>
+      <text style="white-space: pre; fill: rgb(255, 255, 255); font-family: Arial, sans-serif; font-size: 16px;" x="1537.086" y="269.45">29</text>
+      <circle style="fill: rgb(61, 85, 173);" cx="1577" cy="291" r="15" id="120"/>
+      <text style="white-space: pre; fill: rgb(255, 255, 255); font-family: Arial, sans-serif; font-size: 16px;" x="1568.086" y="296.45">30</text>
+    </g>
+    <g transform="matrix(1, 0, 0, 1, 0, 61)">
+      <circle style="fill: rgb(61, 85, 173);" cx="669" cy="183" r="15" id="71"/>
+      <text style="white-space: pre; fill: rgb(255, 255, 255); font-family: Arial, sans-serif; font-size: 16px;" x="663.935" y="188.45">1</text>
+      <circle style="fill: rgb(61, 85, 173);" cx="699" cy="156" r="15" id="72"/>
+      <text style="white-space: pre; fill: rgb(255, 255, 255); font-family: Arial, sans-serif; font-size: 16px;" x="693.935" y="161.45">2</text>
+      <circle style="fill: rgb(61, 85, 173);" cx="730" cy="129" r="15" id="73"/>
+      <text style="white-space: pre; fill: rgb(255, 255, 255); font-family: Arial, sans-serif; font-size: 16px;" x="724.935" y="134.45">3</text>
+      <circle style="fill: rgb(61, 85, 173);" cx="775" cy="114" r="15" id="74"/>
+      <text style="white-space: pre; fill: rgb(255, 255, 255); font-family: Arial, sans-serif; font-size: 16px;" x="769.935" y="119.45">4</text>
+      <circle style="fill: rgb(61, 85, 173);" cx="820" cy="114" r="15" id="75"/>
+      <text style="white-space: pre; fill: rgb(255, 255, 255); font-family: Arial, sans-serif; font-size: 16px;" x="814.935" y="119.45">5</text>
+      <circle style="fill: rgb(61, 85, 173);" cx="860" cy="114" r="15" id="76"/>
+      <text style="white-space: pre; fill: rgb(255, 255, 255); font-family: Arial, sans-serif; font-size: 16px;" x="854.935" y="119.45">6</text>
+      <circle style="fill: rgb(61, 85, 173);" cx="900" cy="114" r="15" id="77"/>
+      <text style="white-space: pre; fill: rgb(255, 255, 255); font-family: Arial, sans-serif; font-size: 16px;" x="894.935" y="119.45">7</text>
+      <circle style="fill: rgb(61, 85, 173);" cx="940" cy="114" r="15" id="78"/>
+      <text style="white-space: pre; fill: rgb(255, 255, 255); font-family: Arial, sans-serif; font-size: 16px;" x="934.935" y="119.45">8</text>
+      <circle style="fill: rgb(61, 85, 173);" cx="980" cy="114" r="15" id="79"/>
+      <text style="white-space: pre; fill: rgb(255, 255, 255); font-family: Arial, sans-serif; font-size: 16px;" x="974.935" y="119.45">9</text>
+      <circle style="fill: rgb(61, 85, 173);" cx="1020" cy="114" r="15" id="80"/>
+      <text style="white-space: pre; fill: rgb(255, 255, 255); font-family: Arial, sans-serif; font-size: 16px;" x="1010.123" y="119.45">10</text>
+      <circle style="fill: rgb(61, 85, 173);" cx="1060" cy="114" r="15" id="81"/>
+      <text style="white-space: pre; fill: rgb(255, 255, 255); font-family: Arial, sans-serif; font-size: 16px;" x="1050.605" y="118.488">11</text>
+      <circle style="fill: rgb(61, 85, 173);" cx="1100" cy="114" r="15" id="82"/>
+      <text style="white-space: pre; fill: rgb(255, 255, 255); font-family: Arial, sans-serif; font-size: 16px;" x="1090.124" y="118.969">12</text>
+      <circle style="fill: rgb(61, 85, 173);" cx="1140" cy="114" r="15" id="83"/>
+      <text style="white-space: pre; fill: rgb(255, 255, 255); font-family: Arial, sans-serif; font-size: 16px;" x="1130.605" y="119.45">13</text>
+      <circle style="fill: rgb(61, 85, 173);" cx="1180" cy="114" r="15" id="84"/>
+      <text style="white-space: pre; fill: rgb(255, 255, 255); font-family: Arial, sans-serif; font-size: 16px;" x="1170.605" y="119.931">14</text>
+      <circle style="fill: rgb(61, 85, 173);" cx="1220" cy="114" r="15" id="85"/>
+      <text style="white-space: pre; fill: rgb(255, 255, 255); font-family: Arial, sans-serif; font-size: 16px;" x="1210.605" y="119.45">15</text>
+      <circle style="fill: rgb(61, 85, 173);" cx="1260" cy="114" r="15" id="86"/>
+      <text style="white-space: pre; fill: rgb(255, 255, 255); font-family: Arial, sans-serif; font-size: 16px;" x="1250.124" y="119.45">16</text>
+      <circle style="fill: rgb(61, 85, 173);" cx="1300" cy="114" r="15" id="87"/>
+      <text style="white-space: pre; fill: rgb(255, 255, 255); font-family: Arial, sans-serif; font-size: 16px;" x="1290.124" y="119.45">17</text>
+      <circle style="fill: rgb(61, 85, 173);" cx="1345" cy="129" r="15" id="88"/>
+      <text style="white-space: pre; fill: rgb(255, 255, 255); font-family: Arial, sans-serif; font-size: 16px;" x="1335.605" y="134.931">18</text>
+      <circle style="fill: rgb(61, 85, 173);" cx="1376" cy="156" r="15" id="89"/>
+      <text style="white-space: pre; fill: rgb(255, 255, 255); font-family: Arial, sans-serif; font-size: 16px;" x="1367.086" y="161.931">19</text>
+      <circle style="fill: rgb(61, 85, 173);" cx="1407" cy="183" r="15" id="90"/>
+      <text style="white-space: pre; fill: rgb(255, 255, 255); font-family: Arial, sans-serif; font-size: 16px;" x="1398.086" y="188.45">20</text>
+    </g>
+    <g transform="matrix(1, 0, 0, 1, 0, 134)">
+      <circle style="fill: rgb(61, 85, 173);" cx="694" cy="183" r="15" id="52"/>
+      <text style="white-space: pre; fill: rgb(255, 255, 255); font-family: Arial, sans-serif; font-size: 16px;" x="688.935" y="188.45">1</text>
+      <circle style="fill: rgb(61, 85, 173);" cx="724" cy="156" r="15" id="53"/>
+      <text style="white-space: pre; fill: rgb(255, 255, 255); font-family: Arial, sans-serif; font-size: 16px;" x="718.935" y="161.45">2</text>
+      <circle style="fill: rgb(61, 85, 173);" cx="755" cy="129" r="15" id="54"/>
+      <text style="white-space: pre; fill: rgb(255, 255, 255); font-family: Arial, sans-serif; font-size: 16px;" x="749.935" y="134.45">3</text>
+      <circle style="fill: rgb(61, 85, 173);" cx="795" cy="114" r="15" id="55"/>
+      <text style="white-space: pre; fill: rgb(255, 255, 255); font-family: Arial, sans-serif; font-size: 16px;" x="789.935" y="119.45">4</text>
+      <circle style="fill: rgb(61, 85, 173);" cx="835" cy="114" r="15" id="56"/>
+      <text style="white-space: pre; fill: rgb(255, 255, 255); font-family: Arial, sans-serif; font-size: 16px;" x="829.935" y="119.45">5</text>
+      <circle style="fill: rgb(61, 85, 173);" cx="875" cy="114" r="15" id="57"/>
+      <text style="white-space: pre; fill: rgb(255, 255, 255); font-family: Arial, sans-serif; font-size: 16px;" x="869.935" y="119.45">6</text>
+      <circle style="fill: rgb(61, 85, 173);" cx="915" cy="114" r="15" id="58"/>
+      <text style="white-space: pre; fill: rgb(255, 255, 255); font-family: Arial, sans-serif; font-size: 16px;" x="909.935" y="119.45">7</text>
+      <circle style="fill: rgb(61, 85, 173);" cx="955" cy="114" r="15" id="59"/>
+      <text style="white-space: pre; fill: rgb(255, 255, 255); font-family: Arial, sans-serif; font-size: 16px;" x="949.935" y="119.45">8</text>
+      <circle style="fill: rgb(61, 85, 173);" cx="995" cy="114" r="15" id="60"/>
+      <text style="white-space: pre; fill: rgb(255, 255, 255); font-family: Arial, sans-serif; font-size: 16px;" x="989.935" y="119.45">9</text>
+      <circle style="fill: rgb(61, 85, 173);" cx="1035" cy="114" r="15" id="61"/>
+      <text style="white-space: pre; fill: rgb(255, 255, 255); font-family: Arial, sans-serif; font-size: 16px;" x="1025.605" y="118.969">10</text>
+      <circle style="fill: rgb(61, 85, 173);" cx="1075" cy="114" r="15" id="62"/>
+      <text style="white-space: pre; fill: rgb(255, 255, 255); font-family: Arial, sans-serif; font-size: 16px;" x="1066.567" y="119.45">11</text>
+      <circle style="fill: rgb(61, 85, 173);" cx="1115" cy="114" r="15" id="63"/>
+      <text style="white-space: pre; fill: rgb(255, 255, 255); font-family: Arial, sans-serif; font-size: 16px;" x="1105.605" y="119.45">12</text>
+      <circle style="fill: rgb(61, 85, 173);" cx="1155" cy="114" r="15" id="64"/>
+      <text style="white-space: pre; fill: rgb(255, 255, 255); font-family: Arial, sans-serif; font-size: 16px;" x="1145.124" y="119.45">13</text>
+      <circle style="fill: rgb(61, 85, 173);" cx="1195" cy="114" r="15" id="65"/>
+      <text style="white-space: pre; fill: rgb(255, 255, 255); font-family: Arial, sans-serif; font-size: 16px;" x="1185.124" y="118.969">14</text>
+      <circle style="fill: rgb(61, 85, 173);" cx="1235" cy="114" r="15" id="66"/>
+      <text style="white-space: pre; fill: rgb(255, 255, 255); font-family: Arial, sans-serif; font-size: 16px;" x="1224.642" y="119.931">15</text>
+      <circle style="fill: rgb(61, 85, 173);" cx="1275" cy="114" r="15" id="67"/>
+      <text style="white-space: pre; fill: rgb(255, 255, 255); font-family: Arial, sans-serif; font-size: 16px;" x="1265.605" y="118.969">16</text>
+      <circle style="fill: rgb(61, 85, 173);" cx="1320" cy="129" r="15" id="68"/>
+      <text style="white-space: pre; fill: rgb(255, 255, 255); font-family: Arial, sans-serif; font-size: 16px;" x="1310.124" y="134.931">17</text>
+      <circle style="fill: rgb(61, 85, 173);" cx="1351" cy="156" r="15" id="69"/>
+      <text style="white-space: pre; fill: rgb(255, 255, 255); font-family: Arial, sans-serif; font-size: 16px;" x="1341.124" y="160.969">18</text>
+      <circle style="fill: rgb(61, 85, 173);" cx="1382" cy="183" r="15" id="70"/>
+      <text style="white-space: pre; fill: rgb(255, 255, 255); font-family: Arial, sans-serif; font-size: 16px;" x="1372.605" y="188.931">19</text>
+    </g>
+    <rect x="299.344" y="457.192" width="157" height="141" style="fill: rgb(72, 72, 72);" transform="matrix(0.707107, 0.707107, -0.707107, 0.707107, 1755.894409, -204.951889)"/>
+    <text style="white-space: pre; fill: rgb(0, 0, 0); font-family: Arial, sans-serif; font-size: 30px;" x="424.703" y="614.86" transform="matrix(0.707107, 0.707107, -0.707107, 0.707107, 1679.742065, -253.835388)">выход</text>
+    <g transform="matrix(0.983699, -0.179832, 0.179832, 0.983699, 1412.560547, -4.092684)">
+      <circle style="fill: rgb(61, 85, 173);" cx="166" cy="1316" r="15" id="142"/>
+      <text style="white-space: pre; fill: rgb(255, 255, 255); font-family: Arial, sans-serif; font-size: 16px;" x="160.935" y="1321.45" transform="matrix(0.983697, 0.179832, -0.179832, 0.983697, 235.361908, -9.684423)">12</text>
+      <circle style="fill: rgb(61, 85, 173);" cx="170" cy="1273" r="15" id="141"/>
+      <text style="white-space: pre; fill: rgb(255, 255, 255); font-family: Arial, sans-serif; font-size: 16px;" x="164.935" y="1278.45" transform="matrix(0.983697, 0.179832, -0.179832, 0.983697, 228.616653, -10.842723)">11</text>
+      <circle style="fill: rgb(61, 85, 173);" cx="174" cy="1230" r="15" id="140"/>
+      <text style="white-space: pre; fill: rgb(255, 255, 255); font-family: Arial, sans-serif; font-size: 16px;" x="168.935" y="1235.449" transform="matrix(0.983697, 0.179832, -0.179832, 0.983697, 220.566162, -11.753548)">10</text>
+      <circle style="fill: rgb(61, 85, 173);" cx="178" cy="1187" r="15" id="139"/>
+      <text style="white-space: pre; fill: rgb(255, 255, 255); font-family: Arial, sans-serif; font-size: 16px;" x="172.935" y="1192.449" transform="matrix(0.983697, 0.179832, -0.179832, 0.983697, 216.275375, -12.692259)">9</text>
+      <circle style="fill: rgb(61, 85, 173);" cx="182" cy="1144" r="15" id="138"/>
+      <text style="white-space: pre; fill: rgb(255, 255, 255); font-family: Arial, sans-serif; font-size: 16px;" x="176.935" y="1149.449" transform="matrix(0.983697, 0.179832, -0.179832, 0.983697, 208.595688, -13.979137)">8</text>
+      <circle style="fill: rgb(61, 85, 173);" cx="186" cy="1101" r="15" id="137"/>
+      <text style="white-space: pre; fill: rgb(255, 255, 255); font-family: Arial, sans-serif; font-size: 16px;" x="180.935" y="1106.449" transform="matrix(0.983697, 0.179832, -0.179832, 0.983697, 200.928101, -15.399485)">7</text>
+      <circle style="fill: rgb(61, 85, 173);" cx="190" cy="1058" r="15" id="136"/>
+      <text style="white-space: pre; fill: rgb(255, 255, 255); font-family: Arial, sans-serif; font-size: 16px;" x="184.935" y="1063.449" transform="matrix(0.983697, 0.179832, -0.179832, 0.983697, 193.260513, -16.819832)">6</text>
+      <circle style="fill: rgb(61, 85, 173);" cx="194" cy="1015" r="15" id="135"/>
+      <text style="white-space: pre; fill: rgb(255, 255, 255); font-family: Arial, sans-serif; font-size: 16px;" x="188.935" y="1020.449" transform="matrix(0.983697, 0.179832, -0.179832, 0.983697, 185.592941, -18.240181)">5</text>
+      <circle style="fill: rgb(61, 85, 173);" cx="198" cy="972" r="15" id="134"/>
+      <text style="white-space: pre; fill: rgb(255, 255, 255); font-family: Arial, sans-serif; font-size: 16px;" x="192.934" y="977.449" transform="matrix(0.983697, 0.179832, -0.179832, 0.983697, 177.925354, -19.660528)">4</text>
+      <circle style="fill: rgb(61, 85, 173);" cx="202" cy="929" r="15" id="133"/>
+      <text style="white-space: pre; fill: rgb(255, 255, 255); font-family: Arial, sans-serif; font-size: 16px;" x="192.326" y="934.449" transform="matrix(0.983697, 0.179832, -0.179832, 0.983697, 175.455917, -20.969887)">3</text>
+      <circle style="fill: rgb(61, 85, 173);" cx="206" cy="886" r="15" id="132"/>
+      <text style="white-space: pre; fill: rgb(255, 255, 255); font-family: Arial, sans-serif; font-size: 16px;" x="197.14" y="890.907" transform="matrix(0.983697, 0.179832, -0.179832, 0.983697, 166.698349, -21.748281)">2</text>
+      <circle style="fill: rgb(61, 85, 173);" cx="210" cy="843" r="15" id="131"/>
+      <text style="white-space: pre; fill: rgb(255, 255, 255); font-family: Arial, sans-serif; font-size: 16px;" x="200.055" y="848.168" transform="matrix(0.983697, 0.179832, -0.179832, 0.983697, 159.173401, -23.640783)">1</text>
+      <circle style="fill: rgb(61, 85, 173);" cx="202" cy="1320" r="15" id="154"/>
+      <text style="white-space: pre; fill: rgb(255, 255, 255); font-family: Arial, sans-serif; font-size: 16px;" x="196.935" y="1325.45" transform="matrix(0.983697, 0.179832, -0.179832, 0.983697, 236.136993, -15.804226)">12</text>
+      <circle style="fill: rgb(61, 85, 173);" cx="206" cy="1277" r="15" id="153"/>
+      <text style="white-space: pre; fill: rgb(255, 255, 255); font-family: Arial, sans-serif; font-size: 16px;" x="200.935" y="1282.45" transform="matrix(0.983697, 0.179832, -0.179832, 0.983697, 229.642487, -17.302738)">11</text>
+      <circle style="fill: rgb(61, 85, 173);" cx="210" cy="1234" r="15" id="152"/>
+      <text style="white-space: pre; fill: rgb(255, 255, 255); font-family: Arial, sans-serif; font-size: 16px;" x="204.935" y="1239.449" transform="matrix(0.983697, 0.179832, -0.179832, 0.983697, 221.082474, -18.596474)">10</text>
+      <circle style="fill: rgb(61, 85, 173);" cx="214" cy="1191" r="15" id="151"/>
+      <text style="white-space: pre; fill: rgb(255, 255, 255); font-family: Arial, sans-serif; font-size: 16px;" x="208.935" y="1196.449" transform="matrix(0.983697, 0.179832, -0.179832, 0.983697, 217.581604, -19.101015)">9</text>
+      <circle style="fill: rgb(61, 85, 173);" cx="218" cy="1148" r="15" id="150"/>
+      <text style="white-space: pre; fill: rgb(255, 255, 255); font-family: Arial, sans-serif; font-size: 16px;" x="212.935" y="1153.449" transform="matrix(0.983697, 0.179832, -0.179832, 0.983697, 209.901917, -20.387894)">8</text>
+      <circle style="fill: rgb(61, 85, 173);" cx="222" cy="1105" r="15" id="149"/>
+      <text style="white-space: pre; fill: rgb(255, 255, 255); font-family: Arial, sans-serif; font-size: 16px;" x="216.935" y="1110.449" transform="matrix(0.983697, 0.179832, -0.179832, 0.983697, 202.234329, -21.808241)">7</text>
+      <circle style="fill: rgb(61, 85, 173);" cx="226" cy="1062" r="15" id="148"/>
+      <text style="white-space: pre; fill: rgb(255, 255, 255); font-family: Arial, sans-serif; font-size: 16px;" x="220.935" y="1067.449" transform="matrix(0.983697, 0.179832, -0.179832, 0.983697, 194.566742, -23.22859)">6</text>
+      <circle style="fill: rgb(61, 85, 173);" cx="230" cy="1019" r="15" id="147"/>
+      <text style="white-space: pre; fill: rgb(255, 255, 255); font-family: Arial, sans-serif; font-size: 16px;" x="224.935" y="1024.449" transform="matrix(0.983697, 0.179832, -0.179832, 0.983697, 186.89917, -24.648937)">5</text>
+      <circle style="fill: rgb(61, 85, 173);" cx="234" cy="976" r="15" id="146"/>
+      <text style="white-space: pre; fill: rgb(255, 255, 255); font-family: Arial, sans-serif; font-size: 16px;" x="228.934" y="981.449" transform="matrix(0.983697, 0.179832, -0.179832, 0.983697, 179.231583, -26.069284)">4</text>
+      <circle style="fill: rgb(61, 85, 173);" cx="238" cy="933" r="15" id="145"/>
+      <text style="white-space: pre; fill: rgb(255, 255, 255); font-family: Arial, sans-serif; font-size: 16px;" x="227.562" y="938.449" transform="matrix(0.983697, 0.179832, -0.179832, 0.983697, 177.693344, -27.647964)">3</text>
+      <circle style="fill: rgb(61, 85, 173);" cx="242" cy="890" r="15" id="144"/>
+      <text style="white-space: pre; fill: rgb(255, 255, 255); font-family: Arial, sans-serif; font-size: 16px;" x="232.636" y="895.449" transform="matrix(0.983697, 0.179832, -0.179832, 0.983697, 168.580185, -29.128511)">2</text>
+      <circle style="fill: rgb(61, 85, 173);" cx="246" cy="847" r="15" id="143"/>
+      <text style="white-space: pre; fill: rgb(255, 255, 255); font-family: Arial, sans-serif; font-size: 16px;" x="236.1" y="851.912" transform="matrix(0.983697, 0.179832, -0.179832, 0.983697, 161.835861, -29.804476)">1</text>
+      <circle style="fill: rgb(61, 85, 173);" cx="238" cy="1323" r="15" id="166"/>
+      <text style="white-space: pre; fill: rgb(255, 255, 255); font-family: Arial, sans-serif; font-size: 16px;" x="232.935" y="1328.45" transform="matrix(0.983697, 0.179832, -0.179832, 0.983697, 237.427628, -21.878773)">12</text>
+      <circle style="fill: rgb(61, 85, 173);" cx="242" cy="1280" r="15" id="165"/>
+      <text style="white-space: pre; fill: rgb(255, 255, 255); font-family: Arial, sans-serif; font-size: 16px;" x="236.935" y="1285.45" transform="matrix(0.983697, 0.179832, -0.179832, 0.983697, 231.329681, -23.62528)">11</text>
+      <circle style="fill: rgb(61, 85, 173);" cx="246" cy="1237" r="15" id="164"/>
+      <text style="white-space: pre; fill: rgb(255, 255, 255); font-family: Arial, sans-serif; font-size: 16px;" x="240.935" y="1242.449" transform="matrix(0.983697, 0.179832, -0.179832, 0.983697, 222.872177, -25.479795)">10</text>
+      <circle style="fill: rgb(61, 85, 173);" cx="250" cy="1194" r="15" id="163"/>
+      <text style="white-space: pre; fill: rgb(255, 255, 255); font-family: Arial, sans-serif; font-size: 16px;" x="244.935" y="1199.449" transform="matrix(0.983697, 0.179832, -0.179832, 0.983697, 218.707993, -25.526075)">9</text>
+      <circle style="fill: rgb(61, 85, 173);" cx="254" cy="1151" r="15" id="162"/>
+      <text style="white-space: pre; fill: rgb(255, 255, 255); font-family: Arial, sans-serif; font-size: 16px;" x="248.935" y="1156.449" transform="matrix(0.983697, 0.179832, -0.179832, 0.983697, 211.028305, -26.812954)">8</text>
+      <circle style="fill: rgb(61, 85, 173);" cx="258" cy="1108" r="15" id="161"/>
+      <text style="white-space: pre; fill: rgb(255, 255, 255); font-family: Arial, sans-serif; font-size: 16px;" x="252.935" y="1113.449" transform="matrix(0.983697, 0.179832, -0.179832, 0.983697, 203.360733, -28.233301)">7</text>
+      <circle style="fill: rgb(61, 85, 173);" cx="262" cy="1065" r="15" id="160"/>
+      <text style="white-space: pre; fill: rgb(255, 255, 255); font-family: Arial, sans-serif; font-size: 16px;" x="256.935" y="1070.449" transform="matrix(0.983697, 0.179832, -0.179832, 0.983697, 195.693146, -29.653648)">6</text>
+      <circle style="fill: rgb(61, 85, 173);" cx="266" cy="1022" r="15" id="159"/>
+      <text style="white-space: pre; fill: rgb(255, 255, 255); font-family: Arial, sans-serif; font-size: 16px;" x="260.935" y="1027.449" transform="matrix(0.983697, 0.179832, -0.179832, 0.983697, 188.025558, -31.073997)">5</text>
+      <circle style="fill: rgb(61, 85, 173);" cx="270" cy="979" r="15" id="158"/>
+      <text style="white-space: pre; fill: rgb(255, 255, 255); font-family: Arial, sans-serif; font-size: 16px;" x="264.934" y="984.449" transform="matrix(0.983697, 0.179832, -0.179832, 0.983697, 180.357971, -32.494343)">4</text>
+      <circle style="fill: rgb(61, 85, 173);" cx="274" cy="936" r="15" id="157"/>
+      <text style="white-space: pre; fill: rgb(255, 255, 255); font-family: Arial, sans-serif; font-size: 16px;" x="264.637" y="941.449" transform="matrix(0.983697, 0.179832, -0.179832, 0.983697, 178.276535, -34.369423)">3</text>
+      <circle style="fill: rgb(61, 85, 173);" cx="278" cy="893" r="15" id="156"/>
+      <text style="white-space: pre; fill: rgb(255, 255, 255); font-family: Arial, sans-serif; font-size: 16px;" x="268.637" y="898.449" transform="matrix(0.983697, 0.179832, -0.179832, 0.983697, 169.706573, -35.55357)">2</text>
+      <circle style="fill: rgb(61, 85, 173);" cx="282" cy="850" r="15" id="155"/>
+      <text style="white-space: pre; fill: rgb(255, 255, 255); font-family: Arial, sans-serif; font-size: 16px;" x="271.562" y="854.374" transform="matrix(0.983697, 0.179832, -0.179832, 0.983697, 162.473602, -35.631855)">1</text>
+    </g>
+    <g transform="matrix(0.898795, -0.438372, 0.438372, 0.898795, 1427.383789, 81.378197)">
+      <circle style="fill: rgb(61, 85, 173);" cx="59" cy="1181" r="15" id="181"/>
+      <text style="white-space: pre; fill: rgb(255, 255, 255); font-family: Arial, sans-serif; font-size: 16px;" x="53.935" y="1186.45" transform="matrix(0.898794, 0.438372, -0.438372, 0.898794, 519.256836, 91.497971)">15</text>
+      <circle style="fill: rgb(61, 85, 173);" cx="69" cy="1141" r="15" id="180"/>
+      <text style="white-space: pre; fill: rgb(255, 255, 255); font-family: Arial, sans-serif; font-size: 16px;" x="63.935" y="1146.45" transform="matrix(0.898794, 0.438371, -0.438371, 0.898794, 502.857269, 83.060143)">14</text>
+      <circle style="fill: rgb(61, 85, 173);" cx="79" cy="1101" r="15" id="179"/>
+      <text style="white-space: pre; fill: rgb(255, 255, 255); font-family: Arial, sans-serif; font-size: 16px;" x="73.935" y="1106.45" transform="matrix(0.898794, 0.438371, -0.438371, 0.898794, 486.095093, 74.871918)">13</text>
+      <circle style="fill: rgb(61, 85, 173);" cx="89" cy="1061" r="15" id="178"/>
+      <text style="white-space: pre; fill: rgb(255, 255, 255); font-family: Arial, sans-serif; font-size: 16px;" x="83.935" y="1066.45" transform="matrix(0.898794, 0.438371, -0.438371, 0.898794, 469.927612, 65.958603)">12</text>
+      <circle style="fill: rgb(61, 85, 173);" cx="99" cy="1021" r="15" id="177"/>
+      <text style="white-space: pre; fill: rgb(255, 255, 255); font-family: Arial, sans-serif; font-size: 16px;" x="93.935" y="1026.45" transform="matrix(0.898794, 0.438371, -0.438371, 0.898794, 454.237732, 58.587543)">11</text>
+      <circle style="fill: rgb(61, 85, 173);" cx="109" cy="981" r="15" id="176"/>
+      <text style="white-space: pre; fill: rgb(255, 255, 255); font-family: Arial, sans-serif; font-size: 16px;" x="103.935" y="986.45" transform="matrix(0.898794, 0.438371, -0.438371, 0.898794, 437.35556, 49.686146)">10</text>
+      <circle style="fill: rgb(61, 85, 173);" cx="119" cy="941" r="15" id="175"/>
+      <text style="white-space: pre; fill: rgb(255, 255, 255); font-family: Arial, sans-serif; font-size: 16px;" x="113.935" y="946.45" transform="matrix(0.898794, 0.438371, -0.438371, 0.898794, 424.519104, 43.34631)">9</text>
+      <circle style="fill: rgb(61, 85, 173);" cx="129" cy="901" r="15" id="174"/>
+      <text style="white-space: pre; fill: rgb(255, 255, 255); font-family: Arial, sans-serif; font-size: 16px;" x="123.935" y="906.449" transform="matrix(0.898794, 0.438371, -0.438371, 0.898794, 407.996338, 34.91436)">8</text>
+      <circle style="fill: rgb(61, 85, 173);" cx="139" cy="861" r="15" id="173"/>
+      <text style="white-space: pre; fill: rgb(255, 255, 255); font-family: Arial, sans-serif; font-size: 16px;" x="133.935" y="866.45" transform="matrix(0.898794, 0.438371, -0.438371, 0.898794, 391.827087, 26.360676)">7</text>
+      <circle style="fill: rgb(61, 85, 173);" cx="149" cy="821" r="15" id="172"/>
+      <text style="white-space: pre; fill: rgb(255, 255, 255); font-family: Arial, sans-serif; font-size: 16px;" x="139.623" y="826.45" transform="matrix(0.898794, 0.438371, -0.438371, 0.898794, 379.705322, 19.127964)">6</text>
+      <circle style="fill: rgb(61, 85, 173);" cx="150.307" cy="783.76" r="15" id="171"/>
+      <text style="white-space: pre; fill: rgb(255, 255, 255); font-family: Arial, sans-serif; font-size: 16px;" x="140.93" y="788.732" transform="matrix(0.898794, 0.438371, -0.438371, 0.898794, 363.011444, 15.470801)">5</text>
+      <circle style="fill: rgb(61, 85, 173);" cx="143.06" cy="743.376" r="15" id="170"/>
+      <text style="white-space: pre; fill: rgb(255, 255, 255); font-family: Arial, sans-serif; font-size: 16px;" x="133.204" y="749.305" transform="matrix(0.898794, 0.438371, -0.438371, 0.898794, 344.877167, 13.662374)">4</text>
+      <circle style="fill: rgb(61, 85, 173);" cx="131.114" cy="707.926" r="15" id="169"/>
+      <text style="white-space: pre; fill: rgb(255, 255, 255); font-family: Arial, sans-serif; font-size: 16px;" x="121.737" y="713.376" transform="matrix(0.898794, 0.438371, -0.438371, 0.898794, 327.855835, 15.882469)">3</text>
+      <circle style="fill: rgb(61, 85, 173);" cx="118.737" cy="673.872" r="15" id="168"/>
+      <text style="white-space: pre; fill: rgb(255, 255, 255); font-family: Arial, sans-serif; font-size: 16px;" x="108.402" y="679.322" transform="matrix(0.898794, 0.438371, -0.438371, 0.898794, 313.111084, 17.558233)">2</text>
+      <circle style="fill: rgb(61, 85, 173);" cx="106.985" cy="638.517" r="15" id="167"/>
+      <text style="white-space: pre; fill: rgb(255, 255, 255); font-family: Arial, sans-serif; font-size: 16px;" x="97.129" y="643.967" transform="matrix(0.898794, 0.438371, -0.438371, 0.898794, 295.172119, 19.167479)">1</text>
+    </g>
+    <g>
+      <circle style="fill: rgb(61, 85, 173);" cx="385" cy="1270" r="15" id="182"/>
+      <text style="white-space: pre; fill: rgb(255, 255, 255); font-family: Arial, sans-serif; font-size: 16px;" x="379.935" y="1275.45">1</text>
+      <circle style="fill: rgb(61, 85, 173);" cx="380" cy="1224" r="15" id="183"/>
+      <text style="white-space: pre; fill: rgb(255, 255, 255); font-family: Arial, sans-serif; font-size: 16px;" x="374.935" y="1229.45">2</text>
+      <circle style="fill: rgb(61, 85, 173);" cx="377" cy="1177" r="15" id="184"/>
+      <text style="white-space: pre; fill: rgb(255, 255, 255); font-family: Arial, sans-serif; font-size: 16px;" x="371.935" y="1182.45">3</text>
+      <circle style="fill: rgb(61, 85, 173);" cx="375" cy="1130" r="15" id="185"/>
+      <text style="white-space: pre; fill: rgb(255, 255, 255); font-family: Arial, sans-serif; font-size: 16px;" x="369.935" y="1135.45">4</text>
+      <circle style="fill: rgb(61, 85, 173);" cx="376" cy="1083" r="15" id="186"/>
+      <text style="white-space: pre; fill: rgb(255, 255, 255); font-family: Arial, sans-serif; font-size: 16px;" x="370.935" y="1088.45">5</text>
+      <circle style="fill: rgb(61, 85, 173);" cx="377.148" cy="1043.061" r="15" id="187"/>
+      <text style="white-space: pre; fill: rgb(255, 255, 255); font-family: Arial, sans-serif; font-size: 16px;" x="372.083" y="1048.511">6</text>
+      <circle style="fill: rgb(61, 85, 173);" cx="383" cy="988" r="15" id="188"/>
+      <text style="white-space: pre; fill: rgb(255, 255, 255); font-family: Arial, sans-serif; font-size: 16px;" x="377.935" y="993.45">7</text>
+      <circle style="fill: rgb(61, 85, 173);" cx="391" cy="940" r="15" id="189"/>
+      <text style="white-space: pre; fill: rgb(255, 255, 255); font-family: Arial, sans-serif; font-size: 16px;" x="385.935" y="945.45">8</text>
+      <circle style="fill: rgb(61, 85, 173);" cx="448" cy="824" r="15" id="190"/>
+      <text style="white-space: pre; fill: rgb(255, 255, 255); font-family: Arial, sans-serif; font-size: 16px;" x="442.935" y="829.45">9</text>
+      <circle style="fill: rgb(61, 85, 173);" cx="467" cy="777" r="15" id="191"/>
+      <text style="white-space: pre; fill: rgb(255, 255, 255); font-family: Arial, sans-serif; font-size: 16px;" x="457.255" y="782.09">10</text>
+      <circle style="fill: rgb(61, 85, 173);" cx="488" cy="730" r="15" id="192"/>
+      <text style="white-space: pre; fill: rgb(255, 255, 255); font-family: Arial, sans-serif; font-size: 16px;" x="478.975" y="734.73">11</text>
+      <circle style="fill: rgb(61, 85, 173);" cx="735" cy="433" r="15" id="193"/>
+      <text style="white-space: pre; fill: rgb(255, 255, 255); font-family: Arial, sans-serif; font-size: 16px;" x="725.615" y="438.09">12</text>
+      <circle style="fill: rgb(61, 85, 173);" cx="779" cy="411" r="15" id="194"/>
+      <text style="white-space: pre; fill: rgb(255, 255, 255); font-family: Arial, sans-serif; font-size: 16px;" x="769.975" y="416.45">13</text>
+      <circle style="fill: rgb(61, 85, 173);" cx="868" cy="379" r="15" id="195"/>
+      <text style="white-space: pre; fill: rgb(255, 255, 255); font-family: Arial, sans-serif; font-size: 16px;" x="858.615" y="384.09">14</text>
+      <circle style="fill: rgb(61, 85, 173);" cx="919" cy="369" r="15" id="196"/>
+      <text style="white-space: pre; fill: rgb(255, 255, 255); font-family: Arial, sans-serif; font-size: 16px;" x="909.615" y="374.45">15</text>
+      <circle style="fill: rgb(61, 85, 173);" cx="1122" cy="362" r="15" id="197"/>
+      <text style="white-space: pre; fill: rgb(255, 255, 255); font-family: Arial, sans-serif; font-size: 16px;" x="1111.895" y="367.09">16</text>
+      <circle style="fill: rgb(61, 85, 173);" cx="1172" cy="372" r="15" id="198"/>
+      <text style="white-space: pre; fill: rgb(255, 255, 255); font-family: Arial, sans-serif; font-size: 16px;" x="1161.895" y="377.09">17</text>
+      <circle style="fill: rgb(61, 85, 173);" cx="1261" cy="419" r="15" id="199"/>
+      <text style="white-space: pre; fill: rgb(255, 255, 255); font-family: Arial, sans-serif; font-size: 16px;" x="1251.975" y="424.45">18</text>
+      <circle style="fill: rgb(61, 85, 173);" cx="1455" cy="600" r="15" id="200"/>
+      <text style="white-space: pre; fill: rgb(255, 255, 255); font-family: Arial, sans-serif; font-size: 16px;" x="1445.255" y="604.73">19</text>
+      <circle style="fill: rgb(61, 85, 173);" cx="1484" cy="647" r="15" id="201"/>
+      <text style="white-space: pre; fill: rgb(255, 255, 255); font-family: Arial, sans-serif; font-size: 16px;" x="1475.695" y="652.45">20</text>
+      <circle style="fill: rgb(61, 85, 173);" cx="1513" cy="694" r="15" id="202"/>
+      <text style="white-space: pre; fill: rgb(255, 255, 255); font-family: Arial, sans-serif; font-size: 16px;" x="1504.695" y="699.45">21</text>
+      <circle style="fill: rgb(61, 85, 173);" cx="1651" cy="940" r="15" id="203"/>
+      <text style="white-space: pre; fill: rgb(255, 255, 255); font-family: Arial, sans-serif; font-size: 16px;" x="1641.975" y="945.45">22</text>
+      <circle style="fill: rgb(61, 85, 173);" cx="1659" cy="988" r="15" id="204"/>
+      <text style="white-space: pre; fill: rgb(255, 255, 255); font-family: Arial, sans-serif; font-size: 16px;" x="1650.695" y="993.45">23</text>
+      <circle style="fill: rgb(61, 85, 173);" cx="1665" cy="1035" r="15" id="205"/>
+      <text style="white-space: pre; fill: rgb(255, 255, 255); font-family: Arial, sans-serif; font-size: 16px;" x="1656.335" y="1040.81">24</text>
+      <circle style="fill: rgb(61, 85, 173);" cx="1667" cy="1083" r="15" id="206"/>
+      <text style="white-space: pre; fill: rgb(255, 255, 255); font-family: Arial, sans-serif; font-size: 16px;" x="1658.335" y="1088.811">25</text>
+      <circle style="fill: rgb(61, 85, 173);" cx="1668" cy="1130" r="15" id="207"/>
+      <text style="white-space: pre; fill: rgb(255, 255, 255); font-family: Arial, sans-serif; font-size: 16px;" x="1659.335" y="1135.45">26</text>
+      <circle style="fill: rgb(61, 85, 173);" cx="1667" cy="1177" r="15" id="208"/>
+      <text style="white-space: pre; fill: rgb(255, 255, 255); font-family: Arial, sans-serif; font-size: 16px;" x="1658.335" y="1182.45">27</text>
+      <circle style="fill: rgb(61, 85, 173);" cx="1665" cy="1224" r="15" id="209"/>
+      <text style="white-space: pre; fill: rgb(255, 255, 255); font-family: Arial, sans-serif; font-size: 16px;" x="1656.335" y="1229.81">28</text>
+      <circle style="fill: rgb(61, 85, 173);" cx="1660" cy="1271" r="15" id="210"/>
+      <text style="white-space: pre; fill: rgb(255, 255, 255); font-family: Arial, sans-serif; font-size: 16px;" x="1651.335" y="1276.81">29</text>
+    </g>
+    <g>
+      <circle style="fill: rgb(61, 85, 173);" cx="912" cy="482" r="15" id="456"/>
+      <text style="white-space: pre; fill: rgb(255, 255, 255); font-family: Arial, sans-serif; font-size: 16px;" x="906.935" y="487.45">1</text>
+      <circle style="fill: rgb(61, 85, 173);" cx="947" cy="482" r="15" id="457"/>
+      <text style="white-space: pre; fill: rgb(255, 255, 255); font-family: Arial, sans-serif; font-size: 16px;" x="941.935" y="487.45">2</text>
+      <circle style="fill: rgb(61, 85, 173);" cx="982" cy="482" r="15" id="458"/>
+      <text style="white-space: pre; fill: rgb(255, 255, 255); font-family: Arial, sans-serif; font-size: 16px;" x="976.935" y="487.45">3</text>
+      <circle style="fill: rgb(61, 85, 173);" cx="1061" cy="482" r="15" id="459"/>
+      <text style="white-space: pre; fill: rgb(255, 255, 255); font-family: Arial, sans-serif; font-size: 16px;" x="1055.935" y="487.45">4</text>
+      <circle style="fill: rgb(61, 85, 173);" cx="1096" cy="482" r="15" id="460"/>
+      <text style="white-space: pre; fill: rgb(255, 255, 255); font-family: Arial, sans-serif; font-size: 16px;" x="1090.935" y="487.45">5</text>
+      <circle style="fill: rgb(61, 85, 173);" cx="1131" cy="482" r="15" id="461"/>
+      <text style="white-space: pre; fill: rgb(255, 255, 255); font-family: Arial, sans-serif; font-size: 16px;" x="1125.935" y="487.45">6</text>
+      <circle style="fill: rgb(61, 85, 173);" cx="807" cy="529" r="15" id="443"/>
+      <text style="white-space: pre; fill: rgb(255, 255, 255); font-family: Arial, sans-serif; font-size: 16px;" x="801.935" y="534.45">1</text>
+      <circle style="fill: rgb(61, 85, 173);" cx="842" cy="529" r="15" id="444"/>
+      <text style="white-space: pre; fill: rgb(255, 255, 255); font-family: Arial, sans-serif; font-size: 16px;" x="836.935" y="534.45">2</text>
+      <circle style="fill: rgb(61, 85, 173);" cx="877" cy="529" r="15" id="445"/>
+      <text style="white-space: pre; fill: rgb(255, 255, 255); font-family: Arial, sans-serif; font-size: 16px;" x="871.935" y="534.45">3</text>
+      <circle style="fill: rgb(61, 85, 173);" cx="912" cy="529" r="15" id="446"/>
+      <text style="white-space: pre; fill: rgb(255, 255, 255); font-family: Arial, sans-serif; font-size: 16px;" x="906.935" y="534.45">4</text>
+      <circle style="fill: rgb(61, 85, 173);" cx="947" cy="529" r="15" id="447"/>
+      <text style="white-space: pre; fill: rgb(255, 255, 255); font-family: Arial, sans-serif; font-size: 16px;" x="941.935" y="534.45">5</text>
+      <circle style="fill: rgb(61, 85, 173);" cx="982" cy="529" r="15" id="448"/>
+      <text style="white-space: pre; fill: rgb(255, 255, 255); font-family: Arial, sans-serif; font-size: 16px;" x="976.935" y="534.45">6</text>
+      <circle style="fill: rgb(61, 85, 173);" cx="1061" cy="529" r="15" id="449"/>
+      <text style="white-space: pre; fill: rgb(255, 255, 255); font-family: Arial, sans-serif; font-size: 16px;" x="1055.935" y="534.45">7</text>
+      <circle style="fill: rgb(61, 85, 173);" cx="1096" cy="529" r="15" id="450"/>
+      <text style="white-space: pre; fill: rgb(255, 255, 255); font-family: Arial, sans-serif; font-size: 16px;" x="1090.935" y="534.45">8</text>
+      <circle style="fill: rgb(61, 85, 173);" cx="1131" cy="529" r="15" id="451"/>
+      <text style="white-space: pre; fill: rgb(255, 255, 255); font-family: Arial, sans-serif; font-size: 16px;" x="1125.935" y="534.45">9</text>
+      <circle style="fill: rgb(61, 85, 173);" cx="1166" cy="529" r="15" id="452"/>
+      <text style="white-space: pre; fill: rgb(255, 255, 255); font-family: Arial, sans-serif; font-size: 16px;" x="1156.525" y="534.94">10</text>
+      <circle style="fill: rgb(61, 85, 173);" cx="1201" cy="529" r="15" id="453"/>
+      <text style="white-space: pre; fill: rgb(255, 255, 255); font-family: Arial, sans-serif; font-size: 16px;" x="1192.505" y="534.45">11</text>
+      <circle style="fill: rgb(61, 85, 173);" cx="1236" cy="529" r="15" id="454"/>
+      <text style="white-space: pre; fill: rgb(255, 255, 255); font-family: Arial, sans-serif; font-size: 16px;" x="1226.035" y="534.45">12</text>
+      <circle style="fill: rgb(61, 85, 173);" cx="1271" cy="529" r="15" id="455"/>
+      <text style="white-space: pre; fill: rgb(255, 255, 255); font-family: Arial, sans-serif; font-size: 16px;" x="1261.035" y="534.45">13</text>
+      <circle style="fill: rgb(61, 85, 173);" cx="737" cy="576" r="15" id="426"/>
+      <text style="white-space: pre; fill: rgb(255, 255, 255); font-family: Arial, sans-serif; font-size: 16px;" x="731.935" y="581.45">1</text>
+      <circle style="fill: rgb(61, 85, 173);" cx="772" cy="576" r="15" id="427"/>
+      <text style="white-space: pre; fill: rgb(255, 255, 255); font-family: Arial, sans-serif; font-size: 16px;" x="766.935" y="581.45">2</text>
+      <circle style="fill: rgb(61, 85, 173);" cx="807" cy="576" r="15" id="428"/>
+      <text style="white-space: pre; fill: rgb(255, 255, 255); font-family: Arial, sans-serif; font-size: 16px;" x="801.935" y="581.45">3</text>
+      <circle style="fill: rgb(61, 85, 173);" cx="842" cy="576" r="15" id="429"/>
+      <text style="white-space: pre; fill: rgb(255, 255, 255); font-family: Arial, sans-serif; font-size: 16px;" x="836.935" y="581.45">4</text>
+      <circle style="fill: rgb(61, 85, 173);" cx="877" cy="576" r="15" id="430"/>
+      <text style="white-space: pre; fill: rgb(255, 255, 255); font-family: Arial, sans-serif; font-size: 16px;" x="871.935" y="581.45">5</text>
+      <circle style="fill: rgb(61, 85, 173);" cx="912" cy="576" r="15" id="431"/>
+      <text style="white-space: pre; fill: rgb(255, 255, 255); font-family: Arial, sans-serif; font-size: 16px;" x="906.935" y="581.45">6</text>
+      <circle style="fill: rgb(61, 85, 173);" cx="947" cy="576" r="15" id="432"/>
+      <text style="white-space: pre; fill: rgb(255, 255, 255); font-family: Arial, sans-serif; font-size: 16px;" x="941.935" y="581.45">7</text>
+      <circle style="fill: rgb(61, 85, 173);" cx="982" cy="576" r="15" id="433"/>
+      <text style="white-space: pre; fill: rgb(255, 255, 255); font-family: Arial, sans-serif; font-size: 16px;" x="976.935" y="581.45">8</text>
+      <circle style="fill: rgb(61, 85, 173);" cx="1061" cy="576" r="15" id="434"/>
+      <text style="white-space: pre; fill: rgb(255, 255, 255); font-family: Arial, sans-serif; font-size: 16px;" x="1055.935" y="581.45">9</text>
+      <circle style="fill: rgb(61, 85, 173);" cx="1096" cy="576" r="15" id="435"/>
+      <text style="white-space: pre; fill: rgb(255, 255, 255); font-family: Arial, sans-serif; font-size: 16px;" x="1087.015" y="581.45">10</text>
+      <circle style="fill: rgb(61, 85, 173);" cx="1131" cy="576" r="15" id="436"/>
+      <text style="white-space: pre; fill: rgb(255, 255, 255); font-family: Arial, sans-serif; font-size: 16px;" x="1122.015" y="581.45">11</text>
+      <circle style="fill: rgb(61, 85, 173);" cx="1166" cy="576" r="15" id="437"/>
+      <text style="white-space: pre; fill: rgb(255, 255, 255); font-family: Arial, sans-serif; font-size: 16px;" x="1156.035" y="581.45">12</text>
+      <circle style="fill: rgb(61, 85, 173);" cx="1201" cy="576" r="15" id="438"/>
+      <text style="white-space: pre; fill: rgb(255, 255, 255); font-family: Arial, sans-serif; font-size: 16px;" x="1191.035" y="581.45">13</text>
+      <circle style="fill: rgb(61, 85, 173);" cx="1236" cy="576" r="15" id="439"/>
+      <text style="white-space: pre; fill: rgb(255, 255, 255); font-family: Arial, sans-serif; font-size: 16px;" x="1226.525" y="581.45">14</text>
+      <circle style="fill: rgb(61, 85, 173);" cx="1271" cy="576" r="15" id="440"/>
+      <text style="white-space: pre; fill: rgb(255, 255, 255); font-family: Arial, sans-serif; font-size: 16px;" x="1261.525" y="581.45">15</text>
+      <circle style="fill: rgb(61, 85, 173);" cx="1306" cy="576" r="15" id="441"/>
+      <text style="white-space: pre; fill: rgb(255, 255, 255); font-family: Arial, sans-serif; font-size: 16px;" x="1296.035" y="581.45">16</text>
+      <circle style="fill: rgb(61, 85, 173);" cx="1341" cy="576" r="15" id="442"/>
+      <text style="white-space: pre; fill: rgb(255, 255, 255); font-family: Arial, sans-serif; font-size: 16px;" x="1331.525" y="581.45">17</text>
+      <circle style="fill: rgb(61, 85, 173);" cx="702" cy="623" r="15" id="408"/>
+      <text style="white-space: pre; fill: rgb(255, 255, 255); font-family: Arial, sans-serif; font-size: 16px;" x="696.935" y="628.45">1</text>
+      <circle style="fill: rgb(61, 85, 173);" cx="737" cy="623" r="15" id="409"/>
+      <text style="white-space: pre; fill: rgb(255, 255, 255); font-family: Arial, sans-serif; font-size: 16px;" x="731.935" y="628.45">2</text>
+      <circle style="fill: rgb(61, 85, 173);" cx="772" cy="623" r="15" id="410"/>
+      <text style="white-space: pre; fill: rgb(255, 255, 255); font-family: Arial, sans-serif; font-size: 16px;" x="766.935" y="628.45">3</text>
+      <circle style="fill: rgb(61, 85, 173);" cx="807" cy="623" r="15" id="411"/>
+      <text style="white-space: pre; fill: rgb(255, 255, 255); font-family: Arial, sans-serif; font-size: 16px;" x="801.935" y="628.45">4</text>
+      <circle style="fill: rgb(61, 85, 173);" cx="842" cy="623" r="15" id="412"/>
+      <text style="white-space: pre; fill: rgb(255, 255, 255); font-family: Arial, sans-serif; font-size: 16px;" x="836.935" y="628.45">5</text>
+      <circle style="fill: rgb(61, 85, 173);" cx="877" cy="623" r="15" id="413"/>
+      <text style="white-space: pre; fill: rgb(255, 255, 255); font-family: Arial, sans-serif; font-size: 16px;" x="871.935" y="628.45">6</text>
+      <circle style="fill: rgb(61, 85, 173);" cx="912" cy="623" r="15" id="414"/>
+      <text style="white-space: pre; fill: rgb(255, 255, 255); font-family: Arial, sans-serif; font-size: 16px;" x="906.935" y="628.45">7</text>
+      <circle style="fill: rgb(61, 85, 173);" cx="947" cy="623" r="15" id="415"/>
+      <text style="white-space: pre; fill: rgb(255, 255, 255); font-family: Arial, sans-serif; font-size: 16px;" x="941.935" y="628.45">8</text>
+      <circle style="fill: rgb(61, 85, 173);" cx="982" cy="623" r="15" id="416"/>
+      <text style="white-space: pre; fill: rgb(255, 255, 255); font-family: Arial, sans-serif; font-size: 16px;" x="976.935" y="628.45">9</text>
+      <circle style="fill: rgb(61, 85, 173);" cx="1061" cy="623" r="15" id="417"/>
+      <text style="white-space: pre; fill: rgb(255, 255, 255); font-family: Arial, sans-serif; font-size: 16px;" x="1051.035" y="628.45">10</text>
+      <circle style="fill: rgb(61, 85, 173);" cx="1096" cy="623" r="15" id="418"/>
+      <text style="white-space: pre; fill: rgb(255, 255, 255); font-family: Arial, sans-serif; font-size: 16px;" x="1087.505" y="628.45">11</text>
+      <circle style="fill: rgb(61, 85, 173);" cx="1131" cy="623" r="15" id="419"/>
+      <text style="white-space: pre; fill: rgb(255, 255, 255); font-family: Arial, sans-serif; font-size: 16px;" x="1121.525" y="628.45">12</text>
+      <circle style="fill: rgb(61, 85, 173);" cx="1166" cy="623" r="15" id="420"/>
+      <text style="white-space: pre; fill: rgb(255, 255, 255); font-family: Arial, sans-serif; font-size: 16px;" x="1156.525" y="628.45">13</text>
+      <circle style="fill: rgb(61, 85, 173);" cx="1201" cy="623" r="15" id="421"/>
+      <text style="white-space: pre; fill: rgb(255, 255, 255); font-family: Arial, sans-serif; font-size: 16px;" x="1191.525" y="628.45">14</text>
+      <circle style="fill: rgb(61, 85, 173);" cx="1236" cy="623" r="15" id="422"/>
+      <text style="white-space: pre; fill: rgb(255, 255, 255); font-family: Arial, sans-serif; font-size: 16px;" x="1226.035" y="628.94">15</text>
+      <circle style="fill: rgb(61, 85, 173);" cx="1271" cy="623" r="15" id="423"/>
+      <text style="white-space: pre; fill: rgb(255, 255, 255); font-family: Arial, sans-serif; font-size: 16px;" x="1261.035" y="628.45">16</text>
+      <circle style="fill: rgb(61, 85, 173);" cx="1306" cy="623" r="15" id="424"/>
+      <text style="white-space: pre; fill: rgb(255, 255, 255); font-family: Arial, sans-serif; font-size: 16px;" x="1296.035" y="628.45">17</text>
+      <circle style="fill: rgb(61, 85, 173);" cx="1341" cy="623" r="15" id="425"/>
+      <text style="white-space: pre; fill: rgb(255, 255, 255); font-family: Arial, sans-serif; font-size: 16px;" x="1331.525" y="628.45">18</text>
+    </g>
+    <g>
+      <circle style="fill: rgb(61, 85, 173);" cx="547" cy="830" r="15" id="387"/>
+      <text style="white-space: pre; fill: rgb(255, 255, 255); font-family: Arial, sans-serif; font-size: 16px;" x="541.935" y="835.45">1</text>
+      <circle style="fill: rgb(61, 85, 173);" cx="581" cy="822" r="15" id="388"/>
+      <text style="white-space: pre; fill: rgb(255, 255, 255); font-family: Arial, sans-serif; font-size: 16px;" x="575.935" y="827.45">2</text>
+      <circle style="fill: rgb(61, 85, 173);" cx="615" cy="814" r="15" id="389"/>
+      <text style="white-space: pre; fill: rgb(255, 255, 255); font-family: Arial, sans-serif; font-size: 16px;" x="609.935" y="819.45">3</text>
+      <circle style="fill: rgb(61, 85, 173);" cx="649" cy="806" r="15" id="390"/>
+      <text style="white-space: pre; fill: rgb(255, 255, 255); font-family: Arial, sans-serif; font-size: 16px;" x="643.935" y="811.45">4</text>
+      <circle style="fill: rgb(61, 85, 173);" cx="683" cy="797" r="15" id="391"/>
+      <text style="white-space: pre; fill: rgb(255, 255, 255); font-family: Arial, sans-serif; font-size: 16px;" x="677.935" y="802.45">5</text>
+      <circle style="fill: rgb(61, 85, 173);" cx="556" cy="876" r="15" id="366"/>
+      <text style="white-space: pre; fill: rgb(255, 255, 255); font-family: Arial, sans-serif; font-size: 16px;" x="550.935" y="881.45">1</text>
+      <circle style="fill: rgb(61, 85, 173);" cx="590" cy="868" r="15" id="367"/>
+      <text style="white-space: pre; fill: rgb(255, 255, 255); font-family: Arial, sans-serif; font-size: 16px;" x="584.935" y="873.45">2</text>
+      <circle style="fill: rgb(61, 85, 173);" cx="625" cy="860" r="15" id="368"/>
+      <text style="white-space: pre; fill: rgb(255, 255, 255); font-family: Arial, sans-serif; font-size: 16px;" x="619.935" y="865.45">3</text>
+      <circle style="fill: rgb(61, 85, 173);" cx="659" cy="852" r="15" id="369"/>
+      <text style="white-space: pre; fill: rgb(255, 255, 255); font-family: Arial, sans-serif; font-size: 16px;" x="653.935" y="857.45">4</text>
+      <circle style="fill: rgb(61, 85, 173);" cx="693" cy="844" r="15" id="370"/>
+      <text style="white-space: pre; fill: rgb(255, 255, 255); font-family: Arial, sans-serif; font-size: 16px;" x="687.935" y="849.45">5</text>
+      <circle style="fill: rgb(61, 85, 173);" cx="532" cy="931" r="15" id="343"/>
+      <text style="white-space: pre; fill: rgb(255, 255, 255); font-family: Arial, sans-serif; font-size: 16px;" x="526.935" y="936.45">1</text>
+      <circle style="fill: rgb(61, 85, 173);" cx="566" cy="922" r="15" id="344"/>
+      <text style="white-space: pre; fill: rgb(255, 255, 255); font-family: Arial, sans-serif; font-size: 16px;" x="560.935" y="927.45">2</text>
+      <circle style="fill: rgb(61, 85, 173);" cx="600" cy="914" r="15" id="345"/>
+      <text style="white-space: pre; fill: rgb(255, 255, 255); font-family: Arial, sans-serif; font-size: 16px;" x="594.935" y="919.45">3</text>
+      <circle style="fill: rgb(61, 85, 173);" cx="634" cy="906" r="15" id="346"/>
+      <text style="white-space: pre; fill: rgb(255, 255, 255); font-family: Arial, sans-serif; font-size: 16px;" x="628.935" y="911.45">4</text>
+      <circle style="fill: rgb(61, 85, 173);" cx="668" cy="898" r="15" id="347"/>
+      <text style="white-space: pre; fill: rgb(255, 255, 255); font-family: Arial, sans-serif; font-size: 16px;" x="662.935" y="903.45">5</text>
+      <circle style="fill: rgb(61, 85, 173);" cx="703" cy="890" r="15" id="348"/>
+      <text style="white-space: pre; fill: rgb(255, 255, 255); font-family: Arial, sans-serif; font-size: 16px;" x="697.935" y="895.45">6</text>
+      <circle style="fill: rgb(61, 85, 173);" cx="542" cy="977" r="15" id="320"/>
+      <text style="white-space: pre; fill: rgb(255, 255, 255); font-family: Arial, sans-serif; font-size: 16px;" x="536.935" y="982.45">1</text>
+      <circle style="fill: rgb(61, 85, 173);" cx="577" cy="969" r="15" id="321"/>
+      <text style="white-space: pre; fill: rgb(255, 255, 255); font-family: Arial, sans-serif; font-size: 16px;" x="571.935" y="974.45">2</text>
+      <circle style="fill: rgb(61, 85, 173);" cx="610" cy="960" r="15" id="322"/>
+      <text style="white-space: pre; fill: rgb(255, 255, 255); font-family: Arial, sans-serif; font-size: 16px;" x="604.935" y="965.45">3</text>
+      <circle style="fill: rgb(61, 85, 173);" cx="644" cy="952" r="15" id="323"/>
+      <text style="white-space: pre; fill: rgb(255, 255, 255); font-family: Arial, sans-serif; font-size: 16px;" x="638.935" y="957.45">4</text>
+      <circle style="fill: rgb(61, 85, 173);" cx="678" cy="944" r="15" id="324"/>
+      <text style="white-space: pre; fill: rgb(255, 255, 255); font-family: Arial, sans-serif; font-size: 16px;" x="672.935" y="949.45">5</text>
+      <circle style="fill: rgb(61, 85, 173);" cx="712" cy="936" r="15" id="325"/>
+      <text style="white-space: pre; fill: rgb(255, 255, 255); font-family: Arial, sans-serif; font-size: 16px;" x="706.935" y="941.45">6</text>
+      <circle style="fill: rgb(61, 85, 173);" cx="551" cy="1023" r="15" id="297"/>
+      <text style="white-space: pre; fill: rgb(255, 255, 255); font-family: Arial, sans-serif; font-size: 16px;" x="545.935" y="1028.45">1</text>
+      <circle style="fill: rgb(61, 85, 173);" cx="585" cy="1015" r="15" id="298"/>
+      <text style="white-space: pre; fill: rgb(255, 255, 255); font-family: Arial, sans-serif; font-size: 16px;" x="579.935" y="1020.45">2</text>
+      <circle style="fill: rgb(61, 85, 173);" cx="620" cy="1006" r="15" id="299"/>
+      <text style="white-space: pre; fill: rgb(255, 255, 255); font-family: Arial, sans-serif; font-size: 16px;" x="614.935" y="1011.45">3</text>
+      <circle style="fill: rgb(61, 85, 173);" cx="654" cy="998" r="15" id="300"/>
+      <text style="white-space: pre; fill: rgb(255, 255, 255); font-family: Arial, sans-serif; font-size: 16px;" x="648.935" y="1003.45">4</text>
+      <circle style="fill: rgb(61, 85, 173);" cx="688" cy="990" r="15" id="301"/>
+      <text style="white-space: pre; fill: rgb(255, 255, 255); font-family: Arial, sans-serif; font-size: 16px;" x="682.935" y="995.45">5</text>
+      <circle style="fill: rgb(61, 85, 173);" cx="722" cy="982" r="15" id="302"/>
+      <text style="white-space: pre; fill: rgb(255, 255, 255); font-family: Arial, sans-serif; font-size: 16px;" x="716.935" y="987.45">6</text>
+      <circle style="fill: rgb(61, 85, 173);" cx="561" cy="1069" r="15" id="274"/>
+      <text style="white-space: pre; fill: rgb(255, 255, 255); font-family: Arial, sans-serif; font-size: 16px;" x="555.935" y="1074.45">1</text>
+      <circle style="fill: rgb(61, 85, 173);" cx="595" cy="1060" r="15" id="275"/>
+      <text style="white-space: pre; fill: rgb(255, 255, 255); font-family: Arial, sans-serif; font-size: 16px;" x="589.935" y="1065.45">2</text>
+      <circle style="fill: rgb(61, 85, 173);" cx="629" cy="1052" r="15" id="276"/>
+      <text style="white-space: pre; fill: rgb(255, 255, 255); font-family: Arial, sans-serif; font-size: 16px;" x="623.935" y="1057.45">3</text>
+      <circle style="fill: rgb(61, 85, 173);" cx="663" cy="1044" r="15" id="277"/>
+      <text style="white-space: pre; fill: rgb(255, 255, 255); font-family: Arial, sans-serif; font-size: 16px;" x="657.935" y="1049.45">4</text>
+      <circle style="fill: rgb(61, 85, 173);" cx="697" cy="1036" r="15" id="278"/>
+      <text style="white-space: pre; fill: rgb(255, 255, 255); font-family: Arial, sans-serif; font-size: 16px;" x="691.935" y="1041.45">5</text>
+      <circle style="fill: rgb(61, 85, 173);" cx="732" cy="1028" r="15" id="279"/>
+      <text style="white-space: pre; fill: rgb(255, 255, 255); font-family: Arial, sans-serif; font-size: 16px;" x="726.935" y="1033.45">6</text>
+      <circle style="fill: rgb(61, 85, 173);" cx="571" cy="1115" r="15" id="251"/>
+      <text style="white-space: pre; fill: rgb(255, 255, 255); font-family: Arial, sans-serif; font-size: 16px;" x="565.935" y="1120.45">1</text>
+      <circle style="fill: rgb(61, 85, 173);" cx="605" cy="1106" r="15" id="252"/>
+      <text style="white-space: pre; fill: rgb(255, 255, 255); font-family: Arial, sans-serif; font-size: 16px;" x="599.935" y="1111.45">2</text>
+      <circle style="fill: rgb(61, 85, 173);" cx="639" cy="1098" r="15" id="253"/>
+      <text style="white-space: pre; fill: rgb(255, 255, 255); font-family: Arial, sans-serif; font-size: 16px;" x="633.935" y="1103.45">3</text>
+      <circle style="fill: rgb(61, 85, 173);" cx="673" cy="1090" r="15" id="254"/>
+      <text style="white-space: pre; fill: rgb(255, 255, 255); font-family: Arial, sans-serif; font-size: 16px;" x="667.935" y="1095.45">4</text>
+      <circle style="fill: rgb(61, 85, 173);" cx="707" cy="1082" r="15" id="255"/>
+      <text style="white-space: pre; fill: rgb(255, 255, 255); font-family: Arial, sans-serif; font-size: 16px;" x="701.935" y="1087.45">5</text>
+      <circle style="fill: rgb(61, 85, 173);" cx="741" cy="1073" r="15" id="256"/>
+      <text style="white-space: pre; fill: rgb(255, 255, 255); font-family: Arial, sans-serif; font-size: 16px;" x="735.935" y="1078.45">6</text>
+      <circle style="fill: rgb(61, 85, 173);" cx="580" cy="1161" r="15" id="228"/>
+      <text style="white-space: pre; fill: rgb(255, 255, 255); font-family: Arial, sans-serif; font-size: 16px;" x="574.935" y="1166.45">1</text>
+      <circle style="fill: rgb(61, 85, 173);" cx="614" cy="1152" r="15" id="229"/>
+      <text style="white-space: pre; fill: rgb(255, 255, 255); font-family: Arial, sans-serif; font-size: 16px;" x="608.935" y="1157.45">2</text>
+      <circle style="fill: rgb(61, 85, 173);" cx="649" cy="1145" r="15" id="230"/>
+      <text style="white-space: pre; fill: rgb(255, 255, 255); font-family: Arial, sans-serif; font-size: 16px;" x="643.935" y="1150.45">3</text>
+      <circle style="fill: rgb(61, 85, 173);" cx="683" cy="1136" r="15" id="231"/>
+      <text style="white-space: pre; fill: rgb(255, 255, 255); font-family: Arial, sans-serif; font-size: 16px;" x="677.935" y="1141.45">4</text>
+      <circle style="fill: rgb(61, 85, 173);" cx="717" cy="1128" r="15" id="232"/>
+      <text style="white-space: pre; fill: rgb(255, 255, 255); font-family: Arial, sans-serif; font-size: 16px;" x="711.935" y="1133.45">5</text>
+      <circle style="fill: rgb(61, 85, 173);" cx="751" cy="1120" r="15" id="233"/>
+      <text style="white-space: pre; fill: rgb(255, 255, 255); font-family: Arial, sans-serif; font-size: 16px;" x="745.935" y="1125.45">6</text>
+      <circle style="fill: rgb(61, 85, 173);" cx="658" cy="1190" r="15" id="211"/>
+      <text style="white-space: pre; fill: rgb(255, 255, 255); font-family: Arial, sans-serif; font-size: 16px;" x="652.935" y="1195.45">1</text>
+      <circle style="fill: rgb(61, 85, 173);" cx="692" cy="1182" r="15" id="212"/>
+      <text style="white-space: pre; fill: rgb(255, 255, 255); font-family: Arial, sans-serif; font-size: 16px;" x="686.935" y="1187.45">2</text>
+      <circle style="fill: rgb(61, 85, 173);" cx="726" cy="1174" r="15" id="213"/>
+      <text style="white-space: pre; fill: rgb(255, 255, 255); font-family: Arial, sans-serif; font-size: 16px;" x="720.935" y="1179.45">3</text>
+      <circle style="fill: rgb(61, 85, 173);" cx="761" cy="1165" r="15" id="214"/>
+      <text style="white-space: pre; fill: rgb(255, 255, 255); font-family: Arial, sans-serif; font-size: 16px;" x="755.935" y="1170.45">4</text>
+      <circle style="fill: rgb(61, 85, 173);" cx="821" cy="781" r="15" id="392"/>
+      <text style="white-space: pre; fill: rgb(255, 255, 255); font-family: Arial, sans-serif; font-size: 16px;" x="815.935" y="786.45">6</text>
+      <circle style="fill: rgb(61, 85, 173);" cx="861" cy="781" r="15" id="393"/>
+      <text style="white-space: pre; fill: rgb(255, 255, 255); font-family: Arial, sans-serif; font-size: 16px;" x="855.935" y="786.45">7</text>
+      <circle style="fill: rgb(61, 85, 173);" cx="901" cy="781" r="15" id="394"/>
+      <text style="white-space: pre; fill: rgb(255, 255, 255); font-family: Arial, sans-serif; font-size: 16px;" x="895.935" y="786.45">8</text>
+      <circle style="fill: rgb(61, 85, 173);" cx="941" cy="781" r="15" id="395"/>
+      <text style="white-space: pre; fill: rgb(255, 255, 255); font-family: Arial, sans-serif; font-size: 16px;" x="935.935" y="786.45">9</text>
+      <circle style="fill: rgb(61, 85, 173);" cx="981" cy="781" r="15" id="396"/>
+      <text style="white-space: pre; fill: rgb(255, 255, 255); font-family: Arial, sans-serif; font-size: 16px;" x="972.14" y="787.082">10</text>
+      <circle style="fill: rgb(61, 85, 173);" cx="1022" cy="781" r="15" id="397"/>
+      <text style="white-space: pre; fill: rgb(255, 255, 255); font-family: Arial, sans-serif; font-size: 16px;" x="1013.14" y="786.45">11</text>
+      <circle style="fill: rgb(61, 85, 173);" cx="1062" cy="781" r="15" id="398"/>
+      <text style="white-space: pre; fill: rgb(255, 255, 255); font-family: Arial, sans-serif; font-size: 16px;" x="1052.056" y="786.45">12</text>
+      <circle style="fill: rgb(61, 85, 173);" cx="1102" cy="781" r="15" id="399"/>
+      <text style="white-space: pre; fill: rgb(255, 255, 255); font-family: Arial, sans-serif; font-size: 16px;" x="1091.68" y="786.45">13</text>
+      <circle style="fill: rgb(61, 85, 173);" cx="1142" cy="781" r="15" id="400"/>
+      <text style="white-space: pre; fill: rgb(255, 255, 255); font-family: Arial, sans-serif; font-size: 16px;" x="1132.056" y="786.075">14</text>
+      <circle style="fill: rgb(61, 85, 173);" cx="1182" cy="781" r="15" id="401"/>
+      <text style="white-space: pre; fill: rgb(255, 255, 255); font-family: Arial, sans-serif; font-size: 16px;" x="1172.806" y="786.075">15</text>
+      <circle style="fill: rgb(61, 85, 173);" cx="1222" cy="781" r="15" id="402"/>
+      <text style="white-space: pre; fill: rgb(255, 255, 255); font-family: Arial, sans-serif; font-size: 16px;" x="1212.806" y="785.699">16</text>
+      <circle style="fill: rgb(61, 85, 173);" cx="821" cy="828" r="15" id="371"/>
+      <text style="white-space: pre; fill: rgb(255, 255, 255); font-family: Arial, sans-serif; font-size: 16px;" x="815.935" y="833.45">6</text>
+      <circle style="fill: rgb(61, 85, 173);" cx="861" cy="828" r="15" id="372"/>
+      <text style="white-space: pre; fill: rgb(255, 255, 255); font-family: Arial, sans-serif; font-size: 16px;" x="855.935" y="833.45">7</text>
+      <circle style="fill: rgb(61, 85, 173);" cx="901" cy="828" r="15" id="373"/>
+      <text style="white-space: pre; fill: rgb(255, 255, 255); font-family: Arial, sans-serif; font-size: 16px;" x="895.935" y="833.45">8</text>
+      <circle style="fill: rgb(61, 85, 173);" cx="941" cy="828" r="15" id="374"/>
+      <text style="white-space: pre; fill: rgb(255, 255, 255); font-family: Arial, sans-serif; font-size: 16px;" x="935.935" y="833.45">9</text>
+      <circle style="fill: rgb(61, 85, 173);" cx="981" cy="828" r="15" id="375"/>
+      <text style="white-space: pre; fill: rgb(255, 255, 255); font-family: Arial, sans-serif; font-size: 16px;" x="971.431" y="832.699">10</text>
+      <circle style="fill: rgb(61, 85, 173);" cx="1022" cy="828" r="15" id="376"/>
+      <text style="white-space: pre; fill: rgb(255, 255, 255); font-family: Arial, sans-serif; font-size: 16px;" x="1013.182" y="832.699">11</text>
+      <circle style="fill: rgb(61, 85, 173);" cx="1062" cy="828" r="15" id="377"/>
+      <text style="white-space: pre; fill: rgb(255, 255, 255); font-family: Arial, sans-serif; font-size: 16px;" x="1052.056" y="833.075">12</text>
+      <circle style="fill: rgb(61, 85, 173);" cx="1102" cy="828" r="15" id="378"/>
+      <text style="white-space: pre; fill: rgb(255, 255, 255); font-family: Arial, sans-serif; font-size: 16px;" x="1092.806" y="833.45">13</text>
+      <circle style="fill: rgb(61, 85, 173);" cx="1142" cy="828" r="15" id="379"/>
+      <text style="white-space: pre; fill: rgb(255, 255, 255); font-family: Arial, sans-serif; font-size: 16px;" x="1132.431" y="833.45">14</text>
+      <circle style="fill: rgb(61, 85, 173);" cx="1182" cy="828" r="15" id="380"/>
+      <text style="white-space: pre; fill: rgb(255, 255, 255); font-family: Arial, sans-serif; font-size: 16px;" x="1172.431" y="833.45">15</text>
+      <circle style="fill: rgb(61, 85, 173);" cx="1222" cy="828" r="15" id="381"/>
+      <text style="white-space: pre; fill: rgb(255, 255, 255); font-family: Arial, sans-serif; font-size: 16px;" x="1213.182" y="833.45">16</text>
+      <circle style="fill: rgb(61, 85, 173);" cx="821" cy="875" r="15" id="349"/>
+      <text style="white-space: pre; fill: rgb(255, 255, 255); font-family: Arial, sans-serif; font-size: 16px;" x="815.935" y="880.45">7</text>
+      <circle style="fill: rgb(61, 85, 173);" cx="861" cy="875" r="15" id="350"/>
+      <text style="white-space: pre; fill: rgb(255, 255, 255); font-family: Arial, sans-serif; font-size: 16px;" x="855.935" y="880.45">8</text>
+      <circle style="fill: rgb(61, 85, 173);" cx="901" cy="875" r="15" id="351"/>
+      <text style="white-space: pre; fill: rgb(255, 255, 255); font-family: Arial, sans-serif; font-size: 16px;" x="895.935" y="880.45">9</text>
+      <circle style="fill: rgb(61, 85, 173);" cx="941" cy="875" r="15" id="352"/>
+      <text style="white-space: pre; fill: rgb(255, 255, 255); font-family: Arial, sans-serif; font-size: 16px;" x="932.182" y="880.825">10</text>
+      <circle style="fill: rgb(61, 85, 173);" cx="981" cy="875" r="15" id="353"/>
+      <text style="white-space: pre; fill: rgb(255, 255, 255); font-family: Arial, sans-serif; font-size: 16px;" x="972.182" y="880.45">11</text>
+      <circle style="fill: rgb(61, 85, 173);" cx="1022" cy="875" r="15" id="354"/>
+      <text style="white-space: pre; fill: rgb(255, 255, 255); font-family: Arial, sans-serif; font-size: 16px;" x="1012.431" y="880.45">12</text>
+      <circle style="fill: rgb(61, 85, 173);" cx="1062" cy="875" r="15" id="355"/>
+      <text style="white-space: pre; fill: rgb(255, 255, 255); font-family: Arial, sans-serif; font-size: 16px;" x="1052.056" y="880.45">13</text>
+      <circle style="fill: rgb(61, 85, 173);" cx="1102" cy="875" r="15" id="356"/>
+      <text style="white-space: pre; fill: rgb(255, 255, 255); font-family: Arial, sans-serif; font-size: 16px;" x="1092.806" y="880.075">14</text>
+      <circle style="fill: rgb(61, 85, 173);" cx="1142" cy="875" r="15" id="357"/>
+      <text style="white-space: pre; fill: rgb(255, 255, 255); font-family: Arial, sans-serif; font-size: 16px;" x="1132.056" y="880.075">15</text>
+      <circle style="fill: rgb(61, 85, 173);" cx="1182" cy="875" r="15" id="358"/>
+      <text style="white-space: pre; fill: rgb(255, 255, 255); font-family: Arial, sans-serif; font-size: 16px;" x="1172.431" y="880.45">16</text>
+      <circle style="fill: rgb(61, 85, 173);" cx="1222" cy="875" r="15" id="359"/>
+      <text style="white-space: pre; fill: rgb(255, 255, 255); font-family: Arial, sans-serif; font-size: 16px;" x="1213.182" y="880.45">17</text>
+      <circle style="fill: rgb(61, 85, 173);" cx="821" cy="922" r="15" id="326"/>
+      <text style="white-space: pre; fill: rgb(255, 255, 255); font-family: Arial, sans-serif; font-size: 16px;" x="815.935" y="927.45">7</text>
+      <circle style="fill: rgb(61, 85, 173);" cx="861" cy="922" r="15" id="327"/>
+      <text style="white-space: pre; fill: rgb(255, 255, 255); font-family: Arial, sans-serif; font-size: 16px;" x="855.935" y="927.45">8</text>
+      <circle style="fill: rgb(61, 85, 173);" cx="901" cy="922" r="15" id="328"/>
+      <text style="white-space: pre; fill: rgb(255, 255, 255); font-family: Arial, sans-serif; font-size: 16px;" x="895.935" y="927.45">9</text>
+      <circle style="fill: rgb(61, 85, 173);" cx="941" cy="922" r="15" id="329"/>
+      <text style="white-space: pre; fill: rgb(255, 255, 255); font-family: Arial, sans-serif; font-size: 16px;" x="931.431" y="927.45">10</text>
+      <circle style="fill: rgb(61, 85, 173);" cx="981" cy="922" r="15" id="330"/>
+      <text style="white-space: pre; fill: rgb(255, 255, 255); font-family: Arial, sans-serif; font-size: 16px;" x="971.806" y="927.45">11</text>
+      <circle style="fill: rgb(61, 85, 173);" cx="1022" cy="922" r="15" id="331"/>
+      <text style="white-space: pre; fill: rgb(255, 255, 255); font-family: Arial, sans-serif; font-size: 16px;" x="1012.431" y="927.075">12</text>
+      <circle style="fill: rgb(61, 85, 173);" cx="1062" cy="922" r="15" id="332"/>
+      <text style="white-space: pre; fill: rgb(255, 255, 255); font-family: Arial, sans-serif; font-size: 16px;" x="1052.056" y="928.2">13</text>
+      <circle style="fill: rgb(61, 85, 173);" cx="1102" cy="922" r="15" id="333"/>
+      <text style="white-space: pre; fill: rgb(255, 255, 255); font-family: Arial, sans-serif; font-size: 16px;" x="1092.431" y="927.45">14</text>
+      <circle style="fill: rgb(61, 85, 173);" cx="1142" cy="922" r="15" id="334"/>
+      <text style="white-space: pre; fill: rgb(255, 255, 255); font-family: Arial, sans-serif; font-size: 16px;" x="1132.056" y="927.825">15</text>
+      <circle style="fill: rgb(61, 85, 173);" cx="1182" cy="922" r="15" id="335"/>
+      <text style="white-space: pre; fill: rgb(255, 255, 255); font-family: Arial, sans-serif; font-size: 16px;" x="1172.056" y="927.45">16</text>
+      <circle style="fill: rgb(61, 85, 173);" cx="1222" cy="922" r="15" id="336"/>
+      <text style="white-space: pre; fill: rgb(255, 255, 255); font-family: Arial, sans-serif; font-size: 16px;" x="1212.806" y="927.075">17</text>
+      <circle style="fill: rgb(61, 85, 173);" cx="821" cy="969" r="15" id="303"/>
+      <text style="white-space: pre; fill: rgb(255, 255, 255); font-family: Arial, sans-serif; font-size: 16px;" x="815.935" y="974.45">7</text>
+      <circle style="fill: rgb(61, 85, 173);" cx="861" cy="969" r="15" id="304"/>
+      <text style="white-space: pre; fill: rgb(255, 255, 255); font-family: Arial, sans-serif; font-size: 16px;" x="855.935" y="974.45">8</text>
+      <circle style="fill: rgb(61, 85, 173);" cx="901" cy="969" r="15" id="305"/>
+      <text style="white-space: pre; fill: rgb(255, 255, 255); font-family: Arial, sans-serif; font-size: 16px;" x="895.935" y="974.45">9</text>
+      <circle style="fill: rgb(61, 85, 173);" cx="941" cy="969" r="15" id="306"/>
+      <text style="white-space: pre; fill: rgb(255, 255, 255); font-family: Arial, sans-serif; font-size: 16px;" x="931.056" y="974.45">10</text>
+      <circle style="fill: rgb(61, 85, 173);" cx="981" cy="969" r="15" id="307"/>
+      <text style="white-space: pre; fill: rgb(255, 255, 255); font-family: Arial, sans-serif; font-size: 16px;" x="972.182" y="974.45">11</text>
+      <circle style="fill: rgb(61, 85, 173);" cx="1022" cy="969" r="15" id="308"/>
+      <text style="white-space: pre; fill: rgb(255, 255, 255); font-family: Arial, sans-serif; font-size: 16px;" x="1012.806" y="974.075">12</text>
+      <circle style="fill: rgb(61, 85, 173);" cx="1062" cy="969" r="15" id="309"/>
+      <text style="white-space: pre; fill: rgb(255, 255, 255); font-family: Arial, sans-serif; font-size: 16px;" x="1052.056" y="974.825">13</text>
+      <circle style="fill: rgb(61, 85, 173);" cx="1102" cy="969" r="15" id="310"/>
+      <text style="white-space: pre; fill: rgb(255, 255, 255); font-family: Arial, sans-serif; font-size: 16px;" x="1092.431" y="974.45">14</text>
+      <circle style="fill: rgb(61, 85, 173);" cx="1142" cy="969" r="15" id="311"/>
+      <text style="white-space: pre; fill: rgb(255, 255, 255); font-family: Arial, sans-serif; font-size: 16px;" x="1133.182" y="974.45">15</text>
+      <circle style="fill: rgb(61, 85, 173);" cx="1182" cy="969" r="15" id="312"/>
+      <text style="white-space: pre; fill: rgb(255, 255, 255); font-family: Arial, sans-serif; font-size: 16px;" x="1172.431" y="974.075">16</text>
+      <circle style="fill: rgb(61, 85, 173);" cx="1222" cy="969" r="15" id="313"/>
+      <text style="white-space: pre; fill: rgb(255, 255, 255); font-family: Arial, sans-serif; font-size: 16px;" x="1212.431" y="974.45">17</text>
+      <circle style="fill: rgb(61, 85, 173);" cx="821" cy="1016" r="15" id="280"/>
+      <text style="white-space: pre; fill: rgb(255, 255, 255); font-family: Arial, sans-serif; font-size: 16px;" x="815.935" y="1021.45">7</text>
+      <circle style="fill: rgb(61, 85, 173);" cx="861" cy="1016" r="15" id="281"/>
+      <text style="white-space: pre; fill: rgb(255, 255, 255); font-family: Arial, sans-serif; font-size: 16px;" x="855.935" y="1021.45">8</text>
+      <circle style="fill: rgb(61, 85, 173);" cx="901" cy="1016" r="15" id="282"/>
+      <text style="white-space: pre; fill: rgb(255, 255, 255); font-family: Arial, sans-serif; font-size: 16px;" x="895.935" y="1021.45">9</text>
+      <circle style="fill: rgb(61, 85, 173);" cx="941" cy="1016" r="15" id="283"/>
+      <text style="white-space: pre; fill: rgb(255, 255, 255); font-family: Arial, sans-serif; font-size: 16px;" x="931.806" y="1021.45">10</text>
+      <circle style="fill: rgb(61, 85, 173);" cx="981" cy="1016" r="15" id="284"/>
+      <text style="white-space: pre; fill: rgb(255, 255, 255); font-family: Arial, sans-serif; font-size: 16px;" x="972.182" y="1021.075">11</text>
+      <circle style="fill: rgb(61, 85, 173);" cx="1022" cy="1016" r="15" id="285"/>
+      <text style="white-space: pre; fill: rgb(255, 255, 255); font-family: Arial, sans-serif; font-size: 16px;" x="1012.431" y="1021.45">12</text>
+      <circle style="fill: rgb(61, 85, 173);" cx="1062" cy="1016" r="15" id="286"/>
+      <text style="white-space: pre; fill: rgb(255, 255, 255); font-family: Arial, sans-serif; font-size: 16px;" x="1052.806" y="1021.45">13</text>
+      <circle style="fill: rgb(61, 85, 173);" cx="1102" cy="1016" r="15" id="287"/>
+      <text style="white-space: pre; fill: rgb(255, 255, 255); font-family: Arial, sans-serif; font-size: 16px;" x="1092.806" y="1021.45">14</text>
+      <circle style="fill: rgb(61, 85, 173);" cx="1142" cy="1016" r="15" id="288"/>
+      <text style="white-space: pre; fill: rgb(255, 255, 255); font-family: Arial, sans-serif; font-size: 16px;" x="1132.431" y="1021.45">15</text>
+      <circle style="fill: rgb(61, 85, 173);" cx="1182" cy="1016" r="15" id="289"/>
+      <text style="white-space: pre; fill: rgb(255, 255, 255); font-family: Arial, sans-serif; font-size: 16px;" x="1172.806" y="1021.45">16</text>
+      <circle style="fill: rgb(61, 85, 173);" cx="1222" cy="1016" r="15" id="290"/>
+      <text style="white-space: pre; fill: rgb(255, 255, 255); font-family: Arial, sans-serif; font-size: 16px;" x="1212.431" y="1021.45">17</text>
+      <circle style="fill: rgb(61, 85, 173);" cx="821" cy="1063" r="15" id="257"/>
+      <text style="white-space: pre; fill: rgb(255, 255, 255); font-family: Arial, sans-serif; font-size: 16px;" x="815.935" y="1068.45">7</text>
+      <circle style="fill: rgb(61, 85, 173);" cx="861" cy="1063" r="15" id="258"/>
+      <text style="white-space: pre; fill: rgb(255, 255, 255); font-family: Arial, sans-serif; font-size: 16px;" x="855.935" y="1068.45">8</text>
+      <circle style="fill: rgb(61, 85, 173);" cx="901" cy="1063" r="15" id="259"/>
+      <text style="white-space: pre; fill: rgb(255, 255, 255); font-family: Arial, sans-serif; font-size: 16px;" x="895.935" y="1068.45">9</text>
+      <circle style="fill: rgb(61, 85, 173);" cx="941" cy="1063" r="15" id="260"/>
+      <text style="white-space: pre; fill: rgb(255, 255, 255); font-family: Arial, sans-serif; font-size: 16px;" x="931.431" y="1067.699">10</text>
+      <circle style="fill: rgb(61, 85, 173);" cx="981" cy="1063" r="15" id="261"/>
+      <text style="white-space: pre; fill: rgb(255, 255, 255); font-family: Arial, sans-serif; font-size: 16px;" x="972.557" y="1067.576">11</text>
+      <circle style="fill: rgb(61, 85, 173);" cx="1022" cy="1063" r="15" id="262"/>
+      <text style="white-space: pre; fill: rgb(255, 255, 255); font-family: Arial, sans-serif; font-size: 16px;" x="1012.935" y="1068.45">12</text>
+      <circle style="fill: rgb(61, 85, 173);" cx="1062" cy="1063" r="15" id="263"/>
+      <text style="white-space: pre; fill: rgb(255, 255, 255); font-family: Arial, sans-serif; font-size: 16px;" x="1052.806" y="1068.45">13</text>
+      <circle style="fill: rgb(61, 85, 173);" cx="1102" cy="1063" r="15" id="264"/>
+      <text style="white-space: pre; fill: rgb(255, 255, 255); font-family: Arial, sans-serif; font-size: 16px;" x="1092.431" y="1068.45">14</text>
+      <circle style="fill: rgb(61, 85, 173);" cx="1142" cy="1063" r="15" id="265"/>
+      <text style="white-space: pre; fill: rgb(255, 255, 255); font-family: Arial, sans-serif; font-size: 16px;" x="1132.683" y="1068.45">15</text>
+      <circle style="fill: rgb(61, 85, 173);" cx="1182" cy="1063" r="15" id="266"/>
+      <text style="white-space: pre; fill: rgb(255, 255, 255); font-family: Arial, sans-serif; font-size: 16px;" x="1172.935" y="1069.075">16</text>
+      <circle style="fill: rgb(61, 85, 173);" cx="1222" cy="1063" r="15" id="267"/>
+      <text style="white-space: pre; fill: rgb(255, 255, 255); font-family: Arial, sans-serif; font-size: 16px;" x="1212.935" y="1068.45">17</text>
+      <circle style="fill: rgb(61, 85, 173);" cx="821" cy="1110" r="15" id="234"/>
+      <text style="white-space: pre; fill: rgb(255, 255, 255); font-family: Arial, sans-serif; font-size: 16px;" x="815.935" y="1115.45">7</text>
+      <circle style="fill: rgb(61, 85, 173);" cx="861" cy="1110" r="15" id="235"/>
+      <text style="white-space: pre; fill: rgb(255, 255, 255); font-family: Arial, sans-serif; font-size: 16px;" x="855.935" y="1115.45">8</text>
+      <circle style="fill: rgb(61, 85, 173);" cx="901" cy="1110" r="15" id="236"/>
+      <text style="white-space: pre; fill: rgb(255, 255, 255); font-family: Arial, sans-serif; font-size: 16px;" x="895.935" y="1115.45">9</text>
+      <circle style="fill: rgb(61, 85, 173);" cx="941" cy="1110" r="15" id="237"/>
+      <text style="white-space: pre; fill: rgb(255, 255, 255); font-family: Arial, sans-serif; font-size: 16px;" x="931.935" y="1115.45">10</text>
+      <circle style="fill: rgb(61, 85, 173);" cx="981" cy="1110" r="15" id="238"/>
+      <text style="white-space: pre; fill: rgb(255, 255, 255); font-family: Arial, sans-serif; font-size: 16px;" x="971.935" y="1115.45">11</text>
+      <circle style="fill: rgb(61, 85, 173);" cx="1022" cy="1110" r="15" id="239"/>
+      <text style="white-space: pre; fill: rgb(255, 255, 255); font-family: Arial, sans-serif; font-size: 16px;" x="1012.935" y="1115.45">12</text>
+      <circle style="fill: rgb(61, 85, 173);" cx="1062" cy="1110" r="15" id="240"/>
+      <text style="white-space: pre; fill: rgb(255, 255, 255); font-family: Arial, sans-serif; font-size: 16px;" x="1051.935" y="1115.45">13</text>
+      <circle style="fill: rgb(61, 85, 173);" cx="1102" cy="1110" r="15" id="241"/>
+      <text style="white-space: pre; fill: rgb(255, 255, 255); font-family: Arial, sans-serif; font-size: 16px;" x="1092.935" y="1115.45">14</text>
+      <circle style="fill: rgb(61, 85, 173);" cx="1142" cy="1110" r="15" id="242"/>
+      <text style="white-space: pre; fill: rgb(255, 255, 255); font-family: Arial, sans-serif; font-size: 16px;" x="1132.935" y="1115.45">15</text>
+      <circle style="fill: rgb(61, 85, 173);" cx="1182" cy="1110" r="15" id="243"/>
+      <text style="white-space: pre; fill: rgb(255, 255, 255); font-family: Arial, sans-serif; font-size: 16px;" x="1172.935" y="1115.45">16</text>
+      <circle style="fill: rgb(61, 85, 173);" cx="1222" cy="1110" r="15" id="244"/>
+      <text style="white-space: pre; fill: rgb(255, 255, 255); font-family: Arial, sans-serif; font-size: 16px;" x="1212.935" y="1115.45">17</text>
+      <circle style="fill: rgb(61, 85, 173);" cx="861" cy="1157" r="15" id="215"/>
+      <text style="white-space: pre; fill: rgb(255, 255, 255); font-family: Arial, sans-serif; font-size: 16px;" x="855.935" y="1162.45">5</text>
+      <circle style="fill: rgb(61, 85, 173);" cx="901" cy="1157" r="15" id="216"/>
+      <text style="white-space: pre; fill: rgb(255, 255, 255); font-family: Arial, sans-serif; font-size: 16px;" x="895.935" y="1162.45">6</text>
+      <circle style="fill: rgb(61, 85, 173);" cx="941" cy="1157" r="15" id="217"/>
+      <text style="white-space: pre; fill: rgb(255, 255, 255); font-family: Arial, sans-serif; font-size: 16px;" x="935.935" y="1162.45">7</text>
+      <circle style="fill: rgb(61, 85, 173);" cx="981" cy="1157" r="15" id="218"/>
+      <text style="white-space: pre; fill: rgb(255, 255, 255); font-family: Arial, sans-serif; font-size: 16px;" x="975.935" y="1162.45">8</text>
+      <circle style="fill: rgb(61, 85, 173);" cx="1022" cy="1157" r="15" id="219"/>
+      <text style="white-space: pre; fill: rgb(255, 255, 255); font-family: Arial, sans-serif; font-size: 16px;" x="1016.935" y="1162.45">9</text>
+      <circle style="fill: rgb(61, 85, 173);" cx="1062" cy="1157" r="15" id="220"/>
+      <text style="white-space: pre; fill: rgb(255, 255, 255); font-family: Arial, sans-serif; font-size: 16px;" x="1052.935" y="1162.45">10</text>
+      <circle style="fill: rgb(61, 85, 173);" cx="1102" cy="1157" r="15" id="221"/>
+      <text style="white-space: pre; fill: rgb(255, 255, 255); font-family: Arial, sans-serif; font-size: 16px;" x="1092.935" y="1162.45">11</text>
+      <circle style="fill: rgb(61, 85, 173);" cx="1142" cy="1157" r="15" id="222"/>
+      <text style="white-space: pre; fill: rgb(255, 255, 255); font-family: Arial, sans-serif; font-size: 16px;" x="1132.935" y="1162.45">12</text>
+      <circle style="fill: rgb(61, 85, 173);" cx="1182" cy="1157" r="15" id="223"/>
+      <text style="white-space: pre; fill: rgb(255, 255, 255); font-family: Arial, sans-serif; font-size: 16px;" x="1172.935" y="1162.45">13</text>
+      <circle style="fill: rgb(61, 85, 173);" cx="1360" cy="797" r="15" id="403"/>
+      <text style="white-space: pre; fill: rgb(255, 255, 255); font-family: Arial, sans-serif; font-size: 16px;" x="1350.26" y="802.449">17</text>
+      <circle style="fill: rgb(61, 85, 173);" cx="1350" cy="843" r="15" id="382"/>
+      <text style="white-space: pre; fill: rgb(255, 255, 255); font-family: Arial, sans-serif; font-size: 16px;" x="1339.935" y="848.449">17</text>
+      <circle style="fill: rgb(61, 85, 173);" cx="1340" cy="889" r="15" id="360"/>
+      <text style="white-space: pre; fill: rgb(255, 255, 255); font-family: Arial, sans-serif; font-size: 16px;" x="1329.935" y="894.449">18</text>
+      <circle style="fill: rgb(61, 85, 173);" cx="1331" cy="935" r="15" id="337"/>
+      <text style="white-space: pre; fill: rgb(255, 255, 255); font-family: Arial, sans-serif; font-size: 16px;" x="1320.935" y="940.449">18</text>
+      <circle style="fill: rgb(61, 85, 173);" cx="1322" cy="981" r="15" id="314"/>
+      <text style="white-space: pre; fill: rgb(255, 255, 255); font-family: Arial, sans-serif; font-size: 16px;" x="1311.935" y="986.449">18</text>
+      <circle style="fill: rgb(61, 85, 173);" cx="1311" cy="1027" r="15" id="291"/>
+      <text style="white-space: pre; fill: rgb(255, 255, 255); font-family: Arial, sans-serif; font-size: 16px;" x="1300.935" y="1032.449">18</text>
+      <circle style="fill: rgb(61, 85, 173);" cx="1302" cy="1073" r="15" id="268"/>
+      <text style="white-space: pre; fill: rgb(255, 255, 255); font-family: Arial, sans-serif; font-size: 16px;" x="1291.935" y="1078.449">18</text>
+      <circle style="fill: rgb(61, 85, 173);" cx="1292" cy="1119" r="15" id="245"/>
+      <text style="white-space: pre; fill: rgb(255, 255, 255); font-family: Arial, sans-serif; font-size: 16px;" x="1281.935" y="1124.449">18</text>
+      <circle style="fill: rgb(61, 85, 173);" cx="1282" cy="1165" r="15" id="224"/>
+      <text style="white-space: pre; fill: rgb(255, 255, 255); font-family: Arial, sans-serif; font-size: 16px;" x="1271.935" y="1170.449">14</text>
+      <circle style="fill: rgb(61, 85, 173);" cx="1395" cy="806" r="15" id="404"/>
+      <text style="white-space: pre; fill: rgb(255, 255, 255); font-family: Arial, sans-serif; font-size: 16px;" x="1385.883" y="811.449">18</text>
+      <circle style="fill: rgb(61, 85, 173);" cx="1385" cy="852" r="15" id="383"/>
+      <text style="white-space: pre; fill: rgb(255, 255, 255); font-family: Arial, sans-serif; font-size: 16px;" x="1374.935" y="857.449">18</text>
+      <circle style="fill: rgb(61, 85, 173);" cx="1375" cy="898" r="15" id="361"/>
+      <text style="white-space: pre; fill: rgb(255, 255, 255); font-family: Arial, sans-serif; font-size: 16px;" x="1364.935" y="903.449">19</text>
+      <circle style="fill: rgb(61, 85, 173);" cx="1366" cy="944" r="15" id="338"/>
+      <text style="white-space: pre; fill: rgb(255, 255, 255); font-family: Arial, sans-serif; font-size: 16px;" x="1355.935" y="949.449">19</text>
+      <circle style="fill: rgb(61, 85, 173);" cx="1357" cy="990" r="15" id="315"/>
+      <text style="white-space: pre; fill: rgb(255, 255, 255); font-family: Arial, sans-serif; font-size: 16px;" x="1346.935" y="995.449">19</text>
+      <circle style="fill: rgb(61, 85, 173);" cx="1346" cy="1036" r="15" id="292"/>
+      <text style="white-space: pre; fill: rgb(255, 255, 255); font-family: Arial, sans-serif; font-size: 16px;" x="1335.935" y="1041.449">19</text>
+      <circle style="fill: rgb(61, 85, 173);" cx="1337" cy="1082" r="15" id="269"/>
+      <text style="white-space: pre; fill: rgb(255, 255, 255); font-family: Arial, sans-serif; font-size: 16px;" x="1327.935" y="1087.449">19</text>
+      <circle style="fill: rgb(61, 85, 173);" cx="1327" cy="1128" r="15" id="246"/>
+      <text style="white-space: pre; fill: rgb(255, 255, 255); font-family: Arial, sans-serif; font-size: 16px;" x="1316.935" y="1133.449">19</text>
+      <circle style="fill: rgb(61, 85, 173);" cx="1317" cy="1174" r="15" id="225"/>
+      <text style="white-space: pre; fill: rgb(255, 255, 255); font-family: Arial, sans-serif; font-size: 16px;" x="1306.935" y="1179.449">15</text>
+      <circle style="fill: rgb(61, 85, 173);" cx="1429" cy="814" r="15" id="405"/>
+      <text style="white-space: pre; fill: rgb(255, 255, 255); font-family: Arial, sans-serif; font-size: 16px;" x="1418.935" y="819.449">19</text>
+      <circle style="fill: rgb(61, 85, 173);" cx="1419" cy="860" r="15" id="384"/>
+      <text style="white-space: pre; fill: rgb(255, 255, 255); font-family: Arial, sans-serif; font-size: 16px;" x="1408.935" y="865.449">19</text>
+      <circle style="fill: rgb(61, 85, 173);" cx="1409" cy="906" r="15" id="362"/>
+      <text style="white-space: pre; fill: rgb(255, 255, 255); font-family: Arial, sans-serif; font-size: 16px;" x="1398.935" y="911.449">20</text>
+      <circle style="fill: rgb(61, 85, 173);" cx="1400" cy="952" r="15" id="339"/>
+      <text style="white-space: pre; fill: rgb(255, 255, 255); font-family: Arial, sans-serif; font-size: 16px;" x="1389.935" y="957.449">20</text>
+      <circle style="fill: rgb(61, 85, 173);" cx="1391" cy="998" r="15" id="316"/>
+      <text style="white-space: pre; fill: rgb(255, 255, 255); font-family: Arial, sans-serif; font-size: 16px;" x="1381.935" y="1003.449">20</text>
+      <circle style="fill: rgb(61, 85, 173);" cx="1380" cy="1044" r="15" id="293"/>
+      <text style="white-space: pre; fill: rgb(255, 255, 255); font-family: Arial, sans-serif; font-size: 16px;" x="1370.935" y="1049.449">20</text>
+      <circle style="fill: rgb(61, 85, 173);" cx="1371" cy="1090" r="15" id="270"/>
+      <text style="white-space: pre; fill: rgb(255, 255, 255); font-family: Arial, sans-serif; font-size: 16px;" x="1361.935" y="1095.449">20</text>
+      <circle style="fill: rgb(61, 85, 173);" cx="1361" cy="1136" r="15" id="247"/>
+      <text style="white-space: pre; fill: rgb(255, 255, 255); font-family: Arial, sans-serif; font-size: 16px;" x="1351.935" y="1141.449">20</text>
+      <circle style="fill: rgb(61, 85, 173);" cx="1351" cy="1182" r="15" id="226"/>
+      <text style="white-space: pre; fill: rgb(255, 255, 255); font-family: Arial, sans-serif; font-size: 16px;" x="1340.935" y="1187.449">16</text>
+      <circle style="fill: rgb(61, 85, 173);" cx="1463" cy="822" r="15" id="406"/>
+      <text style="white-space: pre; fill: rgb(255, 255, 255); font-family: Arial, sans-serif; font-size: 16px;" x="1453.935" y="827.449">20</text>
+      <circle style="fill: rgb(61, 85, 173);" cx="1453" cy="868" r="15" id="385"/>
+      <text style="white-space: pre; fill: rgb(255, 255, 255); font-family: Arial, sans-serif; font-size: 16px;" x="1442.935" y="873.449">20</text>
+      <circle style="fill: rgb(61, 85, 173);" cx="1443" cy="914" r="15" id="363"/>
+      <text style="white-space: pre; fill: rgb(255, 255, 255); font-family: Arial, sans-serif; font-size: 16px;" x="1432.935" y="919.449">21</text>
+      <circle style="fill: rgb(61, 85, 173);" cx="1434" cy="960" r="15" id="340"/>
+      <text style="white-space: pre; fill: rgb(255, 255, 255); font-family: Arial, sans-serif; font-size: 16px;" x="1424.935" y="965.449">21</text>
+      <circle style="fill: rgb(61, 85, 173);" cx="1425" cy="1006" r="15" id="317"/>
+      <text style="white-space: pre; fill: rgb(255, 255, 255); font-family: Arial, sans-serif; font-size: 16px;" x="1415.935" y="1011.449">21</text>
+      <circle style="fill: rgb(61, 85, 173);" cx="1414" cy="1052" r="15" id="294"/>
+      <text style="white-space: pre; fill: rgb(255, 255, 255); font-family: Arial, sans-serif; font-size: 16px;" x="1404.935" y="1057.449">21</text>
+      <circle style="fill: rgb(61, 85, 173);" cx="1405" cy="1098" r="15" id="271"/>
+      <text style="white-space: pre; fill: rgb(255, 255, 255); font-family: Arial, sans-serif; font-size: 16px;" x="1395.935" y="1103.449">21</text>
+      <circle style="fill: rgb(61, 85, 173);" cx="1395" cy="1144" r="15" id="248"/>
+      <text style="white-space: pre; fill: rgb(255, 255, 255); font-family: Arial, sans-serif; font-size: 16px;" x="1386.935" y="1149.449">21</text>
+      <circle style="fill: rgb(61, 85, 173);" cx="1385" cy="1190" r="15" id="227"/>
+      <text style="white-space: pre; fill: rgb(255, 255, 255); font-family: Arial, sans-serif; font-size: 16px;" x="1374.935" y="1195.449">17</text>
+      <circle style="fill: rgb(61, 85, 173);" cx="1497" cy="830" r="15" id="407"/>
+      <text style="white-space: pre; fill: rgb(255, 255, 255); font-family: Arial, sans-serif; font-size: 16px;" x="1486.935" y="835.449">21</text>
+      <circle style="fill: rgb(61, 85, 173);" cx="1487" cy="876" r="15" id="386"/>
+      <text style="white-space: pre; fill: rgb(255, 255, 255); font-family: Arial, sans-serif; font-size: 16px;" x="1477.935" y="881.449">21</text>
+      <circle style="fill: rgb(61, 85, 173);" cx="1477" cy="922" r="15" id="364"/>
+      <text style="white-space: pre; fill: rgb(255, 255, 255); font-family: Arial, sans-serif; font-size: 16px;" x="1467.935" y="927.449">22</text>
+      <circle style="fill: rgb(61, 85, 173);" cx="1468" cy="968" r="15" id="341"/>
+      <text style="white-space: pre; fill: rgb(255, 255, 255); font-family: Arial, sans-serif; font-size: 16px;" x="1458.935" y="973.449">22</text>
+      <circle style="fill: rgb(61, 85, 173);" cx="1459" cy="1014" r="15" id="318"/>
+      <text style="white-space: pre; fill: rgb(255, 255, 255); font-family: Arial, sans-serif; font-size: 16px;" x="1449.935" y="1019.449">22</text>
+      <circle style="fill: rgb(61, 85, 173);" cx="1448" cy="1060" r="15" id="295"/>
+      <text style="white-space: pre; fill: rgb(255, 255, 255); font-family: Arial, sans-serif; font-size: 16px;" x="1437.935" y="1065.449">22</text>
+      <circle style="fill: rgb(61, 85, 173);" cx="1439" cy="1106" r="15" id="272"/>
+      <text style="white-space: pre; fill: rgb(255, 255, 255); font-family: Arial, sans-serif; font-size: 16px;" x="1429.935" y="1111.449">22</text>
+      <circle style="fill: rgb(61, 85, 173);" cx="1429" cy="1152" r="15" id="249"/>
+      <text style="white-space: pre; fill: rgb(255, 255, 255); font-family: Arial, sans-serif; font-size: 16px;" x="1419.935" y="1157.449">22</text>
+      <circle style="fill: rgb(61, 85, 173);" cx="1512" cy="930" r="15" id="365"/>
+      <text style="white-space: pre; fill: rgb(255, 255, 255); font-family: Arial, sans-serif; font-size: 16px;" x="1502.935" y="935.449">23</text>
+      <circle style="fill: rgb(61, 85, 173);" cx="1503" cy="976" r="15" id="342"/>
+      <text style="white-space: pre; fill: rgb(255, 255, 255); font-family: Arial, sans-serif; font-size: 16px;" x="1493.935" y="981.449">23</text>
+      <circle style="fill: rgb(61, 85, 173);" cx="1494" cy="1022" r="15" id="319"/>
+      <text style="white-space: pre; fill: rgb(255, 255, 255); font-family: Arial, sans-serif; font-size: 16px;" x="1484.935" y="1027.449">23</text>
+      <circle style="fill: rgb(61, 85, 173);" cx="1483" cy="1068" r="15" id="296"/>
+      <text style="white-space: pre; fill: rgb(255, 255, 255); font-family: Arial, sans-serif; font-size: 16px;" x="1473.935" y="1073.449">23</text>
+      <circle style="fill: rgb(61, 85, 173);" cx="1474" cy="1114" r="15" id="273"/>
+      <text style="white-space: pre; fill: rgb(255, 255, 255); font-family: Arial, sans-serif; font-size: 16px;" x="1464.935" y="1119.449">23</text>
+      <circle style="fill: rgb(61, 85, 173);" cx="1464" cy="1160" r="15" id="250"/>
+      <text style="white-space: pre; fill: rgb(255, 255, 255); font-family: Arial, sans-serif; font-size: 16px;" x="1454.935" y="1165.449">23</text>
+    </g>
+    <text style="font-family: Alice, serif; font-style: normal; font-weight: normal; font-size: 44px; line-height: 46px; fill: #3D55AD;" x="958.483" y="1365.478">сцена</text>
+    <g>
+      <text style="white-space: pre; fill: rgb(0, 0, 0); font-family: Arial, sans-serif; font-size: 16px;" x="790.013" y="1162.358">1</text>
+      <text style="white-space: pre; fill: rgb(0, 0, 0); font-family: Arial, sans-serif; font-size: 16px;" x="782.013" y="1115.369">2</text>
+      <text style="white-space: pre; fill: rgb(0, 0, 0); font-family: Arial, sans-serif; font-size: 16px;" x="774.013" y="1068.368">3</text>
+      <text style="white-space: pre; fill: rgb(0, 0, 0); font-family: Arial, sans-serif; font-size: 16px;" x="766.013" y="1021.368">4</text>
+      <text style="white-space: pre; fill: rgb(0, 0, 0); font-family: Arial, sans-serif; font-size: 16px;" x="758.013" y="974.368">5</text>
+      <text style="white-space: pre; fill: rgb(0, 0, 0); font-family: Arial, sans-serif; font-size: 16px;" x="750.013" y="927.369">6</text>
+      <text style="white-space: pre; fill: rgb(0, 0, 0); font-family: Arial, sans-serif; font-size: 16px;" x="742.013" y="880.371">7</text>
+      <text style="white-space: pre; fill: rgb(0, 0, 0); font-family: Arial, sans-serif; font-size: 16px;" x="734.013" y="833.369">8</text>
+      <text style="white-space: pre; fill: rgb(0, 0, 0); font-family: Arial, sans-serif; font-size: 16px;" x="726.013" y="786.369">9</text>
+    </g>
+    <g transform="matrix(1, 0, 0, 1, 454, -0.28125)">
+      <text style="white-space: pre; fill: rgb(0, 0, 0); font-family: Arial, sans-serif; font-size: 16px;" x="788.013" y="1162.358">1</text>
+      <text style="white-space: pre; fill: rgb(0, 0, 0); font-family: Arial, sans-serif; font-size: 16px;" x="796.013" y="1115.369">2</text>
+      <text style="white-space: pre; fill: rgb(0, 0, 0); font-family: Arial, sans-serif; font-size: 16px;" x="804.013" y="1068.368">3</text>
+      <text style="white-space: pre; fill: rgb(0, 0, 0); font-family: Arial, sans-serif; font-size: 16px;" x="814.013" y="1021.368">4</text>
+      <text style="white-space: pre; fill: rgb(0, 0, 0); font-family: Arial, sans-serif; font-size: 16px;" x="820.013" y="974.368">5</text>
+      <text style="white-space: pre; fill: rgb(0, 0, 0); font-family: Arial, sans-serif; font-size: 16px;" x="828.013" y="927.369">6</text>
+      <text style="white-space: pre; fill: rgb(0, 0, 0); font-family: Arial, sans-serif; font-size: 16px;" x="836.013" y="880.371">7</text>
+      <text style="white-space: pre; fill: rgb(0, 0, 0); font-family: Arial, sans-serif; font-size: 16px;" x="844.013" y="833.369">8</text>
+      <text style="white-space: pre; fill: rgb(0, 0, 0); font-family: Arial, sans-serif; font-size: 16px;" x="852.013" y="786.369">9</text>
+    </g>
+    <text style="white-space: pre; fill: rgb(0, 0, 0); font-family: Arial, sans-serif; font-size: 16px;" x="1011.009" y="628.437">10</text>
+    <text style="white-space: pre; fill: rgb(0, 0, 0); font-family: Arial, sans-serif; font-size: 16px;" x="1011.009" y="581.25">11</text>
+    <text style="white-space: pre; fill: rgb(0, 0, 0); font-family: Arial, sans-serif; font-size: 16px;" x="1011.009" y="534.237">12</text>
+    <text style="white-space: pre; fill: rgb(0, 0, 0); font-family: Arial, sans-serif; font-size: 16px;" x="1011.009" y="487.237">13</text>
+  </g>
+</svg>
